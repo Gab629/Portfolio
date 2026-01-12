@@ -11,28 +11,77 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/main.css">
+  <script type="module" src="scripts/main.js"></script>
 </head>
 
 <body>
 
-  <header class="header">
-    <div class="container header__content">
-      <div class="logo">GG</div>
+  <header class="header" data-component="Header">
+                <a href="index.html" class="header__brand">
+                    <img src="assets/images/logo.png" alt="logo_gab" />
+                </a>
 
-      <nav class="nav">
-        <a href="#" class="nav__link">
-          <span>Accueil</span>
-        </a>
-        <a href="#" class="nav__link">
-          <span>Projets</span>
-        </a>
-        <a href="#" class="nav__link">
-          <span>À propos</span>
-        </a>
-      </nav>
-
-    </div>
-  </header>
+                <nav class="nav-primary">
+                    <ul>
+                        <li>
+                            <div class="liens-wrapper">
+                                <span class="animation-hover inner-wrapper">
+                                    <a
+                                        href="index.html"
+                                        class="nav-primary__item animation-a"
+                                        >Accueil</a
+                                    >
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="liens-wrapper">
+                                <span class="animation-hover inner-wrapper">
+                                    <a
+                                        href="projets.html"
+                                        class="nav-primary__item animation-a"
+                                        >Projets</a
+                                    >
+                                </span>
+                            </div>
+                        </li>
+                        <li class="nav-right">
+                            <div class="liens-wrapper">
+                                <span class="animation-hover inner-wrapper">
+                                    <a
+                                        href="page-a-propos.html"
+                                        class="nav-primary__item animation-a"
+                                        >À propos</a
+                                    >
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="liens-wrapper">
+                                <span class="animation-hover inner-wrapper">
+                                    <a
+                                        href="contact.html"
+                                        class="nav-primary__item animation-a"
+                                        >Contact</a
+                                    >
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header__toggle js-toggle">
+                    <div class="points">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="barres">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </header>
 
   <main>
     <section class="hero">
