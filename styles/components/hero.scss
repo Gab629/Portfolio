@@ -1,0 +1,44 @@
+@use "../settings/variables" as *;
+
+.hero {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  &__content {
+    max-width: 900px;
+    padding: 0 1rem;
+  }
+
+  &__title {
+    font-size: clamp(3.5rem, 7vw, 5.5rem);
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  &__subtitle {
+    margin-top: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: $accent;
+  }
+
+  &__socials {
+    margin: 2.5rem 0 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+
+    a {
+      font-size: 1.6rem;
+      color: $accent;
+      text-decoration: none;
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+    }
+  }
+}

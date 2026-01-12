@@ -1,0 +1,24 @@
+# === Node / npm ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Sass ===
+css/
+*.css
+*.css.map
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === VS Code ===
+.vscode/
+
+# === Windows ===
+desktop.ini
+
+# === Build (optionnel) ===
+# Si tu veux exclure le CSS généré :
+# css/

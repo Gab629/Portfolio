@@ -1,0 +1,24 @@
+@use "../settings/variables" as *;
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 2rem 0;
+  z-index: 10;
+
+  &__content {
+    width: min(90%, $container-width);
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+  }
+}
