@@ -1,0 +1,23 @@
+@use "../settings/variables" as *;
+
+.skillCards {
+  display: flex;
+  gap: 2rem;
+}
+
+.skillCard {
+  flex: 1;
+  min-width: 200px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: $breakpoint-sm) {
+  .skillCards {
+    flex-direction: column;
+  }
+}

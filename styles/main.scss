@@ -1,10 +1,20 @@
 @use "settings/variables";
+@use "settings/reset";
 
-@use "generics/reset";
+@use "sections/projects";
+@use "sections/about";
+@use "sections/futureSkills";
+@use "sections/passions";
+@use "sections/projectTemplate1";
+@use "sections/projectTemplate2";
 
 @use "components/header";
 @use "components/hero";
 @use "components/nav";
+@use "components/projectCard";
+@use "components/skillCard";
+@use "components/passionCard";
+
 
 @use "elements/body";
 @use "elements/buttons";

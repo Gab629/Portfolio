@@ -1,0 +1,33 @@
+@use "../settings/variables" as *;
+
+.passionCard {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 24px;
+  padding: 2.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.passionCard:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.passionIcon {
+  font-size: 64px;
+  margin-bottom: 1.5rem;
+}
+
+.passionCard h3 {
+  font-size: 24px;
+  color: $accent;
+  margin-bottom: 1rem;
+}
+
+.passionCard p {
+  font-size: 18px;
+  color: $text-muted;
+  line-height: 1.5;
+}
