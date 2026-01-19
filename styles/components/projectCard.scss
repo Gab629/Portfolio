@@ -1,0 +1,36 @@
+@use "../settings/variables" as *;
+.projectCard {
+  background-color: darkslategray;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  .projectImage {
+    width: 100%;
+    border-radius: 14px;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
+  }
+
+  .projectTitle {
+    font-size: 1.8rem;
+    color: $text-main;
+    margin-bottom: 0.5rem;
+  }
+
+  .projectMeta {
+    color: $accent;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .projectDescription {
+    color: $text-muted;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    flex-grow: 1;
+  }
+}
+

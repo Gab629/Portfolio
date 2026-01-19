@@ -1,0 +1,149 @@
+@use "../settings/variables" as *;
+
+.projectPage {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 2rem;
+  color: $text-main;
+}
+
+/* HERO */
+.projectHero {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0 6rem 0;
+
+  .heroContent {
+    width: 45%;
+  }
+
+  .heroMedia {
+    width: 45%;
+    text-align: center;
+
+    video,
+    img {
+      width: 55%;
+      border-radius: 24px;
+    }
+  }
+}
+
+.projectTitle {
+  font-size: 64px;
+  margin-bottom: 1rem;
+}
+
+.projectTagline {
+  font-size: 20px;
+  color: $text-muted;
+  margin-bottom: 2rem;
+}
+
+.projectMeta {
+  list-style: none;
+  padding: 0;
+
+  li {
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+  }
+}
+
+/* SECTIONS */
+.projectSection {
+  margin-bottom: 6rem;
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 1.5rem;
+    color: $text-main;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.4;
+    color: $text-muted;
+  }
+}
+
+/* SPLIT */
+.projectSplit {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-between;
+
+  .text,
+  .media {
+    width: 40%;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  &.reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+/* CHALLENGES */
+.challenge {
+  margin-bottom: 2rem;
+
+  h3 {
+    font-size: 24px;
+    color: $accent;
+  }
+
+  .solution {
+    margin-top: 0.5rem;
+  }
+}
+
+/* LEARNINGS */
+.learnings {
+  font-size: 20px;
+  padding-left: 1.5rem;
+
+  li {
+    margin-bottom: 0.75rem;
+  }
+}
+
+/* CREDITS */
+.projectCredits {
+  text-align: center;
+  font-size: 18px;
+  color: $text-muted;
+}
+
+/* RESPONSIVE */
+@media (max-width: $breakpoint-sm) {
+
+  .projectHero {
+    flex-direction: column;
+
+    // .heroContent,
+    // .heroMedia {
+    //   width: 100%;
+    // }
+  }
+
+  .projectSplit {
+    flex-direction: column;
+
+    .text,
+    .media {
+      width: 100%;
+    }
+  }
+
+  .projectTitle {
+    font-size: 42px;
+  }
+}
