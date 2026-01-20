@@ -2,99 +2,100 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gabriel Gauthier | Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel Gauthier | Portfolio</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/main.css">
-    <script type="module" src="scripts/main.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <script type="module" src="scripts/main.js"></script>
 </head>
 
 <body data-component="Scrolly">
-        <header class="header" data-component="Header">
-        <a href="index.html" class="header__brand">
-            <img src="assets/images/logo.png" alt="logo_gab" />
-        </a>
+  <div data-component="PageTransition" class="page">
+    <header class="header" data-component="Header">
+      <a href="index.html" class="header__brand">
+        <img src="assets/images/logo.png" alt="logo_gab" />
+      </a>
 
-        <nav class="nav-primary">
-            <ul>
-                <li>
-                    <div class="liens-wrapper">
-                        <span class="animation-hover inner-wrapper">
-                            <a href="index.html" data-i18="menu.home" class="nav-primary__item animation-a">Accueil</a>
-                        </span>
-                    </div>
-                </li>
-                <li>
-                    <div class="liens-wrapper">
-                        <span class="animation-hover inner-wrapper">
-                            <a href="projects.html" data-i18="menu.projects"
-                                class="nav-primary__item animation-a">Projets</a>
-                        </span>
-                    </div>
-                </li>
-                <li class="nav-right">
-                    <div class="liens-wrapper">
-                        <span class="animation-hover inner-wrapper">
-                            <a href="about.html" data-i18="menu.about" class="nav-primary__item animation-a">À
-                                propos</a>
-                        </span>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-        <button class="header__toggle js-toggle">
-            <div class="points">
-                <span></span>
-                <span></span>
-                <span></span>
+      <nav class="nav-primary">
+        <ul>
+          <li>
+            <div class="liens-wrapper">
+              <span class="animation-hover inner-wrapper">
+                <a href="index.html" data-i18="menu.home" class="nav-primary__item animation-a">Accueil</a>
+              </span>
             </div>
-            <div class="barres">
-                <span></span>
-                <span></span>
-                <span></span>
+          </li>
+          <li>
+            <div class="liens-wrapper">
+              <span class="animation-hover inner-wrapper">
+                <a href="projects.html" data-i18="menu.projects" class="nav-primary__item animation-a">Projets</a>
+              </span>
             </div>
-        </button>
+          </li>
+          <li class="nav-right">
+            <div class="liens-wrapper">
+              <span class="animation-hover inner-wrapper">
+                <a href="about.html" data-i18="menu.about" class="nav-primary__item animation-a">À
+                  propos</a>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__toggle js-toggle">
+        <div class="points">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="barres">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
     </header>
 
-<body class="projectStory">
+    <body class="projectStory">
 
-  <section class="storyHero">
-    <h1 class="storyTitle">Nom du projet</h1>
-    <p class="storySubtitle">
-      Pitch court du projet ou intention principale.
-    </p>
+      <section class="storyHero">
+        <h1 class="storyTitle">Nom du projet</h1>
+        <p class="storySubtitle">
+          Pitch court du projet ou intention principale.
+        </p>
 
-    <div class="heroMedia">
-      <!-- Vidéo YouTube -->
+        <div class="heroMedia">
+          <!-- Vidéo YouTube -->
 
-      <div class="videoWrapper">
-        <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Trailer du projet" loading="lazy" allowfullscreen>
-        </iframe>
-      </div>
+          <div class="videoWrapper">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Trailer du projet" loading="lazy"
+              allowfullscreen>
+            </iframe>
+          </div>
 
 
-      <!-- Image -->
-      <!-- <img src="assets/images/Big.png" alt="Screenshot du projet"> -->
-    </div>
-  </section>
+          <!-- Image -->
+          <!-- <img src="assets/images/Big.png" alt="Screenshot du projet"> -->
+        </div>
+      </section>
 
-  <section class="storyChapter">
-    <div class="chapterText">
-      <h2 data-scrolly='fromBottom'>Le projet</h2>
-      <p data-scrolly='fromBottom'>
-        Description du projet, contexte, type de jeu, durée,
-        objectifs et intentions.
-      </p>
-    </div>
+      <section class="storyChapter">
+        <div class="chapterText">
+          <h2 data-scrolly='fromBottom'>Le projet</h2>
+          <p data-scrolly='fromBottom'>
+            Description du projet, contexte, type de jeu, durée,
+            objectifs et intentions.
+          </p>
+        </div>
 
-    <div class="chapterMedia" data-scrolly='fromBottom'>
-      <!-- Vidéo YouTube -->
-      <!--
+        <div class="chapterMedia" data-scrolly='fromBottom'>
+          <!-- Vidéo YouTube -->
+          <!--
       <div class="videoWrapper" data-scrolly='fromBottom'>
         <iframe
           src="https://www.youtube.com/embed/VIDEO_ID_2"
@@ -105,27 +106,27 @@
       </div>
       -->
 
-      <!-- Image -->
-      <img src="assets/images/Medium.png" alt="Image du projet" data-scrolly='fromBottom'>
-    </div>
-  </section>
+          <!-- Image -->
+          <img src="assets/images/Medium.png" alt="Image du projet" data-scrolly='fromBottom'>
+        </div>
+      </section>
 
-  <section class="storyChapter reverse">
-    <div class="chapterText">
-      <h2 data-scrolly='fromBottom'>Le processus</h2>
-      <p data-scrolly='fromBottom'>
-        Workflow, outils utilisés, itérations, décisions techniques.
-      </p>
-    </div>
+      <section class="storyChapter reverse">
+        <div class="chapterText">
+          <h2 data-scrolly='fromBottom'>Le processus</h2>
+          <p data-scrolly='fromBottom'>
+            Workflow, outils utilisés, itérations, décisions techniques.
+          </p>
+        </div>
 
-    <div class="chapterMedia" data-scrolly='fromBottom'>
-      <img src="assets/images/Medium.png" alt="Processus">
-    </div>
-  </section>
+        <div class="chapterMedia" data-scrolly='fromBottom'>
+          <img src="assets/images/Medium.png" alt="Processus">
+        </div>
+      </section>
 
-  <section class="storyFull">
-    <!-- Vidéo YouTube -->
-    <!--
+      <section class="storyFull">
+        <!-- Vidéo YouTube -->
+        <!--
     <div class="videoWrapper" data-scrolly='fromBottom'>
       <iframe
         src="https://www.youtube.com/embed/VIDEO_ID_3"
@@ -136,18 +137,18 @@
     </div>
     -->
 
-    <!-- Image -->
-    <img src="assets/images/Medium.png" alt="Vue immersive" data-scrolly='fromBottom'>
-  </section>
+        <!-- Image -->
+        <img src="assets/images/Medium.png" alt="Vue immersive" data-scrolly='fromBottom'>
+      </section>
 
-  <section class="storyCredits" data-scrolly='fromBottom'>
-    <h2>Crédits</h2>
-    <ul>
-      <li><strong>Rôle :</strong> Gameplay programmer</li>
-      <li><strong>Moteur :</strong> Unreal Engine</li>
-      <li><strong>Durée :</strong> 3 mois</li>
-      <li><strong>Équipe :</strong> 4 personnes</li>
-    </ul>
-  </section>
-
+      <section class="storyCredits" data-scrolly='fromBottom'>
+        <h2>Crédits</h2>
+        <ul>
+          <li><strong>Rôle :</strong> Gameplay programmer</li>
+          <li><strong>Moteur :</strong> Unreal Engine</li>
+          <li><strong>Durée :</strong> 3 mois</li>
+          <li><strong>Équipe :</strong> 4 personnes</li>
+        </ul>
+      </section>
+  </div>
 </body>

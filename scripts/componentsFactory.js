@@ -1,5 +1,6 @@
 import Header from './components/header.js';
 import Scrolly from './components/scrolly.js';
+import PageTransition from './components/pageTransition.js';
 // import Form from './components/Form';
 // import particles from './components/particles';
 // import app from './components/app';
@@ -11,6 +12,7 @@ export default class ComponentFactory {
     this.componentList = {
       Header,
       Scrolly,
+      PageTransition,
     //   Form,
     //   particles,
     //   app,
