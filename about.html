@@ -15,7 +15,7 @@
     <script type="module" src="scripts/main.js"></script>
 </head>
 
-<body class="aboutBody">
+<body class="aboutBody" data-component="Scrolly">
     <header class="header" data-component="Header">
         <a href="index.html" class="header__brand">
             <img src="assets/images/logo.png" alt="logo_gab" />
@@ -71,7 +71,7 @@
     </header>
 
     <section class="aboutSection">
-        <div class="aboutContent">
+        <div class="aboutContent" >
             <h1 class="aboutTitle">Gabriel Gauthier</h1>
             <p class="aboutText">Salut ! Je suis un jeune designer technique de 22 ans ayant étudié à l’UQAT en création de
                 jeux vidéo, avec une concentration en intégration logicielle. Je me considère comme un jeune passionné de
@@ -100,7 +100,7 @@
         <h2>Perspectives d'avenir</h2>
     
         <div class="futureGrid">
-            <div class="futureColumn">
+            <div class="futureColumn" data-scrolly='fromBottom'>
                 <h3>Où je me vois ?</h3>
                 <p>
                     Mon travail de rêve serait une compagnie où je pourrais travailler dans une équipe motivée,
@@ -111,7 +111,7 @@
                 </p>
             </div>
     
-            <div class="futureColumn">
+            <div class="futureColumn" data-scrolly='fromBottom'>
                 <h3>Sur quel genre de projet ?</h3>
                 <p>
                     J’ai eu la chance de travailler sur bien des projets par le passé et ceux que j’ai le plus aimés
@@ -123,9 +123,9 @@
         </div>
     </section>
     
-    <section class="skillsContent">
-        <h2>Mes compétences</h2>
-        <div class="skillCards">
+    <section class="skillsContent" data-scrolly='fromBottom'>
+        <h2 data-scrolly='fromBottom'>Mes compétences</h2>
+        <div class="skillCards" data-scrolly='fromBottom'>
             <div class="skillCard">
                 <div class="aboutImage">
                     <img src="assets/images/Skill-Card.png" alt="Gabriel Gauthier" />
@@ -164,10 +164,10 @@
         </div>
     </section>
 
-    <section class="passionsContent">
-    <h2>Mes passions</h2>
+    <section class="passionsContent" data-scrolly='fromBottom'>
+    <h2 data-scrolly='fromBottom'>Mes passions</h2>
 
-    <div class="passionGrid">
+    <div class="passionGrid" data-scrolly='fromBottom'>
         <div class="passionCard">
             <div class="passionIcon">🎮</div>
             <h3>Jeux vidéo</h3>
