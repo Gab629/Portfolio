@@ -15,230 +15,247 @@
 </head>
 
 <body data-component="Scrolly">
-    <div data-component="PageTransition" class="page">
-        <header class="header" data-component="Header">
-            <a href="index.html" class="header__brand">
-                <img src="assets/images/logo.png" alt="logo_gab" />
-            </a>
+    <div class="scroll-wrapper">
+        <div data-component="PageTransition" class="page">
+            <header class="header" data-component="Header">
+                <a href="index.html" class="header__brand">
+                    <img src="assets/images/logo.png" alt="logo_gab" />
+                </a>
 
-            <nav class="nav-primary">
-                <ul>
-                    <li>
-                        <div class="liens-wrapper">
-                            <span class="animation-hover inner-wrapper">
-                                <a href="index.html" data-i18="menu.home"
-                                    class="nav-primary__item animation-a">Accueil</a>
-                            </span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="liens-wrapper">
-                            <span class="animation-hover inner-wrapper">
-                                <a href="projects.html" data-i18="menu.projects"
-                                    class="nav-primary__item animation-a">Projets</a>
-                            </span>
-                        </div>
-                    </li>
-                    <li class="nav-right">
-                        <div class="liens-wrapper">
-                            <span class="animation-hover inner-wrapper">
-                                <a href="about.html" data-i18="menu.about" class="nav-primary__item animation-a">À
-                                    propos</a>
-                            </span>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-            <button class="header__toggle js-toggle">
-                <div class="points">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <nav class="nav-primary">
+                    <ul>
+                        <li>
+                            <div class="liens-wrapper">
+                                <span class="animation-hover inner-wrapper">
+                                    <a href="index.html" data-i18="menu.home"
+                                        class="nav-primary__item animation-a">Accueil</a>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="liens-wrapper">
+                                <span class="animation-hover inner-wrapper">
+                                    <a href="projects.html" data-i18="menu.projects"
+                                        class="nav-primary__item animation-a">Projets</a>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="nav-right">
+                            <div class="liens-wrapper">
+                                <span class="animation-hover inner-wrapper">
+                                    <a href="about.html" data-i18="menu.about" class="nav-primary__item animation-a">À
+                                        propos</a>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header__toggle js-toggle">
+                    <div class="points">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="barres">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </header>
+
+
+
+
+            <section class="projects">
+                <h2 class="projectsTitle" data-scrolly='fromBottom'>Projets vedettes</h2>
+
+                <div class="projectGrid">
+                    <article class="projectCard" data-scrolly='fromBottom'>
+                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+
+                        <h3 class="projectTitle">Template 1</h3>
+
+                        <p class="projectMeta">
+                            Beat'em Up<br />
+                            Unreal Engine 5
+                        </p>
+
+                        <p class="projectDescription">
+                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
+                            avons
+                            suivi tout
+                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
+                        </p>
+
+                        <a href="templateProject1.html" class="projectButton">Voir le projet</a>
+                    </article>
+                    <article class="projectCard" data-scrolly='fromBottom'>
+                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+
+                        <h3 class="projectTitle">Template 2</h3>
+
+                        <p class="projectMeta">
+                            Beat'em Up<br />
+                            Unreal Engine 5
+                        </p>
+
+                        <p class="projectDescription">
+                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
+                            avons
+                            suivi tout
+                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
+                        </p>
+
+                        <a href="projectTemplate2.html" class="projectButton">Voir le projet</a>
+                    </article>
+                    <article class="projectCard" data-scrolly='fromBottom'>
+                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+
+                        <h3 class="projectTitle">Bolt'n'Punch</h3>
+
+                        <p class="projectMeta">
+                            Beat'em Up<br />
+                            Unreal Engine 5
+                        </p>
+
+                        <p class="projectDescription">
+                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
+                            avons
+                            suivi tout
+                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
+                        </p>
+
+                        <a href="templateProject2.html" class="projectButton">Voir le projet</a>
+                    </article>
+
                 </div>
-                <div class="barres">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+
+                <h2 class="moreProjectsTitle">Plus de projets</h2>
+
+                <div class="projectGrid">
+                    <article class="projectCard" data-scrolly='fromBottom'>
+                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+
+                        <h3 class="projectTitle">Bolt'n'Punch</h3>
+
+                        <p class="projectMeta">
+                            Beat'em Up<br />
+                            Unreal Engine 5
+                        </p>
+
+                        <p class="projectDescription">
+                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
+                            avons
+                            suivi tout
+                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
+                        </p>
+
+                        <a href="#" class="projectButton">Voir le projet</a>
+                    </article>
+                    <article class="projectCard" data-scrolly='fromBottom'>
+                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+
+                        <h3 class="projectTitle">Bolt'n'Punch</h3>
+
+                        <p class="projectMeta">
+                            Beat'em Up<br />
+                            Unreal Engine 5
+                        </p>
+
+                        <p class="projectDescription">
+                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
+                            avons
+                            suivi tout
+                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
+                        </p>
+
+                        <a href="#" class="projectButton">Voir le projet</a>
+                    </article>
+                    <article class="projectCard" data-scrolly='fromBottom'>
+                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+
+                        <h3 class="projectTitle">Bolt'n'Punch</h3>
+
+                        <p class="projectMeta">
+                            Beat'em Up<br />
+                            Unreal Engine 5
+                        </p>
+
+                        <p class="projectDescription">
+                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
+                            avons
+                            suivi tout
+                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
+                        </p>
+
+                        <a href="#" class="projectButton">Voir le projet</a>
+                    </article>
+                    <article class="projectCard" data-scrolly='fromBottom'>
+                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+
+                        <h3 class="projectTitle">Bolt'n'Punch</h3>
+
+                        <p class="projectMeta">
+                            Beat'em Up<br />
+                            Unreal Engine 5
+                        </p>
+
+                        <p class="projectDescription">
+                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
+                            avons
+                            suivi tout
+                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
+                        </p>
+
+                        <a href="#" class="projectButton">Voir le projet</a>
+                    </article>
+                    <article class="projectCard" data-scrolly='fromBottom'>
+                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+
+                        <h3 class="projectTitle">Bolt'n'Punch</h3>
+
+                        <p class="projectMeta">
+                            Beat'em Up<br />
+                            Unreal Engine 5
+                        </p>
+
+                        <p class="projectDescription">
+                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
+                            avons
+                            suivi tout
+                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
+                        </p>
+
+                        <a href="#" class="projectButton">Voir le projet</a>
+                    </article>
+                    <article class="projectCard" data-scrolly='fromBottom'>
+                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+
+                        <h3 class="projectTitle">Bolt'n'Punch</h3>
+
+                        <p class="projectMeta">
+                            Beat'em Up<br />
+                            Unreal Engine 5
+                        </p>
+
+                        <p class="projectDescription">
+                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
+                            avons
+                            suivi tout
+                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
+                        </p>
+
+                        <a href="#" class="projectButton">Voir le projet</a>
+                    </article>
+
                 </div>
-            </button>
-        </header>
 
-        <section class="projects">
-            <h2 class="projectsTitle" data-scrolly='fromBottom'>Projets vedettes</h2>
+            </section>
 
-            <div class="projectGrid">
-                <article class="projectCard" data-scrolly='fromBottom'>
-                    <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
-
-                    <h3 class="projectTitle">Template 1</h3>
-
-                    <p class="projectMeta">
-                        Beat'em Up<br />
-                        Unreal Engine 5
-                    </p>
-
-                    <p class="projectDescription">
-                        Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous avons
-                        suivi tout
-                        le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                    </p>
-
-                    <a href="templateProject1.html" class="projectButton">Voir le projet</a>
-                </article>
-                <article class="projectCard" data-scrolly='fromBottom'>
-                    <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
-
-                    <h3 class="projectTitle">Template 2</h3>
-
-                    <p class="projectMeta">
-                        Beat'em Up<br />
-                        Unreal Engine 5
-                    </p>
-
-                    <p class="projectDescription">
-                        Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous avons
-                        suivi tout
-                        le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                    </p>
-
-                    <a href="projectTemplate2.html" class="projectButton">Voir le projet</a>
-                </article>
-                <article class="projectCard" data-scrolly='fromBottom'>
-                    <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
-
-                    <h3 class="projectTitle">Bolt'n'Punch</h3>
-
-                    <p class="projectMeta">
-                        Beat'em Up<br />
-                        Unreal Engine 5
-                    </p>
-
-                    <p class="projectDescription">
-                        Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous avons
-                        suivi tout
-                        le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                    </p>
-
-                    <a href="templateProject2.html" class="projectButton">Voir le projet</a>
-                </article>
-
-            </div>
-
-            <h2 class="moreProjectsTitle">Plus de projets</h2>
-
-            <div class="projectGrid">
-                <article class="projectCard" data-scrolly='fromBottom'>
-                    <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
-
-                    <h3 class="projectTitle">Bolt'n'Punch</h3>
-
-                    <p class="projectMeta">
-                        Beat'em Up<br />
-                        Unreal Engine 5
-                    </p>
-
-                    <p class="projectDescription">
-                        Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous avons
-                        suivi tout
-                        le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                    </p>
-
-                    <a href="#" class="projectButton">Voir le projet</a>
-                </article>
-                <article class="projectCard" data-scrolly='fromBottom'>
-                    <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
-
-                    <h3 class="projectTitle">Bolt'n'Punch</h3>
-
-                    <p class="projectMeta">
-                        Beat'em Up<br />
-                        Unreal Engine 5
-                    </p>
-
-                    <p class="projectDescription">
-                        Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous avons
-                        suivi tout
-                        le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                    </p>
-
-                    <a href="#" class="projectButton">Voir le projet</a>
-                </article>
-                <article class="projectCard" data-scrolly='fromBottom'>
-                    <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
-
-                    <h3 class="projectTitle">Bolt'n'Punch</h3>
-
-                    <p class="projectMeta">
-                        Beat'em Up<br />
-                        Unreal Engine 5
-                    </p>
-
-                    <p class="projectDescription">
-                        Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous avons
-                        suivi tout
-                        le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                    </p>
-
-                    <a href="#" class="projectButton">Voir le projet</a>
-                </article>
-                <article class="projectCard" data-scrolly='fromBottom'>
-                    <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
-
-                    <h3 class="projectTitle">Bolt'n'Punch</h3>
-
-                    <p class="projectMeta">
-                        Beat'em Up<br />
-                        Unreal Engine 5
-                    </p>
-
-                    <p class="projectDescription">
-                        Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous avons
-                        suivi tout
-                        le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                    </p>
-
-                    <a href="#" class="projectButton">Voir le projet</a>
-                </article>
-                <article class="projectCard" data-scrolly='fromBottom'>
-                    <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
-
-                    <h3 class="projectTitle">Bolt'n'Punch</h3>
-
-                    <p class="projectMeta">
-                        Beat'em Up<br />
-                        Unreal Engine 5
-                    </p>
-
-                    <p class="projectDescription">
-                        Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous avons
-                        suivi tout
-                        le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                    </p>
-
-                    <a href="#" class="projectButton">Voir le projet</a>
-                </article>
-                <article class="projectCard" data-scrolly='fromBottom'>
-                    <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
-
-                    <h3 class="projectTitle">Bolt'n'Punch</h3>
-
-                    <p class="projectMeta">
-                        Beat'em Up<br />
-                        Unreal Engine 5
-                    </p>
-
-                    <p class="projectDescription">
-                        Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous avons
-                        suivi tout
-                        le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                    </p>
-
-                    <a href="#" class="projectButton">Voir le projet</a>
-                </article>
-
-            </div>
-
-        </section>
-
+        </div>
+    </div>
+    <div class="scrollbar" data-component="Scrollbar">
+        <span class="scrollbar__thumb"></span>
     </div>
 </body>

@@ -15,133 +15,138 @@
 </head>
 
 <body data-component="Scrolly">
-  <div data-component="PageTransition" class="page">
-    <header class="header" data-component="Header">
-      <a href="index.html" class="header__brand">
-        <img src="assets/images/logo.png" alt="logo_gab" />
-      </a>
+  <div class="scroll-wrapper">
+    <div data-component="PageTransition" class="page">
+      <header class="header" data-component="Header">
+        <a href="index.html" class="header__brand">
+          <img src="assets/images/logo.png" alt="logo_gab" />
+        </a>
 
-      <nav class="nav-primary">
-        <ul>
-          <li>
-            <div class="liens-wrapper">
-              <span class="animation-hover inner-wrapper">
-                <a href="index.html" data-i18="menu.home" class="nav-primary__item animation-a">Accueil</a>
-              </span>
-            </div>
-          </li>
-          <li>
-            <div class="liens-wrapper">
-              <span class="animation-hover inner-wrapper">
-                <a href="projects.html" data-i18="menu.projects" class="nav-primary__item animation-a">Projets</a>
-              </span>
-            </div>
-          </li>
-          <li class="nav-right">
-            <div class="liens-wrapper">
-              <span class="animation-hover inner-wrapper">
-                <a href="about.html" data-i18="menu.about" class="nav-primary__item animation-a">À
-                  propos</a>
-              </span>
-            </div>
-          </li>
-        </ul>
-      </nav>
-      <button class="header__toggle js-toggle">
-        <div class="points">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="barres">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </button>
-    </header>
-    <section class="projectStory">
-
-      <!-- HERO -->
-      <section class="storyHero">
-        <h1 class="storyTitle">Nom du projet</h1>
-        <p class="storySubtitle">
-          Description courte du projet, pitch ou intention.
-        </p>
-      </section>
-
-      <!-- CHAPTER 1 -->
-      <section class="storyChapter">
-        <div class="chapterText">
-          <h2 data-scrolly='fromBottom'>Le projet</h2>
-          <p data-scrolly='fromBottom'>
-            Présentation du projet, contexte, objectif principal,
-            type de jeu, durée, équipe, etc.
-          </p>
-        </div>
-
-        <div class="chapterMedia" data-scrolly='fromBottom'>
-          <div class="videoWrapper">
-            <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" title="Gameplay trailer" loading="lazy"
-              allowfullscreen>
-            </iframe>
+        <nav class="nav-primary">
+          <ul>
+            <li>
+              <div class="liens-wrapper">
+                <span class="animation-hover inner-wrapper">
+                  <a href="index.html" data-i18="menu.home" class="nav-primary__item animation-a">Accueil</a>
+                </span>
+              </div>
+            </li>
+            <li>
+              <div class="liens-wrapper">
+                <span class="animation-hover inner-wrapper">
+                  <a href="projects.html" data-i18="menu.projects" class="nav-primary__item animation-a">Projets</a>
+                </span>
+              </div>
+            </li>
+            <li class="nav-right">
+              <div class="liens-wrapper">
+                <span class="animation-hover inner-wrapper">
+                  <a href="about.html" data-i18="menu.about" class="nav-primary__item animation-a">À
+                    propos</a>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__toggle js-toggle">
+          <div class="points">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-        </div>
-      </section>
+          <div class="barres">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </header>
+      <section class="projectStory">
 
-      <!-- FULL VIDEO BREAK -->
-      <section class="storyFull">
-        <div class="videoWrapper" data-scrolly='fromBottom'>
-          <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" title="Gameplay showcase" loading="lazy"
-            allowfullscreen>
-          </iframe>
-        </div>
-      </section>
-
-      <!-- CHAPTER 2 -->
-      <section class="storyChapter reverse">
-        <div class="chapterText">
-          <h2 data-scrolly='fromBottom'>Le processus</h2>
-          <p data-scrolly='fromBottom'>
-            Ton workflow, les outils utilisés (Unity, Unreal, Blender),
-            les itérations, les choix techniques.
+        <!-- HERO -->
+        <section class="storyHero">
+          <h1 class="storyTitle">Nom du projet</h1>
+          <p class="storySubtitle">
+            Description courte du projet, pitch ou intention.
           </p>
-        </div>
+        </section>
 
-        <div class="chapterMedia" data-scrolly='fromBottom'>
-          <img src="assets/images/Big.png" alt="Processus de création">
-        </div>
-      </section>
+        <!-- CHAPTER 1 -->
+        <section class="storyChapter">
+          <div class="chapterText">
+            <h2 data-scrolly='fromBottom'>Le projet</h2>
+            <p data-scrolly='fromBottom'>
+              Présentation du projet, contexte, objectif principal,
+              type de jeu, durée, équipe, etc.
+            </p>
+          </div>
 
-      <!-- CHAPTER 3 -->
-      <section class="storyChapter">
-        <div class="chapterText">
-          <h2 data-scrolly='fromBottom'>Les défis</h2>
-          <p data-scrolly='fromBottom'>
-            Problèmes rencontrés, solutions techniques,
-            apprentissages importants.
-          </p>
-        </div>
+          <div class="chapterMedia" data-scrolly='fromBottom'>
+            <div class="videoWrapper">
+              <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" title="Gameplay trailer" loading="lazy"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </section>
 
-        <div class="chapterMedia">
+        <!-- FULL VIDEO BREAK -->
+        <section class="storyFull">
           <div class="videoWrapper" data-scrolly='fromBottom'>
-            <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" title="Technical challenge" loading="lazy"
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" title="Gameplay showcase" loading="lazy"
               allowfullscreen>
             </iframe>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- CREDITS -->
-      <section class="storyCredits" data-scrolly='fromBottom'>
-        <h2>Crédits</h2>
-        <ul>
-          <li><strong>Rôle :</strong> Gameplay programmer</li>
-          <li><strong>Moteur :</strong> Unreal Engine</li>
-          <li><strong>Durée :</strong> 3 mois</li>
-          <li><strong>Équipe :</strong> 4 personnes</li>
-        </ul>
+        <!-- CHAPTER 2 -->
+        <section class="storyChapter reverse">
+          <div class="chapterText">
+            <h2 data-scrolly='fromBottom'>Le processus</h2>
+            <p data-scrolly='fromBottom'>
+              Ton workflow, les outils utilisés (Unity, Unreal, Blender),
+              les itérations, les choix techniques.
+            </p>
+          </div>
+
+          <div class="chapterMedia" data-scrolly='fromBottom'>
+            <img src="assets/images/Big.png" alt="Processus de création">
+          </div>
+        </section>
+
+        <!-- CHAPTER 3 -->
+        <section class="storyChapter">
+          <div class="chapterText">
+            <h2 data-scrolly='fromBottom'>Les défis</h2>
+            <p data-scrolly='fromBottom'>
+              Problèmes rencontrés, solutions techniques,
+              apprentissages importants.
+            </p>
+          </div>
+
+          <div class="chapterMedia">
+            <div class="videoWrapper" data-scrolly='fromBottom'>
+              <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" title="Technical challenge" loading="lazy"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </section>
+
+        <!-- CREDITS -->
+        <section class="storyCredits" data-scrolly='fromBottom'>
+          <h2>Crédits</h2>
+          <ul>
+            <li><strong>Rôle :</strong> Gameplay programmer</li>
+            <li><strong>Moteur :</strong> Unreal Engine</li>
+            <li><strong>Durée :</strong> 3 mois</li>
+            <li><strong>Équipe :</strong> 4 personnes</li>
+          </ul>
+        </section>
       </section>
-    </section>
+    </div>
+  </div>
+  <div class="scrollbar" data-component="Scrollbar">
+    <span class="scrollbar__thumb"></span>
   </div>
 </body>
