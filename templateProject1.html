@@ -14,8 +14,8 @@
     <script type="module" src="scripts/main.js"></script>
 </head>
 
-<body>
-    <header class="header" data-component="Header">
+<body data-component="Scrolly">
+        <header class="header" data-component="Header">
         <a href="index.html" class="header__brand">
             <img src="assets/images/logo.png" alt="logo_gab" />
         </a>
@@ -42,14 +42,6 @@
                         <span class="animation-hover inner-wrapper">
                             <a href="about.html" data-i18="menu.about" class="nav-primary__item animation-a">À
                                 propos</a>
-                        </span>
-                    </div>
-                </li>
-                <li>
-                    <div class="liens-wrapper">
-                        <span class="animation-hover inner-wrapper">
-                            <a href="contact.html" data-i18="menu.contacts"
-                                class="nav-primary__item animation-a">Contact</a>
                         </span>
                     </div>
                 </li>
@@ -93,17 +85,17 @@
 
   <section class="storyChapter">
     <div class="chapterText">
-      <h2>Le projet</h2>
-      <p>
+      <h2 data-scrolly='fromBottom'>Le projet</h2>
+      <p data-scrolly='fromBottom'>
         Description du projet, contexte, type de jeu, durée,
         objectifs et intentions.
       </p>
     </div>
 
-    <div class="chapterMedia">
+    <div class="chapterMedia" data-scrolly='fromBottom'>
       <!-- Vidéo YouTube -->
       <!--
-      <div class="videoWrapper">
+      <div class="videoWrapper" data-scrolly='fromBottom'>
         <iframe
           src="https://www.youtube.com/embed/VIDEO_ID_2"
           title="Gameplay"
@@ -114,19 +106,19 @@
       -->
 
       <!-- Image -->
-      <img src="assets/images/Medium.png" alt="Image du projet">
+      <img src="assets/images/Medium.png" alt="Image du projet" data-scrolly='fromBottom'>
     </div>
   </section>
 
   <section class="storyChapter reverse">
     <div class="chapterText">
-      <h2>Le processus</h2>
-      <p>
+      <h2 data-scrolly='fromBottom'>Le processus</h2>
+      <p data-scrolly='fromBottom'>
         Workflow, outils utilisés, itérations, décisions techniques.
       </p>
     </div>
 
-    <div class="chapterMedia">
+    <div class="chapterMedia" data-scrolly='fromBottom'>
       <img src="assets/images/Medium.png" alt="Processus">
     </div>
   </section>
@@ -134,7 +126,7 @@
   <section class="storyFull">
     <!-- Vidéo YouTube -->
     <!--
-    <div class="videoWrapper">
+    <div class="videoWrapper" data-scrolly='fromBottom'>
       <iframe
         src="https://www.youtube.com/embed/VIDEO_ID_3"
         title="Showcase"
@@ -145,10 +137,10 @@
     -->
 
     <!-- Image -->
-    <img src="assets/images/Medium.png" alt="Vue immersive">
+    <img src="assets/images/Medium.png" alt="Vue immersive" data-scrolly='fromBottom'>
   </section>
 
-  <section class="storyCredits">
+  <section class="storyCredits" data-scrolly='fromBottom'>
     <h2>Crédits</h2>
     <ul>
       <li><strong>Rôle :</strong> Gameplay programmer</li>
