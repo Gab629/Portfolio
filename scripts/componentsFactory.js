@@ -1,6 +1,7 @@
 import Header from './components/header.js';
 import Scrolly from './components/scrolly.js';
 import PageTransition from './components/pageTransition.js';
+import Parallax from './components/parallax.js';
 // import Form from './components/Form';
 // import particles from './components/particles';
 // import app from './components/app';
@@ -13,6 +14,7 @@ export default class ComponentFactory {
       Header,
       Scrolly,
       PageTransition,
+      Parallax,
     //   Form,
     //   particles,
     //   app,
