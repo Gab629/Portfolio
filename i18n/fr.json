@@ -10,6 +10,7 @@
   "hero": {
     "title": "Gabriel Gauthier",
     "subtitle": "Programmeur technique – Développement de jeux et de logiciels",
-    "cta": "Visualisez mon CV"
+    "cta": "Visualisez mon CV",
+    "cvLink": "assets/cv/Gabriel_Gauthier_CV_FR.pdf"
   }
 }

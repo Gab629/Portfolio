@@ -51,13 +51,27 @@ export default class I18n {
   }
 
   applyTranslations(data) {
-    document.querySelectorAll('[data-i18]').forEach((el) => {
-      const key = el.dataset.i18;
-      const value = key.split('.').reduce((o, i) => o?.[i], data);
+    const elements = document.querySelectorAll('[data-i18]');
 
-      if (value) {
-        el.textContent = value;
-      }
-    });
+    elements.forEach(el => el.classList.add('is-switching'));
+
+    setTimeout(() => {
+      elements.forEach((el) => {
+        const key = el.dataset.i18;
+        const value = key.split('.').reduce((o, i) => o?.[i], data);
+
+        if (value) el.textContent = value;
+
+        const hrefKey = el.getAttribute('data-i18-href');
+        if (hrefKey) {
+          const hrefValue = hrefKey.split('.').reduce((o, i) => o?.[i], data);
+          if (hrefValue) el.setAttribute('href', hrefValue);
+        }
+      });
+
+      elements.forEach(el => el.classList.remove('is-switching'));
+    }, 150);
   }
+
+
 }

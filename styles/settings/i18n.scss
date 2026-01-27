@@ -1,0 +1,10 @@
+//I18N transition
+
+[data-i18] {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+[data-i18].is-switching {
+  opacity: 0;
+  transform: translateY(2px);
+}
