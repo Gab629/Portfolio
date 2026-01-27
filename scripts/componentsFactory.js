@@ -4,6 +4,8 @@ import PageTransition from './components/pageTransition.js';
 import Parallax from './components/parallax.js';
 import Scrollbar from './components/scrollBar.js';
 import ProjectVideo from './components/projectVideo.js';
+import I18n from './components/i18n.js';
+import LanguageSwitcher from './components/languageSwitcher.js';
 // import particles from './components/particles';
 // import app from './components/app';
 // import Video from './components/Video';
@@ -18,8 +20,8 @@ export default class ComponentFactory {
       Parallax,
       Scrollbar,
       ProjectVideo,
-    //   particles,
-    //   app,
+      I18n,
+      LanguageSwitcher,
     //   Video,
     };
     this.init();

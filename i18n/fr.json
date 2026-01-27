@@ -1,0 +1,15 @@
+{
+  "page": {
+    "title": "Gabriel Gauthier | Portfolio"
+  },
+  "menu": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "about": "À propos"
+  },
+  "hero": {
+    "title": "Gabriel Gauthier",
+    "subtitle": "Programmeur technique – Développement de jeux et de logiciels",
+    "cta": "Visualisez mon CV"
+  }
+}

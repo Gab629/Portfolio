@@ -1,0 +1,81 @@
+@use "../settings/variables" as *;
+.lang-switcher {
+  position: fixed;
+  bottom: 0px;
+  right: 25px;
+  z-index: 999;
+
+  width: 120px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  background: $accent;
+
+  height: 50px;
+  transition: height 0.25s ease;
+}
+
+/* Quand on hover : le conteneur s'agrandit vers le haut */
+.lang-switcher:hover {
+  height: 105px;
+}
+
+/* FR (toujours en bas) */
+.lang-switcher__btn {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.25s ease;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* EN (au-dessus de FR) */
+.lang-switcher__menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 👇 caché par défaut */
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+/* 👇 quand on hover, EN apparaît */
+.lang-switcher:hover .lang-switcher__menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* EN */
+.lang-switcher__item {
+  width: 100%;
+  height: 60px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+/* Hover : seulement l'élément hover devient plus foncé */
+.lang-switcher__btn:hover,
+.lang-switcher__item:hover {
+  background: $accent-darken;
+}

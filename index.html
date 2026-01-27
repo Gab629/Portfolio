@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gabriel Gauthier | Portfolio</title>
+    <title data-i18="page.title">Gabriel Gauthier | Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <div data-component="I18n"></div>
     <div data-component="PageTransition" class="page">
 
         <header class="header" data-component="Header">
@@ -44,8 +45,8 @@
                     <li class="nav-right">
                         <div class="links-wrapper">
                             <span class="animation-hover inner-wrapper">
-                                <a href="about.html" data-i18="menu.about" class="nav-primary__item animation-a">À
-                                    propos</a>
+                                <a href="about.html" data-i18="menu.about"
+                                    class="nav-primary__item animation-a">À propos</a>
                             </span>
                         </div>
                     </li>
@@ -63,8 +64,8 @@
         <main>
             <section class="hero">
                 <div class="hero__content">
-                    <h1 class="hero__title">Gabriel Gauthier</h1>
-                    <p class="hero__subtitle">
+                    <h1 class="hero__title" data-i18="hero.title">Gabriel Gauthier</h1>
+                    <p class="hero__subtitle" data-i18="hero.subtitle">
                         Programmeur technique – Développement de jeux et de logiciels
                     </p>
 
@@ -74,10 +75,22 @@
                         <a href="#" aria-label="YouTube">▶</a>
                     </div>
 
-                    <a href="#" class="btn-primary">Visualisez mon CV</a>
+                    <a href="#" class="btn-primary" data-i18="hero.cta">Visualisez mon CV</a>
                 </div>
             </section>
         </main>
+        
+        <!-- LANGUAGE SWITCHER -->
+        <div class="lang-switcher" data-component="LanguageSwitcher" aria-label="Language switcher">
+            <button class="lang-switcher__btn" type="button">
+                FR
+            </button>
+        
+            <div class="lang-switcher__menu">
+                <button class="lang-switcher__item" data-lang="en">EN</button>
+            </div>
+        </div>
+        
     </div>
 </body>
 
