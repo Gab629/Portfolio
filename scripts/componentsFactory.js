@@ -3,7 +3,7 @@ import Scrolly from './components/scrolly.js';
 import PageTransition from './components/pageTransition.js';
 import Parallax from './components/parallax.js';
 import Scrollbar from './components/scrollBar.js';
-// import Form from './components/Form';
+import ProjectVideo from './components/projectVideo.js';
 // import particles from './components/particles';
 // import app from './components/app';
 // import Video from './components/Video';
@@ -17,7 +17,7 @@ export default class ComponentFactory {
       PageTransition,
       Parallax,
       Scrollbar,
-    //   Form,
+      ProjectVideo,
     //   particles,
     //   app,
     //   Video,
