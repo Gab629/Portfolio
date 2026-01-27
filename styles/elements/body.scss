@@ -1,7 +1,7 @@
 @use "../settings/variables" as *;
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: $font-main;
   background-color: $bg-dark;
   color: $text-main;
   min-height: 100vh;

@@ -64,33 +64,6 @@ header {
     height: 50px;
     z-index: 10;
 
-    .points {
-        span {
-            background: #fff;
-            border-radius: 3px;
-            height: 7px;
-            width: 7px;
-            position: absolute;
-            top: calc(50% - var(--bar-height) / 2);
-            right: 95%;
-
-            transition: 0.3s all;
-
-            &:nth-child(1) {
-                top: calc(
-                    45% - var(--bar-height) / 2 - var(--bar-height) -
-                        var(--bar-spacer)
-                );
-            }
-            &:nth-child(3) {
-                top: calc(
-                    56% - var(--bar-height) / 2 + var(--bar-height) +
-                        var(--bar-spacer)
-                );
-            }
-        }
-    }
-
     .barres {
         span {
             background: #fff;
@@ -120,9 +93,6 @@ header {
 
     .nav-is-active & {
         margin: 10px 0 0 auto;
-        .points {
-            opacity: 0;
-        }
         .barres {
             span {
                 top: calc(50% - var(--bar-height) / 2);
@@ -247,7 +217,7 @@ header {
     }
 }
 
-.liens-wrapper{
+.links-wrapper{
     position: relative;
 }
 

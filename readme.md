@@ -89,11 +89,6 @@ Press `CTRL + C` in your terminal to stop the Sass watcher.
 
 1. Run `npm run sass` to start the watcher.
 2. Edit `.scss` files inside `styles/`:
-
-   * `components/` → component-specific styles
-   * `elements/` → basic HTML elements
-   * `generics/` → global styles (like reset)
-   * `settings/` → variables and config
 3. Let Sass compile automatically into `css/`.
 4. Open `index.html` in your browser to see live updates.
 
