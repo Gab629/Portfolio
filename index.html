@@ -12,13 +12,16 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script type="module" src="scripts/main.js"></script>
 </head>
 
 <body>
+    
     <div data-component="I18n"></div>
     <div data-component="PageTransition" class="page">
-
+    
         <header class="header" data-component="Header">
             <a href="index.html" class="header__brand">
                 <img src="assets/images/logo.png" alt="logo_gab" />
@@ -62,7 +65,7 @@
         </header>
 
         <main>
-            <section class="hero">
+            <section class="hero has-particles">
                 <div class="hero__content">
                     <h1 class="hero__title" data-i18="hero.title">Gabriel Gauthier</h1>
                     <p class="hero__subtitle" data-i18="hero.subtitle">
@@ -82,6 +85,7 @@
                     <a href="#" class="btn-primary" data-i18="hero.cta" data-i18-href="hero.cvLink">Visualisez mon
                         CV</a>
                 </div>
+                <div class="particles"></div>
             </section>
         </main>
 
@@ -95,7 +99,7 @@
                 <button class="lang-switcher__item" data-lang="en">EN</button>
             </div>
         </div>
-
+        
     </div>
 </body>
 

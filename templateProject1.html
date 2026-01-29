@@ -9,15 +9,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-          rel="stylesheet">
+    rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script type="module" src="scripts/main.js"></script>
 </head>
 
 <body data-component="Scrolly">
+
+
   <div data-component="I18n"></div>
   <div class="scroll-wrapper">
-    <div data-component="PageTransition" class="page">
+    <div data-component="PageTransition" class="page has-particles">
+
       <header class="header" data-component="Header">
         <a href="index.html" class="header__brand">
           <img src="assets/images/logo.png" alt="logo_gab" />
@@ -58,103 +63,63 @@
         </button>
       </header>
 
-      <body class="projectStory">
+      <section class="projectStory projectStoryVideo">
 
         <section class="storyHero">
           <h1 class="storyTitle">Nom du projet</h1>
           <p class="storySubtitle">
-            Pitch court du projet ou intention principale.
+            Pitch court du projet.
           </p>
 
           <div class="heroMedia">
-            <!-- Vidéo YouTube -->
-
             <div class="videoWrapper">
-              <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Trailer du projet" loading="lazy"
-                allowfullscreen>
-              </iframe>
+              <video class="lazyVideo" muted playsinline preload="none" poster="assets/images/Big.png">
+                <source src="assets/videos/BoltPunchGameplayTrailer.mp4" type="video/mp4">
+              </video>
             </div>
-
-
-            <!-- Image -->
-            <!-- <img src="assets/images/Big.png" alt="Screenshot du projet"> -->
           </div>
         </section>
 
         <section class="storyChapter">
           <div class="chapterText">
-            <h2 data-scrolly='fromBottom'>Le projet</h2>
-            <p data-scrolly='fromBottom'>
-              Description du projet, contexte, type de jeu, durée,
-              objectifs et intentions.
-            </p>
+            <h2>Le projet</h2>
+            <p>Description du projet…</p>
           </div>
 
-          <div class="chapterMedia" data-scrolly='fromBottom'>
-            <!-- Vidéo YouTube -->
-            <!--
-      <div class="videoWrapper" data-scrolly='fromBottom'>
-        <iframe
-          src="https://www.youtube.com/embed/VIDEO_ID_2"
-          title="Gameplay"
-          loading="lazy"
-          allowfullscreen>
-        </iframe>
-      </div>
-      -->
-
-            <!-- Image -->
-            <img src="assets/images/Medium.png" alt="Image du projet" data-scrolly='fromBottom'>
+          <div class="chapterMedia">
+            <img src="assets/images/Medium.png" alt="">
           </div>
         </section>
 
         <section class="storyChapter reverse">
           <div class="chapterText">
-            <h2 data-scrolly='fromBottom'>Le processus</h2>
-            <p data-scrolly='fromBottom'>
-              Workflow, outils utilisés, itérations, décisions techniques.
-            </p>
+            <h2>Le processus</h2>
+            <p>Workflow, outils, etc.</p>
           </div>
 
-          <div class="chapterMedia" data-scrolly='fromBottom'>
-            <img src="assets/images/Medium.png" alt="Processus">
+          <div class="chapterMedia">
+            <img src="assets/images/Medium.png" alt="">
           </div>
         </section>
 
-        <section class="storyFull">
-          <!-- Vidéo YouTube -->
-          <!--
-    <div class="videoWrapper" data-scrolly='fromBottom'>
-      <iframe
-        src="https://www.youtube.com/embed/VIDEO_ID_3"
-        title="Showcase"
-        loading="lazy"
-        allowfullscreen>
-      </iframe>
-    </div>
-    -->
-
-          <!-- Image -->
-          <img src="assets/images/Medium.png" alt="Vue immersive" data-scrolly='fromBottom'>
-        </section>
-
-        <section class="storyCredits" data-scrolly='fromBottom'>
+        <section class="storyCredits">
           <h2>Crédits</h2>
           <ul>
             <li><strong>Rôle :</strong> Gameplay programmer</li>
             <li><strong>Moteur :</strong> Unreal Engine</li>
-            <li><strong>Durée :</strong> 3 mois</li>
-            <li><strong>Équipe :</strong> 4 personnes</li>
           </ul>
         </section>
+      </section>
+      <div class="particles"></div>
     </div>
   </div>
+
   <div class="lang-switcher" data-component="LanguageSwitcher">
-        <button class="lang-switcher__btn">FR</button>
-        <div class="lang-switcher__menu">
-            <button class="lang-switcher__item">EN</button>
-        </div>
+    <button class="lang-switcher__btn">FR</button>
+    <div class="lang-switcher__menu">
+      <button class="lang-switcher__item">EN</button>
     </div>
+  </div>
   <div class="scrollbar" data-component="Scrollbar">
     <span class="scrollbar__thumb"></span>
   </div>

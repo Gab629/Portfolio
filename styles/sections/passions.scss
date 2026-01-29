@@ -18,6 +18,16 @@
   gap: 2.5rem;
 }
 
+.passionsContent.has-particles {
+    position: relative;
+}
+
+.passionsContent.has-particles {
+    position: relative;
+    min-height: 500px;
+}
+
+
 @media (max-width: $breakpoint-sm) {
   .passionGrid {
     grid-template-columns: 1fr;

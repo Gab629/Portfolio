@@ -6,6 +6,7 @@ import Scrollbar from './components/scrollBar.js';
 import ProjectVideo from './components/projectVideo.js';
 import I18n from './components/i18n.js';
 import LanguageSwitcher from './components/languageSwitcher.js';
+import LazyVideo from './components/lazyVideo.js';
 // import particles from './components/particles';
 // import app from './components/app';
 // import Video from './components/Video';
@@ -22,7 +23,7 @@ export default class ComponentFactory {
       ProjectVideo,
       I18n,
       LanguageSwitcher,
-    //   Video,
+      LazyVideo,
     };
     this.init();
   }

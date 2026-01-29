@@ -1,32 +1,42 @@
 @use "../settings/variables" as *;
 
 .projects {
-    max-width: $container-width;
     margin: 0 auto;
     padding: 6rem 2rem;
-
-    .projectsTitle {
-        text-align: center;
-        font-size: 2.5rem;
-        color: $text-main;
-        margin-bottom: 3.5rem;
-
-
-    }
-
-    .moreProjectsTitle {
-        text-align: center;
-        font-size: 2.5rem;
-        color: $text-main;
-        margin: 2.5rem 0 2.5rem 0;
-    }
-
-    .projectGrid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
-    }
 }
+
+.projectsTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    color: $text-main;
+    margin-bottom: 3.5rem;
+}
+
+.moreProjectsTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    color: $text-main;
+    margin: 2.5rem 0;
+}
+
+.projectGrid {
+    max-width: $container-width;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    min-height: 300px;
+}
+
+.projects.has-particles {
+    position: relative;
+}
+
+.projects.has-particles {
+    position: relative;
+    min-height: 2300px;
+}
+
 
 
 @media (max-width: $breakpoint-md) {
@@ -38,4 +48,3 @@
         }
     }
 }
-

@@ -11,15 +11,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script type="module" src="scripts/main.js"></script>
 </head>
 
 <body class="aboutBody" data-component="Scrolly">
+    
     <div data-component="I18n"></div>
     <div class="scroll-wrapper">
         <div data-component="PageTransition" class="page">
+            
             <header class="header" data-component="Header">
                 <a href="index.html" class="header__brand">
                     <img src="assets/images/logo.png" alt="logo_gab" />
@@ -63,7 +66,7 @@
                 </button>
             </header>
 
-            <section class="aboutSection">
+            <section class="aboutSection has-particles">
                 <div class="aboutContent">
                     <h1 class="aboutTitle" data-i18="about.title">Gabriel Gauthier</h1>
             
@@ -90,9 +93,10 @@
                 <div class="aboutImage parallax" data-component="Parallax" data-parallax="mouse" data-strength="10">
                     <img src="assets/images/Big.png" alt="Gabriel Gauthier" />
                 </div>
+                <div class="particles"></div>
             </section>
 
-            <section class="futureContent">
+            <section class="futureContent has-particles">
                 <h2 data-i18="about.future.title">Perspectives d'avenir</h2>
 
                 <div class="futureGrid">
@@ -120,55 +124,58 @@
                         </p>
                     </div>
                 </div>
+                <div class="particles"></div>
             </section>
 
-            //TODO:s'assurer de la traduction de tous les skills
-            <section class="skillsContent" data-scrolly='fromBottom'>
+            <!-- TODO: s'assurer de la traduction de tous les skills -->
+            <section class="skillsContent has-particles" data-scrolly='fromBottom'>
                 <h2 data-scrolly='fromBottom' data-i18="about.skills.title">Mes compétences</h2>
                 <div class="skillCards" data-scrolly='fromBottom'>
-                    <div class="skillCard">
+                    <div class="skillCard particleBlocker">
                         <div class="aboutImage">
                             <img src="assets/images/Skill-Card.png" alt="Gabriel Gauthier" />
                         </div>
                         <h3>Unity</h3>
                         <p data-i18="about.skills.unity">Pour faire vivre mes projets et jeux.</p>
                     </div>
-                    <div class="skillCard">
+                    <div class="skillCard particleBlocker">
                         <div class="aboutImage">
                             <img src="assets/images/Skill-Card.png" alt="Gabriel Gauthier" />
                         </div>
                         <h3>Unity</h3>
-                        <p>Pour faire vivre mes projets et jeux.</p>
+                        <p data-i18="about.skills.unity">Pour faire vivre mes projets et jeux.</p>
                     </div>
-                    <div class="skillCard">
+                    <div class="skillCard particleBlocker">
                         <div class="aboutImage">
                             <img src="assets/images/Skill-Card.png" alt="Gabriel Gauthier" />
                         </div>
                         <h3>Unity</h3>
-                        <p>Pour faire vivre mes projets et jeux.</p>
+                        <p data-i18="about.skills.unity">Pour faire vivre mes projets et jeux.</p>
                     </div>
-                    <div class="skillCard">
+                    <div class="skillCard particleBlocker">
                         <div class="aboutImage">
                             <img src="assets/images/Skill-Card.png" alt="Gabriel Gauthier" />
                         </div>
                         <h3>Unity</h3>
-                        <p>Pour faire vivre mes projets et jeux.</p>
+                        <p data-i18="about.skills.unity">Pour faire vivre mes projets et jeux.</p>
                     </div>
-                    <div class="skillCard">
+                    <div class="skillCard particleBlocker">
                         <div class="aboutImage">
                             <img src="assets/images/Skill-Card.png" alt="Gabriel Gauthier" />
                         </div>
                         <h3>Unity</h3>
-                        <p>Pour faire vivre mes projets et jeux.</p>
+                        <p data-i18="about.skills.unity">Pour faire vivre mes projets et jeux.</p>
                     </div>
+                    
                 </div>
+                <div class="particles"></div>
             </section>
 
-            <section class="passionsContent" data-scrolly='fromBottom'>
+            <section class="passionsContent has-particles" data-scrolly='fromBottom'>
                 <h2 data-scrolly='fromBottom' data-i18="about.passions.title">Mes passions</h2>
 
                 <div class="passionGrid" data-scrolly='fromBottom'>
-                    <div class="passionCard">
+                    <div class="passionCard particleBlocker">
                         <div class="passionIcon">🎮</div>
                         <h3 data-i18="about.passions.games.title">Jeux vidéo</h3>
                         <p data-i18="about.passions.games.text">
@@ -178,7 +185,7 @@
                         </p>
                     </div>
 
-                    <div class="passionCard">
+                    <div class="passionCard particleBlocker">
                         <div class="passionIcon">🌿</div>
                         <h3 data-i18="about.passions.nature.title">La nature</h3>
                         <p data-i18="about.passions.nature.text">
@@ -188,7 +195,7 @@
                         </p>
                     </div>
 
-                    <div class="passionCard">
+                    <div class="passionCard particleBlocker">
                         <div class="passionIcon">🎬</div>
                         <h3 data-i18="about.passions.anime.title">Animés japonais</h3>
                         <p data-i18="about.passions.anime.text">
@@ -197,6 +204,7 @@
                         </p>
                     </div>
                 </div>
+                <div class="particles"></div>
             </section>
 
         </div>

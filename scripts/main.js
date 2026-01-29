@@ -7,6 +7,7 @@ window.onYouTubeIframeAPIReady = () => {
 
 
 import ComponentFactory from './componentsFactory.js';
+import { initParticles } from '././components/particles.js';
 
 class Main {
   constructor() {
@@ -19,6 +20,7 @@ class Main {
       document.documentElement.classList.add('has-js');
 
       new ComponentFactory();
+      initParticles();
     });
   }
 }

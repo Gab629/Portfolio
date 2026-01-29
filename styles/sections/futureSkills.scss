@@ -42,6 +42,15 @@
   font-family: "Work Sans", sans-serif;
 }
 
+.futureContent.has-particles {
+    position: relative;
+}
+
+.futureContent.has-particles {
+    position: relative;
+    min-height: 450px;
+}
+
 @media (max-width: $breakpoint-sm) {
   .futureGrid {
     flex-direction: column;
