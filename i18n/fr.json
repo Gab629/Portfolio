@@ -9,8 +9,92 @@
   },
   "hero": {
     "title": "Gabriel Gauthier",
-    "subtitle": "Programmeur technique – Développement de jeux et de logiciels",
-    "cta": "Visualisez mon CV",
-    "cvLink": "assets/cv/Gabriel_Gauthier_CV_FR.pdf"
+    "subtitle": "Programmeur – Développement de jeux et de logiciels",
+    "tagline": "Un programmeur minutieux avec une solide formation en design de jeux vidéo",
+    "cta": "Visualisez mon CV"
+  },
+
+  "about": {
+    "meta": {
+      "title": "Gabriel Gauthier | À propos"
+    },
+    "title": "Gabriel Gauthier",
+    "intro": "Salut ! Je suis un jeune designer technique de 22 ans ayant étudié à l’UQAT en création de jeux vidéo, avec une concentration en intégration logicielle. Je me considère comme un passionné de connaissances qui aime travailler en s’amusant et donner le meilleur de lui-même. J’ai hâte de travailler avec vous !",
+    "traits": {
+      "involved": {
+        "title": "Impliqué",
+        "text": "Lorsque je décide d’entreprendre un nouveau projet, je m’investis pleinement et je vais jusqu’au bout."
+      },
+      "feedback": {
+        "title": "Ouvert à la critique",
+        "text": "Je suis au début de ma carrière et j’ai encore des lacunes dans mes connaissances. J’apprécie lorsque l’on prend le temps de m’expliquer mes erreurs afin de m’améliorer."
+      },
+      "curiosity": {
+        "title": "Assoiffé de connaissances",
+        "text": "J’adore apprendre de nouvelles choses. Si j’ai une opportunité de m’améliorer ou de développer de nouvelles compétences, je serai au rendez-vous."
+      }
+    },
+    "future": {
+      "title": "Perspectives d'avenir",
+      "where": {
+        "title": "Où je me vois ?",
+        "text": "Mon travail de rêve serait une compagnie où je pourrais travailler dans une équipe motivée, organisée et amusante. Un endroit où chacun pourrait proposer ses idées et briller ensemble. Un jour, j’aimerais peut-être devenir lead technique."
+      },
+      "what": {
+        "title": "Sur quel genre de projet ?",
+        "text": "J’ai travaillé sur plusieurs projets, mais ceux que j’ai le plus aimés sont des jeux innovants. J’adore les jeux d’aventure et de puzzle comme It Takes Two, et j’ai aussi apprécié travailler en réalité virtuelle."
+      }
+    },
+    "skills": {
+      "title": "Mes compétences",
+      "unity": "Pour faire vivre mes projets et jeux."
+    },
+    "passions": {
+      "title": "Mes passions",
+      "games": {
+        "title": "Jeux vidéo",
+        "text": "J’adore les jeux vidéo depuis mon enfance. Depuis 2019, je joue compétitivement à Rocket League. La compétition m’a appris à toujours me dépasser."
+      },
+      "nature": {
+        "title": "La nature",
+        "text": "Fasciné par la faune et la flore depuis toujours. J’aime le calme, la découverte et les moments paisibles qu’offre la nature."
+      },
+      "anime": {
+        "title": "Animés japonais",
+        "text": "Tombé amoureux de leur culture et de leurs valeurs, notamment la persévérance et l’accomplissement de soi."
+      }
+    }
+  },
+
+
+  "projects": {
+    "meta": {
+      "title": "Gabriel Gauthier | Projets"
+    },
+
+    "featuredTitle": "Projets vedettes",
+
+    "project1": {
+      "title": "Bolt'n'Punch",
+      "meta": "Beat'em Up<br />Unreal Engine 5",
+      "description": "Bolt’n’Punch est un jeu d’action développé avec Unreal Engine 5.",
+      "cta": "Voir le projet"
+    },
+
+    "project2": {
+      "title": "Template 2",
+      "meta": "Beat'em Up<br />Unreal Engine 5",
+      "description": "Projet expérimental servant de base pour de futurs prototypes.",
+      "cta": "Voir le projet"
+    },
+
+    "project3": {
+      "title": "Bolt'n'Punch (Prototype)",
+      "meta": "Beat'em Up<br />Unreal Engine 5",
+      "description": "Première version prototype du jeu Bolt’n’Punch.",
+      "cta": "Voir le projet"
+    },
+
+    "moreProjectsTitle": "Plus de projets"
   }
 }

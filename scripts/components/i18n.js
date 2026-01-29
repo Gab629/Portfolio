@@ -31,8 +31,10 @@ export default class I18n {
     const data = await this.loadTranslations(lang);
     this.applyTranslations(data);
 
-    // optionnel mais propre
     document.documentElement.lang = lang;
+
+    // ✅ AFFICHER LE SITE ICI
+    document.documentElement.style.visibility = 'visible';
   }
 
   async loadTranslations(lang) {
@@ -60,7 +62,7 @@ export default class I18n {
         const key = el.dataset.i18;
         const value = key.split('.').reduce((o, i) => o?.[i], data);
 
-        if (value) el.textContent = value;
+        if (value) el.innerHTML = value;
 
         const hrefKey = el.getAttribute('data-i18-href');
         if (hrefKey) {

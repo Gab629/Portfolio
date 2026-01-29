@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gabriel Gauthier | About</title>
+    <title data-i18="about.meta.title">Gabriel Gauthier | About</title>
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +17,7 @@
 </head>
 
 <body class="aboutBody" data-component="Scrolly">
+    <div data-component="I18n"></div>
     <div class="scroll-wrapper">
         <div data-component="PageTransition" class="page">
             <header class="header" data-component="Header">
@@ -52,7 +54,7 @@
                     </ul>
                 </nav>
                 <button class="header__toggle js-toggle">
-                    
+
                     <div class="barres">
                         <span></span>
                         <span></span>
@@ -63,30 +65,27 @@
 
             <section class="aboutSection">
                 <div class="aboutContent">
-                    <h1 class="aboutTitle">Gabriel Gauthier</h1>
-                    <p class="aboutText">Salut ! Je suis un jeune designer technique de 22 ans ayant étudié à l’UQAT en
-                        création de
-                        jeux vidéo, avec une concentration en intégration logicielle. Je me considère comme un jeune
-                        passionné de
-                        connaissances qui aime travailler en s’amusant et donner le meilleur de lui-même. J’ai hâte de
-                        travailler
-                        avec vous !</p>
-
-                    <h2 class="aboutSubtitle">Impliqué</h2>
-                    <p class="aboutText">Lorsque je décide d’entreprendre un nouveau projet, je m’investis pleinement et
-                        je
-                        vais
-                        jusqu’au bout.</p>
-
-                    <h2 class="aboutSubtitle">Ouvert à la critique</h2>
-                    <p class="aboutText">Je suis au début de ma carrière et j’ai encore des lacunes dans mes
-                        connaissances.
-                        J’apprécie lorsque l’on prend le temps de m’expliquer mes erreurs pour pouvoir m’améliorer.</p>
-
-                    <h2 class="aboutSubtitle">Assoiffé de connaissances</h2>
-                    <p class="aboutText">J’adore apprendre de nouvelles choses. Si j’ai une opportunité de m’améliorer
-                        ou de
-                        développer de nouvelles compétences, je serai au rendez-vous !</p>
+                    <h1 class="aboutTitle" data-i18="about.title">Gabriel Gauthier</h1>
+            
+                    <p class="aboutText" data-i18="about.intro">
+                        Salut ! Je suis un jeune designer technique...
+                    </p>
+            
+                    <h2 class="aboutSubtitle" data-i18="about.traits.involved.title">Impliqué</h2>
+                    <p class="aboutText" data-i18="about.traits.involved.text">
+                        Lorsque je décide d’entreprendre...
+                    </p>
+            
+                    <h2 class="aboutSubtitle" data-i18="about.traits.feedback.title">Ouvert à la critique</h2>
+                    <p class="aboutText" data-i18="about.traits.feedback.text">
+                        Je suis au début de ma carrière...
+                    </p>
+            
+                    <h2 class="aboutSubtitle" data-i18="about.traits.curiosity.title">Assoiffé de connaissances</h2>
+                    <p class="aboutText" data-i18="about.traits.curiosity.text">
+                        J’adore apprendre de nouvelles choses...
+                    </p>
+            
                 </div>
                 <div class="aboutImage parallax" data-component="Parallax" data-parallax="mouse" data-strength="10">
                     <img src="assets/images/Big.png" alt="Gabriel Gauthier" />
@@ -94,12 +93,12 @@
             </section>
 
             <section class="futureContent">
-                <h2>Perspectives d'avenir</h2>
+                <h2 data-i18="about.future.title">Perspectives d'avenir</h2>
 
                 <div class="futureGrid">
                     <div class="futureColumn" data-scrolly='fromBottom'>
-                        <h3>Où je me vois ?</h3>
-                        <p>
+                        <h3 data-i18="about.future.where.title">Où je me vois ?</h3>
+                        <p data-i18="about.future.where.text">
                             Mon travail de rêve serait une compagnie où je pourrais travailler dans une équipe motivée,
                             organisée et amusante. Ce serait un endroit où chacun pourrait proposer ses idées et briller
                             tous ensemble dans les projets que nous entreprendrions. Un jour, j’aimerais peut-être
@@ -111,8 +110,8 @@
                     </div>
 
                     <div class="futureColumn" data-scrolly='fromBottom'>
-                        <h3>Sur quel genre de projet ?</h3>
-                        <p>
+                        <h3 data-i18="about.future.what.title">Sur quel genre de projet ?</h3>
+                        <p data-i18="about.future.what.text">
                             J’ai eu la chance de travailler sur bien des projets par le passé et ceux que j’ai le plus
                             aimés
                             étaient des jeux qui essayaient d’innover de nouvelles mécaniques.
@@ -123,15 +122,16 @@
                 </div>
             </section>
 
+            //TODO:s'assurer de la traduction de tous les skills
             <section class="skillsContent" data-scrolly='fromBottom'>
-                <h2 data-scrolly='fromBottom'>Mes compétences</h2>
+                <h2 data-scrolly='fromBottom' data-i18="about.skills.title">Mes compétences</h2>
                 <div class="skillCards" data-scrolly='fromBottom'>
                     <div class="skillCard">
                         <div class="aboutImage">
                             <img src="assets/images/Skill-Card.png" alt="Gabriel Gauthier" />
                         </div>
                         <h3>Unity</h3>
-                        <p>Pour faire vivre mes projets et jeux.</p>
+                        <p data-i18="about.skills.unity">Pour faire vivre mes projets et jeux.</p>
                     </div>
                     <div class="skillCard">
                         <div class="aboutImage">
@@ -165,13 +165,13 @@
             </section>
 
             <section class="passionsContent" data-scrolly='fromBottom'>
-                <h2 data-scrolly='fromBottom'>Mes passions</h2>
+                <h2 data-scrolly='fromBottom' data-i18="about.passions.title">Mes passions</h2>
 
                 <div class="passionGrid" data-scrolly='fromBottom'>
                     <div class="passionCard">
                         <div class="passionIcon">🎮</div>
-                        <h3>Jeux vidéo</h3>
-                        <p>
+                        <h3 data-i18="about.passions.games.title">Jeux vidéo</h3>
+                        <p data-i18="about.passions.games.text">
                             J’adore les jeux vidéo. J’y joue depuis tout petit.
                             Depuis 2019, je joue compétitivement à Rocket League.
                             La compétition m’a appris à toujours dépasser mes limites.
@@ -180,8 +180,8 @@
 
                     <div class="passionCard">
                         <div class="passionIcon">🌿</div>
-                        <h3>La nature</h3>
-                        <p>
+                        <h3 data-i18="about.passions.nature.title">La nature</h3>
+                        <p data-i18="about.passions.nature.text">
                             Fasciné par la faune et la flore depuis toujours.
                             J’aime le calme, la découverte et les moments paisibles
                             que la nature apporte.
@@ -190,8 +190,8 @@
 
                     <div class="passionCard">
                         <div class="passionIcon">🎬</div>
-                        <h3>Animés japonais</h3>
-                        <p>
+                        <h3 data-i18="about.passions.anime.title">Animés japonais</h3>
+                        <p data-i18="about.passions.anime.text">
                             Tombé amoureux de leur culture et de leurs valeurs,
                             notamment la persévérance et l’accomplissement de soi.
                         </p>
@@ -201,6 +201,13 @@
 
         </div>
     </div>
+    <div class="lang-switcher" data-component="LanguageSwitcher">
+        <button class="lang-switcher__btn">FR</button>
+        <div class="lang-switcher__menu">
+            <button class="lang-switcher__item">EN</button>
+        </div>
+    </div>
+
     <div class="scrollbar" data-component="Scrollbar">
         <span class="scrollbar__thumb"></span>
     </div>

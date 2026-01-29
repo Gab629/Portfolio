@@ -15,6 +15,7 @@
 </head>
 
 <body data-component="Scrolly">
+  <div data-component="I18n"></div>
   <div class="scroll-wrapper">
     <div data-component="PageTransition" class="page">
       <header class="header" data-component="Header">
@@ -148,6 +149,12 @@
         </section>
     </div>
   </div>
+  <div class="lang-switcher" data-component="LanguageSwitcher">
+        <button class="lang-switcher__btn">FR</button>
+        <div class="lang-switcher__menu">
+            <button class="lang-switcher__item">EN</button>
+        </div>
+    </div>
   <div class="scrollbar" data-component="Scrollbar">
     <span class="scrollbar__thumb"></span>
   </div>

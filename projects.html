@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gabriel Gauthier | Projects</title>
+    <title data-i18="projects.meta.title">Gabriel Gauthier | Projects</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +15,7 @@
 </head>
 
 <body data-component="Scrolly">
+    <div data-component="I18n"></div>
     <div class="scroll-wrapper">
         <div data-component="PageTransition" class="page">
             <header class="header" data-component="Header">
@@ -62,7 +63,8 @@
 
 
             <section class="projects">
-                <h2 class="projectsTitle" data-scrolly='fromBottom'>Projets vedettes</h2>
+                <h2 class="projectsTitle" data-scrolly='fromBottom' data-i18="projects.featuredTitle">Projets vedettes
+                </h2>
 
                 <div class="projectGrid">
                     <article class="projectCard has-video">
@@ -72,175 +74,144 @@
                                 preload="auto"></video>
                         </div>
 
-                        <h3 class="projectTitle">Bolt'n'Punch</h3>
-                        <p class="projectMeta">Beat'em Up<br />Unreal Engine 5</p>
-                        <p class="projectDescription">Bolt’n’Punch est un jeu...</p>
-                        <a href="templateProject2.html" class="projectButton">Voir le projet</a>
+                        <h3 class="projectTitle" data-i18="projects.project1.title">Bolt'n'Punch</h3>
+                        <p class="projectMeta" data-i18="projects.project1.meta">Beat'em Up <br /> Unreal Engine 5</p>
+                        <p class="projectDescription" data-i18="projects.project1.description">Bolt’n’Punch est un
+                            jeu...</p>
+                        <a href="templateProject1.html" class="projectButton" data-i18="projects.project1.cta">Voir le
+                            projet</a>
+                    </article>
+                    <article class="projectCard has-video">
+                        <div class="projectMedia media-container" data-component="ProjectVideo">
+                            <img src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+                            <video src="assets/videos/Bolt'n'PunchGameplayTrailer.mp4" muted loop playsinline
+                                preload="auto"></video>
+                        </div>
+
+                        <h3 class="projectTitle" data-i18="projects.project1.title">Bolt'n'Punch</h3>
+                        <p class="projectMeta" data-i18="projects.project1.meta">Beat'em Up <br /> Unreal Engine 5</p>
+                        <p class="projectDescription" data-i18="projects.project1.description">Bolt’n’Punch est un
+                            jeu...</p>
+                        <a href="templateProject2.html" class="projectButton" data-i18="projects.project1.cta">Voir le
+                            projet</a>
+                    </article>
+                    <article class="projectCard has-video">
+                        <div class="projectMedia media-container" data-component="ProjectVideo">
+                            <img src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+                            <video src="assets/videos/Bolt'n'PunchGameplayTrailer.mp4" muted loop playsinline
+                                preload="auto"></video>
+                        </div>
+
+                        <h3 class="projectTitle" data-i18="projects.project1.title">Bolt'n'Punch</h3>
+                        <p class="projectMeta" data-i18="projects.project1.meta">Beat'em Up <br /> Unreal Engine 5</p>
+                        <p class="projectDescription" data-i18="projects.project1.description">Bolt’n’Punch est un
+                            jeu...</p>
+                        <a href="templateProject2.html" class="projectButton" data-i18="projects.project1.cta">Voir le
+                            projet</a>
                     </article>
 
-                    <article class="projectCard" data-scrolly='fromBottom'>
-                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
 
-                        <h3 class="projectTitle">Template 2</h3>
-
-                        <p class="projectMeta">
-                            Beat'em Up<br />
-                            Unreal Engine 5
-                        </p>
-
-                        <p class="projectDescription">
-                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
-                            avons
-                            suivi tout
-                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                        </p>
-
-                        <a href="projectTemplate2.html" class="projectButton">Voir le projet</a>
-                    </article>
-                    <article class="projectCard" data-scrolly='fromBottom'>
-                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
-
-                        <h3 class="projectTitle">Bolt'n'Punch</h3>
-
-                        <p class="projectMeta">
-                            Beat'em Up<br />
-                            Unreal Engine 5
-                        </p>
-
-                        <p class="projectDescription">
-                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
-                            avons
-                            suivi tout
-                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                        </p>
-
-                        <a href="templateProject2.html" class="projectButton">Voir le projet</a>
-                    </article>
 
                 </div>
 
-                <h2 class="moreProjectsTitle">Plus de projets</h2>
+                <h2 class="moreProjectsTitle" data-i18="projects.moreProjectsTitle">Plus de projets</h2>
 
                 <div class="projectGrid">
-                    <article class="projectCard" data-scrolly='fromBottom'>
-                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+                    <article class="projectCard has-video">
+                        <div class="projectMedia media-container" data-component="ProjectVideo">
+                            <img src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+                            <video src="assets/videos/Bolt'n'PunchGameplayTrailer.mp4" muted loop playsinline
+                                preload="auto"></video>
+                        </div>
 
-                        <h3 class="projectTitle">Bolt'n'Punch</h3>
-
-                        <p class="projectMeta">
-                            Beat'em Up<br />
-                            Unreal Engine 5
-                        </p>
-
-                        <p class="projectDescription">
-                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
-                            avons
-                            suivi tout
-                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                        </p>
-
-                        <a href="#" class="projectButton">Voir le projet</a>
+                        <h3 class="projectTitle" data-i18="projects.project1.title">Bolt'n'Punch</h3>
+                        <p class="projectMeta" data-i18="projects.project1.meta">Beat'em Up <br /> Unreal Engine 5</p>
+                        <p class="projectDescription" data-i18="projects.project1.description">Bolt’n’Punch est un
+                            jeu...</p>
+                        <a href="templateProject2.html" class="projectButton" data-i18="projects.project1.cta">Voir le
+                            projet</a>
                     </article>
-                    <article class="projectCard" data-scrolly='fromBottom'>
-                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+                    <article class="projectCard has-video">
+                        <div class="projectMedia media-container" data-component="ProjectVideo">
+                            <img src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+                            <video src="assets/videos/Bolt'n'PunchGameplayTrailer.mp4" muted loop playsinline
+                                preload="auto"></video>
+                        </div>
 
-                        <h3 class="projectTitle">Bolt'n'Punch</h3>
-
-                        <p class="projectMeta">
-                            Beat'em Up<br />
-                            Unreal Engine 5
-                        </p>
-
-                        <p class="projectDescription">
-                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
-                            avons
-                            suivi tout
-                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                        </p>
-
-                        <a href="#" class="projectButton">Voir le projet</a>
+                        <h3 class="projectTitle" data-i18="projects.project1.title">Bolt'n'Punch</h3>
+                        <p class="projectMeta" data-i18="projects.project1.meta">Beat'em Up <br /> Unreal Engine 5</p>
+                        <p class="projectDescription" data-i18="projects.project1.description">Bolt’n’Punch est un
+                            jeu...</p>
+                        <a href="templateProject2.html" class="projectButton" data-i18="projects.project1.cta">Voir le
+                            projet</a>
                     </article>
-                    <article class="projectCard" data-scrolly='fromBottom'>
-                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+                    <article class="projectCard has-video">
+                        <div class="projectMedia media-container" data-component="ProjectVideo">
+                            <img src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+                            <video src="assets/videos/Bolt'n'PunchGameplayTrailer.mp4" muted loop playsinline
+                                preload="auto"></video>
+                        </div>
 
-                        <h3 class="projectTitle">Bolt'n'Punch</h3>
-
-                        <p class="projectMeta">
-                            Beat'em Up<br />
-                            Unreal Engine 5
-                        </p>
-
-                        <p class="projectDescription">
-                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
-                            avons
-                            suivi tout
-                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                        </p>
-
-                        <a href="#" class="projectButton">Voir le projet</a>
+                        <h3 class="projectTitle" data-i18="projects.project1.title">Bolt'n'Punch</h3>
+                        <p class="projectMeta" data-i18="projects.project1.meta">Beat'em Up <br /> Unreal Engine 5</p>
+                        <p class="projectDescription" data-i18="projects.project1.description">Bolt’n’Punch est un
+                            jeu...</p>
+                        <a href="templateProject2.html" class="projectButton" data-i18="projects.project1.cta">Voir le
+                            projet</a>
                     </article>
-                    <article class="projectCard" data-scrolly='fromBottom'>
-                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+                    <article class="projectCard has-video">
+                        <div class="projectMedia media-container" data-component="ProjectVideo">
+                            <img src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+                            <video src="assets/videos/Bolt'n'PunchGameplayTrailer.mp4" muted loop playsinline
+                                preload="auto"></video>
+                        </div>
 
-                        <h3 class="projectTitle">Bolt'n'Punch</h3>
-
-                        <p class="projectMeta">
-                            Beat'em Up<br />
-                            Unreal Engine 5
-                        </p>
-
-                        <p class="projectDescription">
-                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
-                            avons
-                            suivi tout
-                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                        </p>
-
-                        <a href="#" class="projectButton">Voir le projet</a>
+                        <h3 class="projectTitle" data-i18="projects.project1.title">Bolt'n'Punch</h3>
+                        <p class="projectMeta" data-i18="projects.project1.meta">Beat'em Up <br /> Unreal Engine 5</p>
+                        <p class="projectDescription" data-i18="projects.project1.description">Bolt’n’Punch est un
+                            jeu...</p>
+                        <a href="templateProject2.html" class="projectButton" data-i18="projects.project1.cta">Voir le
+                            projet</a>
                     </article>
-                    <article class="projectCard" data-scrolly='fromBottom'>
-                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+                    <article class="projectCard has-video">
+                        <div class="projectMedia media-container" data-component="ProjectVideo">
+                            <img src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+                            <video src="assets/videos/Bolt'n'PunchGameplayTrailer.mp4" muted loop playsinline
+                                preload="auto"></video>
+                        </div>
 
-                        <h3 class="projectTitle">Bolt'n'Punch</h3>
-
-                        <p class="projectMeta">
-                            Beat'em Up<br />
-                            Unreal Engine 5
-                        </p>
-
-                        <p class="projectDescription">
-                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
-                            avons
-                            suivi tout
-                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                        </p>
-
-                        <a href="#" class="projectButton">Voir le projet</a>
+                        <h3 class="projectTitle" data-i18="projects.project1.title">Bolt'n'Punch</h3>
+                        <p class="projectMeta" data-i18="projects.project1.meta">Beat'em Up <br /> Unreal Engine 5</p>
+                        <p class="projectDescription" data-i18="projects.project1.description">Bolt’n’Punch est un
+                            jeu...</p>
+                        <a href="templateProject2.html" class="projectButton" data-i18="projects.project1.cta">Voir le
+                            projet</a>
                     </article>
-                    <article class="projectCard" data-scrolly='fromBottom'>
-                        <img class="projectImage" src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+                    <article class="projectCard has-video">
+                        <div class="projectMedia media-container" data-component="ProjectVideo">
+                            <img src="assets/images/Project-Card.png" alt="Bolt'n'Punch" />
+                            <video src="assets/videos/Bolt'n'PunchGameplayTrailer.mp4" muted loop playsinline
+                                preload="auto"></video>
+                        </div>
 
-                        <h3 class="projectTitle">Bolt'n'Punch</h3>
-
-                        <p class="projectMeta">
-                            Beat'em Up<br />
-                            Unreal Engine 5
-                        </p>
-
-                        <p class="projectDescription">
-                            Bolt’n’Punch est un jeu que j’ai développé avec mes camarades finissants à l’UQAT. Nous
-                            avons
-                            suivi tout
-                            le processus de production en entreprise, jusqu’à la publication du jeu sur Steam.
-                        </p>
-
-                        <a href="#" class="projectButton">Voir le projet</a>
+                        <h3 class="projectTitle" data-i18="projects.project1.title">Bolt'n'Punch</h3>
+                        <p class="projectMeta" data-i18="projects.project1.meta">Beat'em Up <br /> Unreal Engine 5</p>
+                        <p class="projectDescription" data-i18="projects.project1.description">Bolt’n’Punch est un
+                            jeu...</p>
+                        <a href="templateProject2.html" class="projectButton" data-i18="projects.project1.cta">Voir le
+                            projet</a>
                     </article>
 
                 </div>
 
             </section>
 
+        </div>
+    </div>
+    <div class="lang-switcher" data-component="LanguageSwitcher">
+        <button class="lang-switcher__btn">FR</button>
+        <div class="lang-switcher__menu">
+            <button class="lang-switcher__item">EN</button>
         </div>
     </div>
     <div class="scrollbar" data-component="Scrollbar">

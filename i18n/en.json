@@ -9,8 +9,100 @@
   },
   "hero": {
     "title": "Gabriel Gauthier",
-    "subtitle": "Technical Programmer – Game & Software Development",
-    "cta": "View my resume",
-    "cvLink": "assets/cv/Gabriel_Gauthier_CV_EN.pdf"
+    "subtitle": "Programmer – Game and Software Development",
+    "tagline": " A detail-oriented programmer with a strong background in game design",
+    "cta": "View my CV"
+  },
+
+  "about": {
+    "meta": {
+      "title": "Gabriel Gauthier | About"
+    },
+    "title": "Gabriel Gauthier",
+    "intro": "Hi! I’m a 22-year-old technical designer who studied game development at UQAT, specializing in software integration. I’m passionate about learning, enjoy working while having fun, and always strive to give my best. I look forward to working with you!",
+
+    "traits": {
+      "involved": {
+        "title": "Dedicated",
+        "text": "When I take on a new project, I fully commit and see it through to the end."
+      },
+      "feedback": {
+        "title": "Open to feedback",
+        "text": "I’m at the beginning of my career and still have areas to improve. I appreciate constructive feedback that helps me grow."
+      },
+      "curiosity": {
+        "title": "Eager to learn",
+        "text": "I love learning new things. If I have an opportunity to improve or develop new skills, I’m always in."
+      }
+    },
+
+    "future": {
+      "title": "Future goals",
+      "where": {
+        "title": "Where do I see myself?",
+        "text": "My dream job would be in a motivated, organized, and fun team where everyone can share ideas and shine together. One day, I might like to become a technical lead."
+      },
+      "what": {
+        "title": "What kind of projects?",
+        "text": "I’ve worked on many projects, but my favorites are innovative games. I love adventure and puzzle games like It Takes Two, and I also enjoyed working on virtual reality projects."
+      }
+    },
+
+    "skills": {
+      "title": "My skills",
+      "unity": "Bringing my projects and games to life."
+    },
+
+    "passions": {
+      "title": "My passions",
+      "games": {
+        "title": "Video games",
+        "text": "I’ve loved video games since childhood. Since 2019, I’ve been playing Rocket League competitively. Competition taught me to always push my limits."
+      },
+      "nature": {
+        "title": "Nature",
+        "text": "Fascinated by wildlife and plants. I enjoy calm moments, exploration, and the peace nature provides."
+      },
+      "anime": {
+        "title": "Japanese anime",
+        "text": "I fell in love with their culture and values, especially perseverance and self-improvement."
+      }
+    }
+  },
+
+
+
+  "projects": {
+    "meta": {
+      "title": "Gabriel Gauthier | Projects"
+    },
+
+    "featuredTitle": "Featured Projects",
+
+    "project1": {
+      "title": "Bolt'n'Punch",
+      "meta": "Beat'em Up <br/> Unreal Engine 5",
+      "description": "Bolt’n’Punch is an action game developed using Unreal Engine 5.",
+      "cta": "View project"
+    },
+
+    "project2": {
+      "title": "Template 2",
+      "meta": "Beat'em Up<br />Unreal Engine 5",
+      "description": "Experimental project used as a base for future prototypes.",
+      "cta": "View project"
+    },
+
+    "project3": {
+      "title": "Bolt'n'Punch (Prototype)",
+      "meta": "Beat'em Up<br />Unreal Engine 5",
+      "description": "Early prototype version of the Bolt’n’Punch game.",
+      "cta": "View project"
+    },
+
+    "moreProjectsTitle": "More projects"
+
   }
 }
+
+
