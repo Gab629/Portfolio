@@ -26,7 +26,6 @@ export default class I18n {
   }
 
   async setLanguage(lang) {
-    console.log('🌍 Langue active :', lang);
 
     const data = await this.loadTranslations(lang);
     this.applyTranslations(data);
@@ -39,7 +38,6 @@ export default class I18n {
 
   async loadTranslations(lang) {
     const path = this.translations[lang];
-    console.log('📄 FETCH :', path);
 
     const response = await fetch(path);
     if (!response.ok) {
@@ -48,7 +46,6 @@ export default class I18n {
     }
 
     const data = await response.json();
-    console.log('📘 DATA :', data);
     return data;
   }
 

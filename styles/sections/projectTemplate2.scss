@@ -2,28 +2,38 @@
 
 .projectStoryTech {
   padding: 6rem 0;
+
+  strong {
+    color: $accent;
+    font-weight: 700;
+  }
 }
 
-/* HERO */
-.projectStoryTech .techHero {
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
+/* HERO
+-------------------------------------------------- */
+.techHero {
+  display: flex;
+  align-items: center;
   gap: 4rem;
-  width: $container-width;
+  max-width: $container-width;
   margin: auto;
-  padding-bottom: 6rem;
+  padding: 10px;
 }
 
-.projectStoryTech .heroTitle {
+.heroLeft {
+  width: 50%;
+}
+
+.heroTitle {
   font-size: 72px;
 }
 
-.projectStoryTech .heroDescription {
+.heroDescription {
   font-size: 22px;
   margin: 2rem 0;
 }
 
-.projectStoryTech .heroMeta {
+.heroMeta {
   display: flex;
   gap: 1.5rem;
   list-style: none;
@@ -36,55 +46,116 @@
   }
 }
 
-.projectStoryTech .heroRight video {
+.heroRight video {
   width: 100%;
   border-radius: 24px;
 }
 
-/* FEATURES */
-.projectStoryTech .techFeatures {
+/* FEATURES
+-------------------------------------------------- */
+.techFeatures {
   width: $container-width;
   margin: auto;
   padding: 6rem 0;
 }
 
-.projectStoryTech .featuresGrid {
+.featuresGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 
-.projectStoryTech .featureCard {
+.featureCard {
   padding: 2rem;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.04);
 }
 
-/* BREAKDOWN */
-.projectStoryTech .techBreakdown {
-  display: flex;
-  gap: 4rem;
-  width: $container-width;
-  margin: auto;
-  padding: 6rem 0;
+.featureImage {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 1rem;
 }
 
-.projectStoryTech .breakdownMedia img {
+.featureTitle {
+  color: $accent;
+  margin-bottom: 1rem;
+}
+
+/* BREAKDOWN
+-------------------------------------------------- */
+.techBreakdownArticle {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin: auto;
+  padding: 4rem 0;
+
+  &.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .breakdownContent
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.breakdownMedia img {
   width: 100%;
   border-radius: 24px;
 }
 
-/* STACK */
-.projectStoryTech .techStack {
+.breakdownTitle {
+  color: $accent;
+  padding: 0 0 20px 0;
+}
+
+/* STACK
+-------------------------------------------------- */
+.techStack {
   width: $container-width;
   margin: auto;
   padding: 6rem 0;
 }
 
-.projectStoryTech .stackList {
+.stackList {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   list-style: none;
   padding: 0;
+}
+
+/* CREDITS
+-------------------------------------------------- */
+.techCredits {
+  width: $container-width;
+  margin: auto;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.creditsGroup {
+  margin-bottom: 3rem;
+}
+
+.creditsRole {
+  color: $accent;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.creditsNames {
+  list-style: none;
+  padding: 0;
+
+  li {
+    font-size: 18px;
+    color: $text-muted;
+    margin: 0.3rem 0;
+  }
 }

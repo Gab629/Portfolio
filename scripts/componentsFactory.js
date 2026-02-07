@@ -7,9 +7,7 @@ import ProjectVideo from './components/projectVideo.js';
 import I18n from './components/i18n.js';
 import LanguageSwitcher from './components/languageSwitcher.js';
 import LazyVideo from './components/lazyVideo.js';
-// import particles from './components/particles';
-// import app from './components/app';
-// import Video from './components/Video';
+import PlayableVideo from './components/playableVideo.js';
 
 export default class ComponentFactory {
   constructor() {
@@ -24,6 +22,7 @@ export default class ComponentFactory {
       I18n,
       LanguageSwitcher,
       LazyVideo,
+      PlayableVideo,
     };
     this.init();
   }
