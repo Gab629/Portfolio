@@ -124,6 +124,7 @@
 .techBreakdownArticle {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 4rem;
   margin: auto;
   padding: 4rem 0;
@@ -135,15 +136,12 @@
 
   .breakdownContent
   {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    max-width: 60%; 
   }
 
   p
   {
-    font-size: 25px;
+    font-size: 23px;
   }
 }
 
@@ -153,6 +151,7 @@
 }
 
 .breakdownTitle {
+  text-align: center;
   font-size: 40px;
   color: $accent;
   padding: 0 0 20px 0;
