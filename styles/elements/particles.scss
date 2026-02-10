@@ -1,29 +1,22 @@
-.has-particles {
-  position: relative;
-  overflow: hidden;
-}
+@use "../settings/variables" as *;
 
-.has-particles .particles {
-  position: absolute;
+#particles-bg {
+  position: fixed;
   inset: 0;
-  width: 100%;
-  height: 100%; 
+
+  /* Le canvas reste au-dessus pour capter la souris */
   z-index: 0;
+
+  /* MAIS on laisse passer les clics vers le site */
   pointer-events: auto;
 }
 
-.has-particles > *:not(.particles) {
+#particles-bg canvas {
+  /* Le canvas reçoit la souris pour l'effet bubble */
+  pointer-events: auto;
+}
+
+.page {
   position: relative;
   z-index: 1;
-  pointer-events: none;
-}
-
-
-.has-particles a,
-.has-particles button,
-.has-particles input,
-.has-particles textarea,
-.has-particles .particleBlocker
-{
-  pointer-events: auto;
 }

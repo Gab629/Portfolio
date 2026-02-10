@@ -20,6 +20,7 @@
 <body>
     
     <div data-component="I18n"></div>
+    <div class="scroll-wrapper">
     <div data-component="PageTransition" class="page">
     
         <header class="header" data-component="Header">
@@ -65,7 +66,7 @@
         </header>
 
         <main>
-            <section class="hero has-particles">
+            <section class="hero">
                 <div class="hero__content">
                     <h1 class="hero__title" data-i18="hero.title">Gabriel Gauthier</h1>
                     <p class="hero__subtitle" data-i18="hero.subtitle">
@@ -88,6 +89,8 @@
                 <div class="particles"></div>
             </section>
         </main>
+</div>
+        <div id="particles-bg"></div>
 
         <!-- LANGUAGE SWITCHER -->
         <div class="lang-switcher" data-component="LanguageSwitcher" aria-label="Language switcher">
@@ -99,6 +102,11 @@
                 <button class="lang-switcher__item" data-lang="en">EN</button>
             </div>
         </div>
+
+        <div class="scrollbar" data-component="Scrollbar">
+        <span class="scrollbar__thumb"></span>
+    </div>
+        
         
     </div>
 </body>

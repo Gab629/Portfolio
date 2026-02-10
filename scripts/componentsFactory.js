@@ -13,14 +13,14 @@ export default class ComponentFactory {
   constructor() {
     this.componentInstances = [];
     this.componentList = {
+      I18n,
+      LanguageSwitcher,
       Header,
       Scrolly,
       PageTransition,
       Parallax,
       Scrollbar,
       ProjectVideo,
-      I18n,
-      LanguageSwitcher,
       LazyVideo,
       PlayableVideo,
     };

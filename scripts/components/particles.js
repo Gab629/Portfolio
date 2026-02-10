@@ -4,16 +4,17 @@ export function initParticles() {
     return;
   }
 
-  const elements = document.querySelectorAll('.particles');
-  if (!elements.length) return;
+  const el = document.querySelector('#particles-bg');
+  if (!el) {
+    console.warn('No #particles-bg found');
+    return;
+  }
 
-  elements.forEach((el, index) => {
-    if (el.dataset.particlesInit) return;
+  // Empêche double init
+  if (el.dataset.particlesInit) return;
+  el.dataset.particlesInit = 'true';
 
-    el.dataset.particlesInit = 'true';
-    el.id = `particles-${index}`;
-
-    window.particlesJS(el.id, {
+  window.particlesJS('particles-bg', {
       particles: {
         number: { value: 40, density: { enable: true, value_area: 800 } },
         color: { value: "#f27a53" },
@@ -52,7 +53,7 @@ export function initParticles() {
         }
       },
       interactivity: {
-        detect_on: "canvas",
+        detect_on: "window",
         events: {
           onhover: { enable: true, mode: "bubble" },
           onclick: { enable: false, mode: "repulse" },
@@ -74,5 +75,5 @@ export function initParticles() {
       },
       retina_detect: true
     });
-  });
-}
+  };
+

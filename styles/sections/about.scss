@@ -1,14 +1,8 @@
 @use "../settings/variables" as *;
 
-.aboutBody
-{
-    background-color: $bg-darker;
-}
 
 .aboutSection {
   width: 100%;
-  background-color: $bg-dark;
-  margin: 0 0 25px 0;
   padding: 5rem 10% 4rem 10%;
 
   display: flex;

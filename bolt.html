@@ -60,175 +60,182 @@
           </div>
         </button>
       </header>
-      <section class="projectStory has-particles">
 
-        <section class="projectStory projectStoryTech">
+        <section class="projectStory projectStoryTech has-particles">
 
-  <!-- HERO -->
-  <section class="techHero">
-    <div class="heroLeft">
-      <h1 class="heroTitle">Bolt'N'Punch</h1>
+          <!-- HERO -->
+          <section class="techHero">
+            <div class="heroLeft">
+              <h1 class="heroTitle">Bolt'N'Punch</h1>
 
-      <p class="heroDescription">
-        Bolt’N’Punch est un jeu d’action à la première personne développé à l’UQAT
-        par une équipe de 25 finissants, publié sur Steam.
-      </p>
+              <p class="heroDescription">
+                Bolt’N’Punch est un jeu d’action à la première personne développé à l’UQAT
+                par une équipe de 25 finissants, publié sur Steam.
+              </p>
 
-      <ul class="heroMeta">
-        <li>Unreal Engine</li>
-        <li>Blueprints</li>
-        <li>Publié sur Steam</li>
-      </ul>
+              <ul class="heroMeta">
+                <li>Unreal Engine</li>
+                <li>Blueprints</li>
+                <li>Publié sur Steam</li>
+              </ul>
+            </div>
+
+            <div class="heroRight">
+              <div class="videoContainer" data-component="PlayableVideo">
+
+                <video playsinline preload="metadata" poster="assets/Bolt/images/BoltSplashScreen.webp">
+
+                  <source src="assets/Bolt/videos/Bolt'n'PunchGameplayTrailer.mp4" type="video/mp4">
+                </video>
+
+                <button class="playButton" aria-label="Lire la vidéo">
+                  ▶
+                </button>
+
+              </div>
+            </div>
+          </section>
+
+
+
+          <!-- BREAKDOWN : TEMPLATE 1 -->
+          <section class="techBreakdownArticle">
+            <div class="breakdownMedia">
+              <img src="assets/images/Big-Horizontal.png" alt="">
+            </div>
+
+            <div class="breakdownContent">
+              <h2 class="breakdownTitle">Architecture</h2>
+
+              <p>
+                Le projet est structuré autour de
+                <strong>composants découplés</strong>
+                facilitant l’itération rapide.
+              </p>
+            </div>
+          </section>
+          <!-- FEATURES -->
+          <section class="techFeatures">
+            <h2 class="sectionTitle">Systèmes clés</h2>
+
+            <div class="featuresGrid">
+
+              <article class="featureCard particleBlocker">
+                <img class="featureImage" src="assets/images/Big.png" alt="">
+                <h3 class="featureTitle">Système de hype</h3>
+
+                <p>
+                  Nous souhaitions encourager l’utilisation des
+                  <strong>attaques spéciales</strong> plutôt que le simple
+                  enchaînement de coups de base.
+                </p>
+
+                <p>
+                  J’ai pris en charge
+                  <strong>l’implémentation complète</strong> de la logique
+                  et l’équilibrage du système.
+                </p>
+              </article>
+
+              <article class="featureCard particleBlocker">
+                <img class="featureImage" src="assets/images/Big.png" alt="">
+                <h3 class="featureTitle">Intégration des sons avec Wwise</h3>
+
+                <p>
+                  Intelligence basée sur
+                  <strong>Behavior Tree</strong>
+                  et système de perception personnalisé.
+                </p>
+              </article>
+
+              <article class="featureCard particleBlocker">
+                <img class="featureImage" src="assets/images/Big.png" alt="">
+                <h3 class="featureTitle">Baril explosif</h3>
+
+                <p>
+                  Mécanique centrale avec
+                  <strong>limites d’utilisation</strong>
+                  et conséquences en jeu.
+                </p>
+              </article>
+
+              <article class="featureCard particleBlocker">
+                <img class="featureImage" src="assets/images/Big.png" alt="">
+                <h3 class="featureTitle">Animation blueprint</h3>
+
+                <p>
+                  Mécanique centrale avec
+                  <strong>limites d’utilisation</strong>
+                  et conséquences en jeu.
+                </p>
+              </article>
+              <article class="featureCard particleBlocker">
+                <img class="featureImage" src="assets/images/Big.png" alt="">
+                <h3 class="featureTitle">Boîtes de soins</h3>
+
+                <p>
+                  Mécanique centrale avec
+                  <strong>limites d’utilisation</strong>
+                  et conséquences en jeu.
+                </p>
+              </article>
+
+            </div>
+          </section>
+
+
+          <!-- BREAKDOWN : TEMPLATE 2 (reverse) -->
+          <section class="techBreakdownArticle reverse">
+            <div class="breakdownMedia">
+              <img src="assets/images/Big-Horizontal.png" alt="">
+            </div>
+
+            <div class="breakdownContent">
+              <h2 class="breakdownTitle">Défis techniques</h2>
+
+              <p>
+                Optimisation des particules et gestion
+                mémoire pour maintenir un
+                <strong>framerate stable</strong>.
+              </p>
+            </div>
+          </section>
+
+
+          <!-- CREDITS -->
+          <section class="techCredits">
+
+            <div class="creditsGroup">
+              <h3 class="creditsRole">Gestionnaires</h3>
+              <ul class="creditsNames">
+                <li>Xavier Ménard-Beaudoin</li>
+              </ul>
+            </div>
+
+            <div class="creditsGroup">
+              <h3 class="creditsRole">Programmeurs</h3>
+              <ul class="creditsNames">
+                <li>Anthony Legros</li>
+                <li>Aryane Duperron</li>
+                <li>Gabriel Gauthier</li>
+              </ul>
+            </div>
+
+            <div class="creditsGroup">
+              <h3 class="creditsRole">Artistes</h3>
+              <ul class="creditsNames">
+                <li>Nom 1</li>
+                <li>Nom 2</li>
+              </ul>
+            </div>
+
+          </section>
+        </section>
     </div>
-
-    <div class="heroRight" >
-      <div class="videoContainer" data-component="PlayableVideo">
-
-    <video
-      playsinline
-      preload="metadata"
-      poster="assets/Bolt/images/BoltSplashScreen.webp">
-
-      <source src="assets/Bolt/videos/Bolt'n'PunchGameplayTrailer.mp4" type="video/mp4">
-    </video>
-
-    <button class="playButton" aria-label="Lire la vidéo">
-      ▶
-    </button>
-
   </div>
-    </div>
-  </section>
 
-  <!-- FEATURES -->
-  <section class="techFeatures">
-    <h2 class="sectionTitle">Systèmes clés</h2>
-
-    <div class="featuresGrid">
-
-      <article class="featureCard">
-        <img class="featureImage" src="assets/Bolt/images/hype.webp" alt="">
-        <h3 class="featureTitle">Système de hype</h3>
-
-        <p>
-          Nous souhaitions encourager l’utilisation des
-          <strong>attaques spéciales</strong> plutôt que le simple
-          enchaînement de coups de base.
-        </p>
-
-        <p>
-          J’ai pris en charge
-          <strong>l’implémentation complète</strong> de la logique
-          et l’équilibrage du système.
-        </p>
-      </article>
-
-      <article class="featureCard">
-        <img class="featureImage" src="assets/Bolt/images/ai.webp" alt="">
-        <h3 class="featureTitle">Enemy AI</h3>
-
-        <p>
-          Intelligence basée sur
-          <strong>Behavior Tree</strong>
-          et système de perception personnalisé.
-        </p>
-      </article>
-
-      <article class="featureCard">
-        <img class="featureImage" src="assets/Bolt/images/rewind.webp" alt="">
-        <h3 class="featureTitle">Time rewind</h3>
-
-        <p>
-          Mécanique centrale avec
-          <strong>limites d’utilisation</strong>
-          et conséquences en jeu.
-        </p>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- BREAKDOWN : TEMPLATE 1 -->
-  <section class="techBreakdownArticle">
-    <div class="breakdownMedia">
-      <img src="assets/images/Big-Horizontal.png" alt="">
-    </div>
-
-    <div class="breakdownContent">
-      <h2 class="breakdownTitle">Architecture</h2>
-
-      <p>
-        Le projet est structuré autour de
-        <strong>composants découplés</strong>
-        facilitant l’itération rapide.
-      </p>
-    </div>
-  </section>
-
-  <!-- BREAKDOWN : TEMPLATE 2 (reverse) -->
-  <section class="techBreakdownArticle reverse">
-    <div class="breakdownMedia">
-      <img src="assets/images/Big-Horizontal.png" alt="">
-    </div>
-
-    <div class="breakdownContent">
-      <h2 class="breakdownTitle">Défis techniques</h2>
-
-      <p>
-        Optimisation des particules et gestion
-        mémoire pour maintenir un
-        <strong>framerate stable</strong>.
-      </p>
-    </div>
-  </section>
-
-  <!-- STACK -->
-  <section class="techStack">
-    <h2 class="sectionTitle">Stack</h2>
-
-    <ul class="stackList">
-      <li>C++ Gameplay Framework</li>
-      <li>Blueprints pour itération rapide</li>
-      <li>Custom animation state machine</li>
-      <li>Niagara VFX</li>
-    </ul>
-  </section>
-
-  <!-- CREDITS -->
-  <section class="techCredits">
-
-  <h2 class="sectionTitle">Crédits</h2>
-
-  <div class="creditsGroup">
-    <h3 class="creditsRole">Gestionnaires</h3>
-    <ul class="creditsNames">
-      <li>Xavier Ménard-Beaudoin</li>
-    </ul>
-  </div>
-
-  <div class="creditsGroup">
-    <h3 class="creditsRole">Programmeurs</h3>
-    <ul class="creditsNames">
-      <li>Anthony Legros</li>
-      <li>Aryane Duperron</li>
-      <li>Gabriel Gauthier</li>
-    </ul>
-  </div>
-
-  <div class="creditsGroup">
-    <h3 class="creditsRole">Artistes</h3>
-    <ul class="creditsNames">
-      <li>Nom 1</li>
-      <li>Nom 2</li>
-    </ul>
-  </div>
-
-</section>
-
-</section>
-
-    </div>
-  </div>
+  <div id="particles-bg"></div>
+  
   <div class="lang-switcher" data-component="LanguageSwitcher">
     <button class="lang-switcher__btn">FR</button>
     <div class="lang-switcher__menu">
@@ -238,4 +245,5 @@
   <div class="scrollbar" data-component="Scrollbar">
     <span class="scrollbar__thumb"></span>
   </div>
+
 </body>
