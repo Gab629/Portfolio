@@ -14,14 +14,11 @@
 .techHero {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 4rem;
   max-width: $container-width;
   margin: auto;
   padding: 30px 0;
-}
-
-.heroLeft {
-  width: 50%;
 }
 
 .heroTitle {
@@ -44,6 +41,15 @@
     text-transform: uppercase;
     opacity: 0.6;
   }
+}
+
+.heroLeft {
+  min-width: 30%;
+}
+
+.heroRight
+{
+  min-height: 50vh;
 }
 
 .heroRight video {
