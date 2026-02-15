@@ -44,12 +44,11 @@
 }
 
 .heroLeft {
-  min-width: 30%;
+  flex: 0 0 50%;  
 }
 
-.heroRight
-{
-  min-height: 50vh;
+.heroRight {
+  flex: 0 0 50%;   
 }
 
 .heroRight video {
