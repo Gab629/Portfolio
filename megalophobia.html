@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel Gauthier | Megalophobia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body data-component="Scrolly">
+
+  <div data-component="I18n"></div>
+  <div class="scroll-wrapper">
+    <div data-component="PageTransition" class="page">
+
+      <header class="header" data-component="Header">
+        <a href="index.html" class="header__brand">
+          <img class="logo" src="assets/Non-Project/logo.webp" alt="logo_gab" />
+        </a>
+
+        <nav class="nav-primary">
+          <ul>
+            <li>
+              <div class="links-wrapper">
+                <span class="animation-hover inner-wrapper">
+                  <a href="index.html" data-i18="menu.home" class="nav-primary__item animation-a">Accueil</a>
+                </span>
+              </div>
+            </li>
+            <li>
+              <div class="links-wrapper">
+                <span class="animation-hover inner-wrapper">
+                  <a href="projects.html" data-i18="menu.projects" class="nav-primary__item animation-a">Projets</a>
+                </span>
+              </div>
+            </li>
+            <li class="nav-right">
+              <div class="links-wrapper">
+                <span class="animation-hover inner-wrapper">
+                  <a href="about.html" data-i18="menu.about" class="nav-primary__item animation-a">À
+                    propos</a>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__toggle js-toggle">
+          <div class="barres">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </header>
+      <section class="projectStory has-particles">
+
+        <section class="projectStory projectStoryTech">
+
+          <!-- HERO -->
+          <section class="techHero">
+            <div class="heroLeft">
+              <h1 class="heroTitle">Megalophobia</h1>
+
+              <p class="heroDescription">
+                Megalophobia est un jeu d’horreur à la première personne ou le joueur se réveille sur une plage en plein
+                milieu de la nuit. Il fait froid et il n’y a aucun signe de vie humaine à l’exception de feux de camps
+                éparpillés un peu partout. Le but est de s’aventurer dans la forêt pour tuer le monstre qui hante ces
+                lieux.
+              </p>
+
+              <ul class="heroMeta">
+                <li>Unity C#</li>
+                <li>Ennemis AI</li>
+                <li>Game Jam</li>
+                <li>5 Participants</li>
+              </ul>
+            </div>
+
+            <div class="heroRight">
+              <!-- <div class="videoContainer" data-component="PlayableVideo">
+            
+                            <video playsinline preload="metadata" poster="assets/Megalophobia/images/thumbnail_megalophobia.webp">
+            
+                              <source src="assets/Megalophobia/" type="video/mp4">
+                            </video>
+            
+                            <button class="playButton" aria-label="Lire la vidéo">
+                              ▶
+                            </button>
+            
+                          </div> -->
+
+              <div class="imageContainer" data-component="Parallax" data-parallax="mouse" data-strength="10"">
+                <img src=" assets/Megalophobia/images/thumbnail_megalophobia.webp" alt="Hero image">
+              </div>
+
+            </div>
+          </section>
+
+          <!-- BREAKDOWN : TEMPLATE 1 -->
+          <section class="techBreakdownArticle">
+            <div class="breakdownMedia">
+              <img src="assets/Megalophobia/images/ai_megalophobia.webp" alt="">
+            </div>
+
+            <div class="breakdownContent">
+              <h2 class="breakdownTitle">Mon rôle</h2>
+
+              <p>
+                Mon rôle consistait en la programmation C#. J’ai développé l’intelligence artificielle du gros monstre
+                et des petites araignées, en intégrant leurs animations. J’ai également programmé l’interaction avec les
+                objets du jeu, comme les balles et les feux de camp pour rallumer la torche, et j’ai géré l’affichage
+                des textes d’interaction. Enfin, j’étais responsable de la mise en place et du fonctionnement de l’Input
+                System de Unity.
+              </p>
+            </div>
+          </section>
+
+          <!-- FEATURES -->
+          <section class="techFeatures">
+            <h2 class="sectionTitle">Systèmes clés</h2>
+
+            <div class="featuresGrid">
+
+              <article class="featureCard particleBlocker">
+                <img class="featureImage" src="assets/Megalophobia/images/brainstorm_megalophobia.webp" alt="">
+                <h3 class="featureTitle">Brainstorm</h3>
+
+                <p>
+                  Tout d’abord, comme pour tout bon projet, nous avons commencé par un remue-méninge pour explorer des
+                  concepts et des mécaniques de jeu. Nous avons ensuite combiné plusieurs idées pour créer un jeu
+                  réalisable en trois jours et amusant à jouer : un jeu d’horreur où le joueur doit traquer et éliminer
+                  un monstre dans la forêt.
+                </p>
+
+              </article>
+
+              <article class="featureCard particleBlocker">
+                <img class="featureImage" src="assets/Megalophobia/images/ai_megalophobia_defi.webp" alt="">
+                <h3 class="featureTitle">Enemy AI</h3>
+
+                <p>
+                  N’ayant jamais travaillé sur de l’intelligence artificielle, je me suis lancé le défi de créer deux
+                  ennemis avec des comportements réalistes. J’ai étudié de nombreuses documentations et tutoriels pour
+                  comprendre les bonnes pratiques. Au final, j’ai réussi à produire des AI fluides.
+                </p>
+              </article>
+
+              <article class="featureCard particleBlocker">
+                <img class="featureImage" src="assets/Megalophobia/images/gameplay_megalophobia.webp" alt="">
+                <h3 class="featureTitle">Mécaniques d’interaction et d’UI</h3>
+
+                <p>
+                  J’ai développé les interactions avec les objets du jeu, comme les balles et les feux de camp qui
+                  rallument la torche, en veillant à ce que chaque action soit intuitive pour le joueur. J’ai également
+                  géré l’affichage des indications contextuelles et la navigation via l’Input System de Unity, assurant
+                  une expérience fluide et cohérente.
+                </p>
+              </article>
+
+              <article class="featureCard particleBlocker">
+                <img class="featureImage" src="assets/Megalophobia/images/ui_megalophobia.webp" alt="">
+                <h3 class="featureTitle">Design UI</h3>
+
+                <p>
+                  Le prototype de menu existait, mais il manquait d’esthétique. J’ai créé un design cohérent avec le
+                  jeu, dessiné les boutons avec l’aide d’une collègue, et intégré le tout dans Unity, crédits inclus.
+                </p>
+              </article>
+
+            </div>
+          </section>
+
+
+          <!-- CREDITS -->
+          <section class="techCredits">
+
+            <div class="creditsGroup">
+              <h3 class="creditsRole">Programmeurs</h3>
+              <ul class="creditsNames">
+                <li>Mathieu-Daniel Gariépy</li>
+                <li>Marc-André Jalbert-Blais</li>
+                <li>Gabriel Gauthier</li>
+              </ul>
+            </div>
+
+            <div class="creditsGroup">
+              <h3 class="creditsRole">Artistes</h3>
+              <ul class="creditsNames">
+                <li>Jean-Marie Gariépy</li>
+                <li>Audrey Langlois</li>
+              </ul>
+            </div>
+
+            <div class="creditsGroup">
+              <h3 class="creditsRole">Level designers</h3>
+              <ul class="creditsNames">
+                <li>Gabriel Gauthier</li>
+                <li>Audrey Langlois</li>
+              </ul>
+            </div>
+
+            <div class="creditsGroup">
+              <h3 class="creditsRole">Designers sonore</h3>
+              <ul class="creditsNames">
+                <li>Jean-Marie Gariépy</li>
+              </ul>
+            </div>
+
+          </section>
+
+        </section>
+
+    </div>
+  </div>
+  <div id="particles-bg"></div>
+  <div class="lang-switcher" data-component="LanguageSwitcher">
+    <button class="lang-switcher__btn">FR</button>
+    <div class="lang-switcher__menu">
+      <button class="lang-switcher__item">EN</button>
+    </div>
+  </div>
+  <div class="scrollbar" data-component="Scrollbar">
+    <span class="scrollbar__thumb"></span>
+  </div>
+</body>
