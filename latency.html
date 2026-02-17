@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel Gauthier | ProjectTemplate</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body data-component="Scrolly">
+
+
+  <div data-component="I18n"></div>
+  <div class="scroll-wrapper">
+    <div data-component="PageTransition" class="page has-particles">
+
+      <header class="header" data-component="Header">
+        <a href="index.html" class="header__brand">
+          <img class="logo" src="assets/Non-Project/logo.webp" alt="logo_gab" />
+        </a>
+
+        <nav class="nav-primary">
+          <ul>
+            <li>
+              <div class="links-wrapper">
+                <span class="animation-hover inner-wrapper">
+                  <a href="index.html" data-i18="menu.home" class="nav-primary__item animation-a">Accueil</a>
+                </span>
+              </div>
+            </li>
+            <li>
+              <div class="links-wrapper">
+                <span class="animation-hover inner-wrapper">
+                  <a href="projects.html" data-i18="menu.projects" class="nav-primary__item animation-a">Projets</a>
+                </span>
+              </div>
+            </li>
+            <li class="nav-right">
+              <div class="links-wrapper">
+                <span class="animation-hover inner-wrapper">
+                  <a href="about.html" data-i18="menu.about" class="nav-primary__item animation-a">À
+                    propos</a>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__toggle js-toggle">
+          <div class="barres">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </header>
+
+      <section class="projectStory projectStoryVideo">
+
+        <section class="storyHero">
+          <h1 class="storyTitle">Latency</h1>
+          <p class="storySubtitle">
+            Latency est un jeu de stratégie en temps réel à petite échelle, conçu pour le mode coopératif en écran
+            partagé à la manette, dans lequel deux joueurs s’affrontent pour capturer des zones et mener à l’extinction
+            de la colonie extraterrestre adverse.
+          </p>
+
+          <div class="heroMedia">
+            <div class="videoContainer" data-component="PlayableVideo">
+
+              <video playsinline preload="metadata" poster="assets/Latency/images/latency_thumbnail.webp">
+
+                <source src="assets/Latency/videos/Latency.mp4" type="video/mp4">
+              </video>
+
+              <button class="playButton" aria-label="Lire la vidéo">
+                ▶
+              </button>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="storyChapter">
+          <div class="chapterText">
+            <h2>Le projet</h2>
+            <p>Latency a été mon premier jeu vidéo universitaire, ce qui a nécessité une énorme période
+              d’adaptation et d’apprentissage. Collaborer avec des personnes issues de
+              milieux différents m’a ouvert les yeux sur la complexité du travail d’équipe.</p>
+          </div>
+
+          <div class="chapterMedia">
+            <img src="assets/Latency/images/LatencyGameplay.webp" alt="">
+          </div>
+        </section>
+
+        <section class="storyChapter reverse">
+          <div class="chapterText">
+            <h2>Le processus</h2>
+            <p>Avec cette équipe, j’ai découvert des outils et méthodes comme le planning poker et Notion, qui nous ont
+              aidés à mieux organiser le travail et à collaborer plus efficacement.</p>
+          </div>
+
+          <div class="chapterMedia">
+            <img src="assets/Latency/images/LatencyPlanningPoker.webp" alt="">
+          </div>
+        </section>
+
+        <section class="storyChapter">
+          <div class="chapterText">
+            <h2>Mon premier rôle universitaire</h2>
+            <p>J’ai développé les interfaces liées aux valeurs de gameplay (barres de vie, économie, feedback visuel) et assuré la navigation complète des menus à la manette. Ce travail m’a permis de renforcer ma compréhension du design de jeu et de l’importance de l’itération pour améliorer l’expérience joueur.</p>
+          </div>
+
+          <div class="chapterMedia">
+            <img src="assets/Latency/images/LatencyNotion.webp" alt="">
+          </div>
+        </section>
+
+        <section class="storyChapter reverse">
+          <div class="chapterText">
+            <h2>Un défi relevé</h2>
+            <p>J’ai appris à collaborer avec le code d’autres personnes et à m’adapter à leurs façons de travailler. Même si cela représentait un défi au début, cette expérience m’a permis de développer ma flexibilité et ma capacité à contribuer efficacement à des projets de programmation complexes.</p>
+          </div>
+
+          <div class="chapterMedia">
+            <img src="assets/Latency/images/LatencyGameplay2.webp" alt="">
+          </div>
+        </section>
+
+        <section class="storyCredits">
+
+  <div class="creditsGroup">
+    <h3 class="creditsRole">Programmeurs</h3>
+    <ul class="creditsNames">
+      <li>Gabriel Gauthier</li>
+      <li>Maxime Rioux</li>
+      <li>Jérémy Bolduc</li>
+    </ul>
+  </div>
+
+  <div class="creditsGroup">
+    <h3 class="creditsRole">Designers</h3>
+    <ul class="creditsNames">
+      <li>Roman Cros</li>
+      <li>Alexander Tanasie</li>
+    </ul>
+  </div>
+
+  <div class="creditsGroup">
+    <h3 class="creditsRole">Audio</h3>
+    <ul class="creditsNames">
+      <li>Esteban Gilbert</li>
+    </ul>
+  </div>
+
+</section>
+
+
+    </div>
+  </div>
+  <div id="particles-bg"></div>
+  <div class="lang-switcher" data-component="LanguageSwitcher">
+    <button class="lang-switcher__btn">FR</button>
+    <div class="lang-switcher__menu">
+      <button class="lang-switcher__item">EN</button>
+    </div>
+  </div>
+  <div class="scrollbar" data-component="Scrollbar">
+    <span class="scrollbar__thumb"></span>
+  </div>
+</body>

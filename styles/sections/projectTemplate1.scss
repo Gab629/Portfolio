@@ -5,7 +5,8 @@
 
   .storyHero {
     text-align: center;
-    margin: 0 0 20px 0;
+    padding-top: 5rem;
+    margin-bottom: 70px;
   }
 
   .storyTitle {
@@ -14,15 +15,17 @@
 
   .storySubtitle {
     font-size: 22px;
-    margin: 2rem auto 4rem;
+    margin: 2rem auto 2rem;
+    width: 70%;
   }
 
-  .videoWrapper {
-    margin: auto;
+  .heroMedia {
+    display: flex;
+    justify-content: center;
+  }
 
-    video {
-      border-radius: 24px;
-    }
+  .heroMedia .videoContainer {
+    width: 55%;
   }
 
   .storyChapter {
@@ -30,9 +33,9 @@
     align-items: center;
     justify-content: center;
     gap: 4rem;
-    width: $container-width;
-    height: 80vh;
-    padding: 0 0 50px 0;
+    max-width: $container-width;
+    padding: 0 0 60px 0;
+    margin: auto;
 
     &.reverse {
       flex-direction: row-reverse;
@@ -40,12 +43,13 @@
   }
 
   .chapterText {
-    width: 45%;
+    width: 50%;
     text-align: center;
 
     h2 {
       font-size: 40px;
       color: $accent;
+      padding-bottom: 20px;
     }
 
     p {
@@ -54,16 +58,51 @@
     }
   }
 
-  .chapterMedia {
-    height: 100%;
-    img, video {
-      height: 100%;
-      border-radius: 24px;
+    .chapterMedia {
+      width: 50%;
+  
+      img,
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; // ← magie
+        border-radius: 24px;
+      }
     }
-  }
 
   .storyCredits {
-    padding: 6rem 2rem;
-    text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 8rem 2rem 6rem;
+  text-align: center;
+}
+
+.creditsGroup {
+  margin-bottom: 3rem;
+
+  &:last-child {
+    margin-bottom: 0;
   }
+}
+
+.creditsRole {
+  font-size: 28px;
+  color: $accent;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.creditsNames {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    font-size: 18px;
+    color: $text-muted;
+    line-height: 1.6;
+    margin: 0.3rem 0;
+  }
+}
+
 }

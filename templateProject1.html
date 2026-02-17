@@ -25,7 +25,7 @@
 
       <header class="header" data-component="Header">
         <a href="index.html" class="header__brand">
-          <img  src="assets/images/logo.png" alt="logo_gab" />
+          <img class="logo" src="assets/Non-Project/logo.webp" alt="logo_gab" />
         </a>
 
         <nav class="nav-primary">
@@ -72,10 +72,17 @@
           </p>
 
           <div class="heroMedia">
-            <div class="videoWrapper">
-              <video class="lazyVideo" muted playsinline preload="none" poster="assets/images/Big.png">
-                <source src="assets/videos/BoltPunchGameplayTrailer.mp4" type="video/mp4">
+            <div class="videoContainer" data-component="PlayableVideo">
+
+              <video playsinline preload="metadata" poster="assets/Bolt/images/BoltSplashScreen.webp">
+
+                <source src="assets/Bolt/videos/Bolt'n'PunchGameplayTrailer.mp4" type="video/mp4">
               </video>
+
+              <button class="playButton" aria-label="Lire la vidéo">
+                ▶
+              </button>
+
             </div>
           </div>
         </section>
@@ -103,17 +110,37 @@
         </section>
 
         <section class="storyCredits">
-          <h2>Crédits</h2>
-          <ul>
-            <li><strong>Rôle :</strong> Gameplay programmer</li>
-            <li><strong>Moteur :</strong> Unreal Engine</li>
-          </ul>
-        </section>
-      </section>
-      <div class="particles"></div>
-    </div>
+
+  <div class="creditsGroup">
+    <h3 class="creditsRole">Gestionnaires</h3>
+    <ul class="creditsNames">
+      <li>Xavier Ménard-Beaudoin</li>
+    </ul>
   </div>
 
+  <div class="creditsGroup">
+    <h3 class="creditsRole">Programmeurs</h3>
+    <ul class="creditsNames">
+      <li>Anthony Legros</li>
+      <li>Aryane Duperron</li>
+      <li>Gabriel Gauthier</li>
+    </ul>
+  </div>
+
+  <div class="creditsGroup">
+    <h3 class="creditsRole">Artistes</h3>
+    <ul class="creditsNames">
+      <li>Nom 1</li>
+      <li>Nom 2</li>
+    </ul>
+  </div>
+
+</section>
+
+      </section>
+    </div>
+  </div>
+ <div id="particles-bg"></div>
   <div class="lang-switcher" data-component="LanguageSwitcher">
     <button class="lang-switcher__btn">FR</button>
     <div class="lang-switcher__menu">
