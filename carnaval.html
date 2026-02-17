@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel Gauthier | Carnaval VR</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body data-component="Scrolly">
+
+
+  <div data-component="I18n"></div>
+  <div class="scroll-wrapper">
+    <div data-component="PageTransition" class="page has-particles">
+
+      <header class="header" data-component="Header">
+        <a href="index.html" class="header__brand">
+          <img class="logo" src="assets/Non-Project/logo.webp" alt="logo_gab" />
+        </a>
+
+        <nav class="nav-primary">
+          <ul>
+            <li>
+              <div class="links-wrapper">
+                <span class="animation-hover inner-wrapper">
+                  <a href="index.html" data-i18="menu.home" class="nav-primary__item animation-a">Accueil</a>
+                </span>
+              </div>
+            </li>
+            <li>
+              <div class="links-wrapper">
+                <span class="animation-hover inner-wrapper">
+                  <a href="projects.html" data-i18="menu.projects" class="nav-primary__item animation-a">Projets</a>
+                </span>
+              </div>
+            </li>
+            <li class="nav-right">
+              <div class="links-wrapper">
+                <span class="animation-hover inner-wrapper">
+                  <a href="about.html" data-i18="menu.about" class="nav-primary__item animation-a">À
+                    propos</a>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__toggle js-toggle">
+          <div class="barres">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </header>
+
+      <section class="projectStory projectStoryVideo">
+
+        <section class="storyHero">
+          <h1 class="storyTitle">Carnaval VR</h1>
+          <p class="storySubtitle">
+            Carnaval VR est une expérience immersive en réalité virtuelle où les joueurs peuvent explorer un carnaval
+            interactif et s’amuser avec différentes attractions. Développé pendant mon stage chez AleoVR, ce projet m’a
+            plongé dans le monde fascinant de la VR et m’a permis de tester mes capacités dans un contexte
+            professionnel.
+          </p>
+
+          <div class="heroMedia">
+            <div class="videoContainer" data-component="PlayableVideo">
+
+              <video playsinline preload="metadata" poster="assets/Carnaval/images/carnaval.webp">
+
+                <source src="assets/Carnaval/videos/CarnavalVR.mp4" type="video/mp4">
+              </video>
+
+              <button class="playButton" aria-label="Lire la vidéo">
+                ▶
+              </button>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="storyChapter">
+          <div class="chapterText">
+            <h2>Le projet</h2>
+            <p>Au début du stage, j’ai découvert le développement en VR sur Unity et appris à configurer le casque et
+              les packages nécessaires. Grâce au framework mis à disposition par AleoVR, j’ai pu explorer des scènes et
+              interactions VR existantes, et comprendre les bases du contrôle des objets avec les mains, du tir à l’arc
+              et d’autres mécaniques immersives.</p>
+          </div>
+
+          <div class="chapterMedia">
+            <img src="assets/Carnaval/images/AleoVR_Framework.webp" alt="">
+          </div>
+        </section>
+
+        <section class="storyChapter reverse">
+          <div class="chapterText">
+            <h2>Mon rôle</h2>
+            <p>Je me suis concentré sur la mise en place des interactions VR : attraper, lancer, tirer, et manipuler des
+              objets dans le carnaval. J’ai également contribué à l’implémentation des mécaniques de jeu et à
+              l’intégration des assets dans Unity, tout en veillant à ce que chaque interaction soit fluide et intuitive
+              pour le joueur.</p>
+          </div>
+
+          <div class="chapterMedia">
+            <img src="assets/Carnaval/images/AleoVR_Arc.webp" alt="">
+          </div>
+        </section>
+
+        <section class="storyChapter">
+          <div class="chapterText">
+            <h2>Un apprentissage clé</h2>
+            <p>Ce projet m’a permis de me familiariser avec le développement VR professionnel, de comprendre les
+              contraintes techniques et ergonomiques propres à ce médium, et d’explorer ma créativité pour créer des
+              interactions engageantes. J’ai beaucoup appris sur l’itération rapide et le design orienté utilisateur en
+              environnement immersif.</p>
+          </div>
+
+          <div class="chapterMedia">
+            <img src="assets/Carnaval/images/AleoVR_Recherches.webp" alt="">
+          </div>
+        </section>
+
+        <section class="storyChapter reverse">
+          <div class="chapterText">
+            <h2>Défis techniques</h2>
+            <p>Le plus grand défi a été de transférer correctement le projet Unity sur le casque VR pour tester les
+              interactions en conditions réelles. Installer et configurer tous les packages nécessaires était complexe,
+              et j’ai dû chercher et tester plusieurs solutions pour que tout fonctionne correctement. Cette étape m’a
+              beaucoup appris sur le flux de travail VR et la résolution de problèmes techniques.</p>
+          </div>
+
+          <div class="chapterMedia">
+            <img src="assets/Carnaval/images/AleoVR_Plugins.webp" alt="">
+          </div>
+        </section>
+
+        <section class="storyCredits">
+
+          <div class="creditsGroup">
+            <h3 class="creditsRole">Programmeurs</h3>
+            <ul class="creditsNames">
+              <li>Gabriel Gauthier</li>
+              <li>Caroline Forget</li>
+
+            </ul>
+          </div>
+
+          <div class="creditsGroup">
+            <h3 class="creditsRole">Artistes</h3>
+            <ul class="creditsNames">
+              <li>Samuel Palma-Lemieux </li>
+            </ul>
+          </div>
+
+        </section>
+
+      </section>
+    </div>
+  </div>
+  <div id="particles-bg"></div>
+  <div class="lang-switcher" data-component="LanguageSwitcher">
+    <button class="lang-switcher__btn">FR</button>
+    <div class="lang-switcher__menu">
+      <button class="lang-switcher__item">EN</button>
+    </div>
+  </div>
+  <div class="scrollbar" data-component="Scrollbar">
+    <span class="scrollbar__thumb"></span>
+  </div>
+</body>
