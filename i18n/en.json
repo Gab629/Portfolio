@@ -19,7 +19,7 @@
       "title": "Gabriel Gauthier | About"
     },
     "title": "Gabriel Gauthier",
-    "intro": "Hi! I’m a 22-year-old technical designer who studied game development at UQAT, specializing in software integration. I’m passionate about learning, enjoy working while having fun, and always strive to give my best. I look forward to working with you!",
+    "intro": "Hi! I’m a programmer with a bachelor’s degree in game creation from UQAT and a certificate in applied computer science from UdeM. Curious and always eager to learn, I love coding, solving technical challenges, and bringing ideas to life through well-designed systems. I enjoy collaborating with passionate people, sharing knowledge, and helping projects move forward in a positive team environment. I’d love the opportunity to build something great with you!",
 
     "traits": {
       "involved": {
@@ -48,16 +48,41 @@
       }
     },
 
-    "skills": {
-      "title": "My skills",
-      "unity": "Bringing my projects and games to life."
+  "skills": {
+    "title": "My skills",
+
+    "engines": {
+      "title": "Unity - Unreal",
+      "text": "To bring my projects and games to life"
+    },
+
+    "programming": {
+      "title": "Java - C++ - C#",
+      "text": "To build strong and flexible systems"
+    },
+
+    "design": {
+      "title": "Design",
+      "text": "Because every detail matters"
+    },
+
+    "xr": {
+      "title": "Mixed Reality",
+      "text": "To push the limits of what’s possible"
+    },
+
+    "agility": {
+      "title": "Agility",
+      "text": "To learn, adapt, and iterate"
+    }
+  
     },
 
     "passions": {
       "title": "My passions",
       "games": {
         "title": "Video games",
-        "text": "I’ve loved video games since childhood. Since 2019, I’ve been playing Rocket League competitively. Competition taught me to always push my limits."
+        "text": "I love video games for the emotions they create and the endless possibilities they offer. They’ve always pushed me to grow and inspired me to create memorable experiences."
       },
       "nature": {
         "title": "Nature",

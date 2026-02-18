@@ -19,7 +19,7 @@
       "title": "Gabriel Gauthier | À propos"
     },
     "title": "Gabriel Gauthier",
-    "intro": "Salut ! Je suis un jeune designer technique de 22 ans ayant étudié à l’UQAT en création de jeux vidéo, avec une concentration en intégration logicielle. Je me considère comme un passionné de connaissances qui aime travailler en s’amusant et donner le meilleur de lui-même. J’ai hâte de travailler avec vous !",
+    "intro": "Salut ! Je suis programmeur diplômé d’un baccalauréat en création de jeux vidéo à l’UQAT et d’un certificat en informatique appliquée à l’UdeM. Curieux et toujours motivé à apprendre, j’adore coder, résoudre des défis techniques et voir mes idées prendre vie à travers des systèmes bien pensés. Je suis quelqu’un qui aime collaborer, partager ses connaissances et faire avancer un projet dans une ambiance positive. Au plaisir de créer quelque chose de solide avec vous !",
     "traits": {
       "involved": {
         "title": "Impliqué",
@@ -47,13 +47,38 @@
     },
     "skills": {
       "title": "Mes compétences",
-      "unity": "Pour faire vivre mes projets et jeux."
+
+      "engines": {
+        "title": "Unity - Unreal",
+        "text": "Pour faire vivre mes projets et jeux"
+      },
+
+      "programming": {
+        "title": "Java - C++ - C#",
+        "text": "Pour créer des systèmes solides et flexibles"
+      },
+
+      "design": {
+        "title": "Design",
+        "text": "Parce que chaque détail compte"
+      },
+
+      "xr": {
+        "title": "Réalité mixte",
+        "text": "Pour repousser les limites du possible"
+      },
+
+      "agility": {
+        "title": "Agilité",
+        "text": "Pour apprendre, adapter, recommencer"
+      }
     },
+
     "passions": {
       "title": "Mes passions",
       "games": {
         "title": "Jeux vidéo",
-        "text": "J’adore les jeux vidéo depuis mon enfance. Depuis 2019, je joue compétitivement à Rocket League. La compétition m’a appris à toujours me dépasser."
+        "text": "J’aime les jeux vidéo pour les émotions et les possibilités infinies qu’ils offrent. Depuis toujours, ils me poussent à me dépasser et à vouloir créer des expériences marquantes."
       },
       "nature": {
         "title": "La nature",
