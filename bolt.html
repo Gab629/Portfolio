@@ -66,18 +66,20 @@
         <!-- HERO -->
         <section class="techHero">
           <div class="heroLeft">
-            <h1 class="heroTitle">Bolt'N'Punch</h1>
+            <h1 class="heroTitle" data-i18="projectSingle.bolt.hero.title">
+              Bolt'N'Punch
+            </h1>
 
-            <p class="heroDescription">
-              Bolt’N’Punch est un jeu d’action à la première personne développé à l’UQAT
-              par une équipe de 25 finissants, publié sur Steam.
+            <p class="heroDescription" data-i18="projectSingle.bolt.hero.description">
+              Bolt’N’Punch is a first-person action game...
             </p>
 
             <ul class="heroMeta">
-              <li>Unreal Engine</li>
-              <li>Blueprints</li>
-              <li>Publié sur Steam</li>
+              <li data-i18="projectSingle.bolt.hero.meta1">Unreal Engine</li>
+              <li data-i18="projectSingle.bolt.hero.meta2">Blueprints</li>
+              <li data-i18="projectSingle.bolt.hero.meta3">Published on Steam</li>
             </ul>
+
           </div>
 
           <div class="heroRight">
@@ -105,86 +107,72 @@
           </div>
 
           <div class="breakdownContent">
-            <h2 class="breakdownTitle">Mon rôle</h2>
+            <h2 class="breakdownTitle" data-i18="projectSingle.bolt.sections.role.title">
+              My role
+            </h2>
 
-            <p>
-              J’ai été assigné au rôle de programmeur sur le projet, chargé de concevoir et développer de nouvelles
-              mécaniques ainsi
-              que d’améliorer celles déjà existantes. Chaque mécanique était pensée de manière modulaire, avec des
-              composants que
-              nous pouvions facilement attacher aux objets et aux personnages.
+            <p data-i18="projectSingle.bolt.sections.role.text">
+              I was assigned the role of programmer...
             </p>
+
           </div>
         </section>
         <!-- FEATURES -->
         <section class="techFeatures">
-          <h2 class="sectionTitle">Systèmes clés</h2>
+          <h2 class="sectionTitle" data-i18="projectSingle.bolt.sections.featuresTitle">
+            Key systems
+          </h2>
+
 
           <div class="featuresGrid">
 
             <article class="featureCard ">
               <img class="featureImage" src="assets/Bolt/images/Bolt_Hype.webp" alt="">
-              <h3 class="featureTitle">Système de hype</h3>
+              <h3 class="featureTitle" data-i18="projectSingle.bolt.sections.feature1.title">
+                Hype system
+              </h3>
 
-              <p>
-                Nous souhaitions encourager l’utilisation des
-                <strong>attaques spéciales</strong> plutôt que le simple
-                enchaînement de coups de base.
-              </p>
-
-              <p>
-                J’ai pris en charge
-                <strong>l’implémentation complète</strong> de la logique
-                et l’équilibrage du système.
-              </p>
+              <p data-i18="projectSingle.bolt.sections.feature1.text1"></p>
+              <p data-i18="projectSingle.bolt.sections.feature1.text2"></p>
             </article>
 
             <article class="featureCard ">
               <img class="featureImage" src="assets/Bolt/images/BoltSounds.webp" alt="">
-              <h3 class="featureTitle">Intégration des sons avec Wwise</h3>
+              <h3 class="featureTitle" data-i18="projectSingle.bolt.sections.feature2.title">
+                Audio integration with Wwise
+              </h3>
 
-              <p>
-                J’ai également travaillé sur l’intégration de la plupart des sons du jeu en utilisant Wwise. J’ai appris
-                à placer correctement les sons dans le code et à gérer les événements Wwise, ce qui m’a permis de mieux
-                comprendre leur fonctionnement. Cette tâche, bien que complexe, m’a beaucoup appris. J’ai aussi eu
-                l’occasion de collaborer avec l’Université de Montréal, qui a créé nos sons, une expérience que j’ai
-                grandement appréciée.
-              </p>
+              <p data-i18="projectSingle.bolt.sections.feature2.text"></p>
+
             </article>
 
             <article class="featureCard ">
               <img class="featureImage" src="assets/Bolt/images/ExplosiveBarrel.webp" alt="">
-              <h3 class="featureTitle">Baril explosif</h3>
+              <h3 class="featureTitle" data-i18="projectSingle.bolt.sections.feature3.title">
+                Explosive barrel
+              </h3>
 
-              <p>
-                J’ai programmé un baril que le joueur peut saisir et lancer. À l’impact, il explose dans une zone qui
-                détecte tous les
-                ennemis, leur infligeant dégâts et recul. J’ai conçu le baril sous forme de component modulaire et
-                ajouté un système
-                de visée, avec une traînée qui prédit la trajectoire du lancer.
-              </p>
+              <p data-i18="projectSingle.bolt.sections.feature3.text"></p>
+
             </article>
 
             <article class="featureCard ">
               <img class="featureImage" src="assets/Bolt/images/Bolt_AnimationBlueprint.png" alt="">
-              <h3 class="featureTitle">Animation blueprint</h3>
+              <h3 class="featureTitle" data-i18="projectSingle.bolt.sections.feature4.title">
+                Animation blueprint
+              </h3>
 
-              <p>
-                J’ai travaillé sur un aspect central du gameplay : l’animation blueprint. Mon rôle consistait à intégrer
-                les animations du personnage et à créer les transitions entre tous ses états (marche, course, saut,
-                coups de poing, attaques chargées, etc.). Cette tâche complexe m’a beaucoup appris, et l’ajout d’alias par la suite ont rendu le système plus lisible et mon travail
-                futur plus efficace.
-              </p>
+              <p data-i18="projectSingle.bolt.sections.feature4.text"></p>
+
             </article>
             <article class="featureCard ">
               <img class="featureImage" src="assets/Bolt/images/HealingCrates.webp" alt="">
-              <h3 class="featureTitle">Boîtes de soins</h3>
+              <h3 class="featureTitle" data-i18="projectSingle.bolt.sections.feature5.title">
+                Healing crates
+              </h3>
 
-              <p>
-                J’ai également conçu un élément central du gameplay : les boîtes de soin. Elles sont destructibles et
-                libèrent des barres énergétiques qui se déplacent automatiquement vers le joueur pour le soigner. J’ai
-                pris plaisir à les développer, et elles jouent un rôle important dans l’équilibre du jeu.
-              </p>
+              <p data-i18="projectSingle.bolt.sections.feature5.text"></p>
+
             </article>
 
           </div>
@@ -198,13 +186,12 @@
           </div>
 
           <div class="breakdownContent">
-            <h2 class="breakdownTitle">Défis techniques</h2>
+            <h2 class="breakdownTitle" data-i18="projectSingle.bolt.sections.challenge.title">
+              Technical challenges
+            </h2>
 
-            <p>
-              J’ai dû résoudre divers bugs et limitations par moi-même, en utilisant mes connaissances et
-              des calculs mathématiques dans le code, comme des produits croisés ou des pourcentages. Cette approche m’a permis de
-              renforcer mon autonomie et de mieux structurer mes solutions face à des problèmes complexes.
-            </p>
+            <p data-i18="projectSingle.bolt.sections.challenge.text"></p>
+
           </div>
         </section>
 
@@ -213,14 +200,18 @@
         <section class="techCredits">
 
           <div class="creditsGroup">
-            <h3 class="creditsRole">Gestionnaires</h3>
+            <h3 class="creditsRole" data-i18="projectSingle.bolt.credits.managers">
+              Gestionnaires
+            </h3>
             <ul class="creditsNames">
               <li>Xavier Ménard-Beaudoin</li>
             </ul>
           </div>
 
           <div class="creditsGroup">
-            <h3 class="creditsRole">Programmeurs</h3>
+            <h3 class="creditsRole" data-i18="projectSingle.bolt.credits.programmers">
+              Programmeurs
+            </h3>
             <ul class="creditsNames">
               <li>Anthony Legros</li>
               <li>Aryane Duperron</li>
@@ -233,7 +224,9 @@
           </div>
 
           <div class="creditsGroup">
-            <h3 class="creditsRole">Artistes</h3>
+            <h3 class="creditsRole" data-i18="projectSingle.bolt.credits.artists">
+              Artistes
+            </h3>
             <ul class="creditsNames">
               <li>Ariane Labrie</li>
               <li>Cedrick Lemaine Romulus</li>
@@ -249,7 +242,9 @@
           </div>
 
           <div class="creditsGroup">
-            <h3 class="creditsRole">Designers</h3>
+            <h3 class="creditsRole" data-i18="projectSingle.bolt.credits.designers">
+              Designers
+            </h3>
             <ul class="creditsNames">
               <li>Christian Forget (Creative Director)</li>
               <li>Elodie Vasseur (Lead Level Design)</li>

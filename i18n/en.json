@@ -162,7 +162,68 @@
       "cta": "View project"
     }
 
+  },
+
+  "projectSingle": {
+    "bolt": {
+      "hero": {
+        "title": "Bolt'N'Punch",
+        "description": "Bolt’N’Punch is a first-person action game developed at UQAT by a team of 25 graduating students, published on Steam.",
+        "meta1": "Unreal Engine",
+        "meta2": "Blueprints",
+        "meta3": "Published on Steam"
+      },
+
+      "sections": {
+        "role": {
+          "title": "My role",
+          "text": "I was assigned the role of programmer on the project, responsible for designing and developing new mechanics as well as improving existing ones. Each mechanic was designed in a modular way, with components that could easily be attached to objects and characters."
+        },
+
+        "featuresTitle": "Key systems",
+
+        "feature1": {
+          "title": "Hype system",
+          "text1": "We wanted to encourage the use of special attacks rather than simple basic attack chaining.",
+          "text2": "I was responsible for the complete implementation of the logic and balancing of the system."
+        },
+
+        "feature2": {
+          "title": "Audio integration with Wwise",
+          "text": "I also worked on integrating most of the game’s audio using Wwise. I learned how to properly place sounds in code and manage Wwise events, which helped me better understand how they function. This task, although complex, taught me a lot. I also had the opportunity to collaborate with the University of Montreal, which created our sounds — an experience I greatly appreciated."
+        },
+
+        "feature3": {
+          "title": "Explosive barrel",
+          "text": "I programmed a barrel that the player can grab and throw. On impact, it explodes in an area that detects all enemies, dealing damage and knockback. I designed the barrel as a modular component and added an aiming system with a trail that predicts the throw trajectory."
+        },
+
+        "feature4": {
+          "title": "Animation blueprint",
+          "text": "I worked on a core aspect of gameplay: the animation blueprint. My role was to integrate the character animations and create transitions between all states (walking, running, jumping, punches, charged attacks, etc.). This complex task taught me a lot, and the addition of aliases later made the system clearer and improved my future workflow."
+        },
+
+        "feature5": {
+          "title": "Healing crates",
+          "text": "I also designed a core gameplay element: healing crates. They are destructible and release energy bars that automatically move toward the player to heal them. I enjoyed developing them, and they play an important role in the game’s balance."
+        },
+
+        "challenge": {
+          "title": "Technical challenges",
+          "text": "I had to solve various bugs and limitations on my own, using my knowledge and mathematical calculations in code, such as cross products and percentages. This approach helped me strengthen my autonomy and better structure my solutions when facing complex problems."
+        }
+      },
+
+      "credits": {
+        "managers": "Managers",
+        "programmers": "Programmers",
+        "artists": "Artists",
+        "designers": "Designers"
+      }
+    }
   }
+
+
 }
 
 

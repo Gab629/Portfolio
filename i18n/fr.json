@@ -156,5 +156,70 @@
       "description": "Jeu réalisé lors du Coding Block Game Jam 2022 en 3 jours avec une équipe de 5 personnes, sur le thème « It’s following me ».",
       "cta": "Voir le projet"
     }
+  },
+
+  "projectSingle": {
+    "bolt": {
+      "hero": {
+        "title": "Bolt'N'Punch",
+        "description": "Bolt’N’Punch est un jeu d’action à la première personne développé à l’UQAT par une équipe de 25 finissants, publié sur Steam.",
+        "meta1": "Unreal Engine",
+        "meta2": "Blueprints",
+        "meta3": "Publié sur Steam"
+      },
+
+      "sections": {
+        "role": {
+          "title": "Mon rôle",
+          "text": "J’ai été assigné au rôle de programmeur sur le projet, chargé de concevoir et développer de nouvelles mécaniques ainsi que d’améliorer celles déjà existantes. Chaque mécanique était pensée de manière modulaire, avec des composants que nous pouvions facilement attacher aux objets et aux personnages."
+        },
+
+        "featuresTitle": "Systèmes clés",
+
+        "feature1": {
+          "title": "Système de hype",
+          "text1": "Nous souhaitions encourager l’utilisation des attaques spéciales plutôt que le simple enchaînement de coups de base.",
+          "text2": "J’ai pris en charge l’implémentation complète de la logique et l’équilibrage du système."
+        },
+
+        "feature2": {
+          "title": "Intégration des sons avec Wwise",
+          "text": "J’ai également travaillé sur l’intégration de la plupart des sons du jeu en utilisant Wwise. J’ai appris à placer correctement les sons dans le code et à gérer les événements Wwise, ce qui m’a permis de mieux comprendre leur fonctionnement. Cette tâche, bien que complexe, m’a beaucoup appris. J’ai aussi eu l’occasion de collaborer avec l’Université de Montréal, qui a créé nos sons, une expérience que j’ai grandement appréciée."
+        },
+
+        "feature3": {
+          "title": "Baril explosif",
+          "text": "J’ai programmé un baril que le joueur peut saisir et lancer. À l’impact, il explose dans une zone qui détecte tous les ennemis, leur infligeant dégâts et recul. J’ai conçu le baril sous forme de component modulaire et ajouté un système de visée, avec une traînée qui prédit la trajectoire du lancer."
+        },
+
+        "feature4": {
+          "title": "Animation blueprint",
+          "text": "J’ai travaillé sur un aspect central du gameplay : l’animation blueprint. Mon rôle consistait à intégrer les animations du personnage et à créer les transitions entre tous ses états (marche, course, saut, coups de poing, attaques chargées, etc.). Cette tâche complexe m’a beaucoup appris, et l’ajout d’alias par la suite ont rendu le système plus lisible et mon travail futur plus efficace."
+        },
+
+        "feature5": {
+          "title": "Boîtes de soins",
+          "text": "J’ai également conçu un élément central du gameplay : les boîtes de soin. Elles sont destructibles et libèrent des barres énergétiques qui se déplacent automatiquement vers le joueur pour le soigner. J’ai pris plaisir à les développer, et elles jouent un rôle important dans l’équilibre du jeu."
+        },
+
+        "challenge": {
+          "title": "Défis techniques",
+          "text": "J’ai dû résoudre divers bugs et limitations par moi-même, en utilisant mes connaissances et des calculs mathématiques dans le code, comme des produits croisés ou des pourcentages. Cette approche m’a permis de renforcer mon autonomie et de mieux structurer mes solutions face à des problèmes complexes."
+        }
+      },
+
+      "credits": {
+        "managers": "Gestionnaires",
+        "programmers": "Programmeurs",
+        "artists": "Artistes",
+        "designers": "Designers"
+      }
+    }
   }
+
+
+
 }
+
+
+
