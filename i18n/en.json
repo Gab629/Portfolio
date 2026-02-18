@@ -220,6 +220,52 @@
         "artists": "Artists",
         "designers": "Designers"
       }
+    },
+
+    "fioritura": {
+      "hero": {
+        "title": "Fioritura",
+        "description": "Developed at UQAT by a team of 13 people using Unreal Engine 5, Fioritura is a puzzle game combining artistic exploration and original mechanics.",
+        "meta1": "Unreal Engine 5",
+        "meta2": "Blueprints",
+        "meta3": "Character controller"
+      },
+
+      "sections": {
+        "role": {
+          "title": "My role in the project",
+          "text": "I had the pleasure of developing the isometric character controller, designing the architecture of the power-up system using event dispatchers, and implementing the flagship mechanic of the Éthéralys flower. I also actively participated in debugging and optimizing the project in preparation for the technical proof."
+        },
+
+        "featuresTitle": "Key systems",
+
+        "feature1": {
+          "title": "Character controller",
+          "text": "As a programmer, I developed the isometric character controller, ensuring smooth movement without jump management. I also adjusted the camera behavior and iterated on the system until achieving a stable and functional controller."
+        },
+
+        "feature2": {
+          "title": "Power-Up System",
+          "text": "I then designed the power-up system based on three flowers offering distinct abilities. I implemented an architecture allowing smooth transitions between states and coherent interaction with the character and the environment. The system relied on an event dispatcher used to notify relevant objects when the active power changed."
+        },
+
+        "feature3": {
+          "title": "Éthéralys Flower",
+          "text": "I developed the Éthéralys flower mechanic, based on a spirit projection system with a character state change. This feature allowed the movement of a detached entity capable of ignoring certain collisions, interacting with targeted objects, and triggering teleportation via a receiver pot. I managed the synchronization between the body and the spirit, the handling of specific collisions, and the associated state transitions."
+        },
+
+        "challenge": {
+          "title": "Technical challenges",
+          "text": "We had one month to produce a technical proof demonstrating the game’s potential for publication on Steam. Despite the pressure caused by competition between projects, our team delivered a solid demonstration thanks to effective communication and good organization."
+        }
+      },
+
+      "credits": {
+        "managers": "Managers",
+        "programmers": "Programmers",
+        "designers": "Designers",
+        "artists": "Artists"
+      }
     }
   }
 

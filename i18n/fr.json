@@ -214,6 +214,52 @@
         "artists": "Artistes",
         "designers": "Designers"
       }
+    },
+
+    "fioritura": {
+      "hero": {
+        "title": "Fioritura",
+        "description": "Développé à l’UQAT par une équipe de 13 personnes sur Unreal Engine 5, Fioritura est un jeu de puzzle mêlant exploration artistique et mécaniques originales.",
+        "meta1": "Unreal Engine 5",
+        "meta2": "Blueprints",
+        "meta3": "Character controller"
+      },
+
+      "sections": {
+        "role": {
+          "title": "Mon rôle dans le projet",
+          "text": "J’ai eu le plaisir de développer le character controller isométrique, de concevoir l’architecture du système de power-ups à l’aide d’event dispatchers et d’implémenter la mécanique phare de la fleur Éthéralys. J’ai aussi participé activement au débogage et à l’optimisation du projet en vue de la preuve technique."
+        },
+
+        "featuresTitle": "Systèmes clés",
+
+        "feature1": {
+          "title": "Character controller",
+          "text": "En tant que programmeur, j’ai développé le character controller isométrique, en assurant des déplacements fluides sans gestion de sauts. J’ai également ajusté le comportement de la caméra et itéré sur le système jusqu’à obtenir un controller stable et fonctionnel."
+        },
+
+        "feature2": {
+          "title": "System de Power Up",
+          "text": "J’ai ensuite conçu le système de power-ups basé sur trois fleurs offrant des pouvoirs distincts. J’ai mis en place une architecture permettant des transitions fluides entre les états et une interaction cohérente avec le personnage et l’environnement. Le système reposait sur un event dispatcher, utilisé pour notifier les objets concernés lors des changements de pouvoir."
+        },
+
+        "feature3": {
+          "title": "Fleur éthéralys",
+          "text": "J’ai développé la mécanique de la fleur éthéralys, basée sur un système de projection d’esprit avec changement d’état du personnage. Cette fonctionnalité permettait le déplacement d’une entité détachée, capable d’ignorer certaines collisions, d’interagir avec des objets ciblés et de déclencher une téléportation via un pot récepteur. J’ai géré la synchronisation entre le corps et l’esprit, la gestion des collisions spécifiques et les transitions d’états associées."
+        },
+
+        "challenge": {
+          "title": "Défis technique",
+          "text": "Nous avions un mois pour produire une preuve technique démontrant le potentiel du jeu en vue d’une publication sur Steam. Malgré la pression liée à la compétition entre projets, notre équipe a su livrer une démonstration solide grâce à une communication efficace et une bonne organisation."
+        }
+      },
+
+      "credits": {
+        "managers": "Gestionnaires",
+        "programmers": "Programmeurs",
+        "designers": "Designers",
+        "artists": "Artistes"
+      }
     }
   }
 

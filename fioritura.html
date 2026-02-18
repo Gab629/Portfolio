@@ -67,91 +67,102 @@
           <!-- HERO -->
           <section class="techHero">
             <div class="heroLeft">
-              <h1 class="heroTitle">Fioritura</h1>
+              <h1 class="heroTitle" data-i18="projectSingle.fioritura.hero.title">
+                Fioritura
+              </h1>
 
-              <p class="heroDescription">
-                Développé à l’UQAT par une équipe de 13 personnes sur Unreal Engine 5, Fioritura est un jeu de puzzle mêlant exploration
-                artistique et mécaniques originales.
+              <p class="heroDescription" data-i18="projectSingle.fioritura.hero.description">
+                Développé à l’UQAT par une équipe de 13 personnes...
               </p>
 
               <ul class="heroMeta">
-                <li>Unreal Engine 5</li>
-                <li>Blueprints</li>
-                <li>Character controller</li>
+                <li data-i18="projectSingle.fioritura.hero.meta1">
+                  Unreal Engine 5
+                </li>
+                <li data-i18="projectSingle.fioritura.hero.meta2">
+                  Blueprints
+                </li>
+                <li data-i18="projectSingle.fioritura.hero.meta3">
+                  Character controller
+                </li>
               </ul>
             </div>
 
             <div class="heroRight">
               <div class="videoContainer" data-component="PlayableVideo">
-
-                <video playsinline preload="metadata" poster="assets/Fioritura/images/Fioritura_Splash_Project_Page.webp">
-
+                <video playsinline preload="metadata"
+                  poster="assets/Fioritura/images/Fioritura_Splash_Project_Page.webp">
                   <source src="assets/Fioritura/videos/Fioritura Teaser.mp4" type="video/mp4">
                 </video>
 
                 <button class="playButton" aria-label="Lire la vidéo">
                   ▶
                 </button>
-
               </div>
             </div>
           </section>
 
-           <!-- BREAKDOWN : TEMPLATE 1 -->
+          <!-- BREAKDOWN : TEMPLATE 1 -->
           <section class="techBreakdownArticle">
             <div class="breakdownMedia">
               <img src="assets/Fioritura/images/Fioritura_CharacterController.webp" alt="">
             </div>
 
             <div class="breakdownContent">
-              <h2 class="breakdownTitle">Mon rôle dans le projet</h2>
+              <h2 class="breakdownTitle" data-i18="projectSingle.fioritura.sections.role.title">
+                Mon rôle dans le projet
+              </h2>
 
-              <p>
-                J’ai eu le plaisir de développer le character controller isométrique, de concevoir l’architecture du système de
-                power-ups à l’aide d’event dispatchers et d’implémenter la mécanique phare de la fleur Éthéralys. J’ai aussi participé
-                activement au débogage et à l’optimisation du projet en vue de la preuve technique.
+              <p data-i18="projectSingle.fioritura.sections.role.text">
+                J’ai eu le plaisir de développer...
               </p>
             </div>
           </section>
 
+
           <!-- FEATURES -->
           <section class="techFeatures">
-            <h2 class="sectionTitle">Systèmes clés</h2>
+            <h2 class="sectionTitle" data-i18="projectSingle.fioritura.sections.featuresTitle">
+              Systèmes clés
+            </h2>
 
             <div class="featuresGrid">
 
               <article class="featureCard ">
                 <img class="featureImage" src="assets/Fioritura/images/FiorituraCodeOpti.webp" alt="">
-                <h3 class="featureTitle">Character controller</h3>
+                <h3 class="featureTitle" data-i18="projectSingle.fioritura.sections.feature1.title">
+                  Character controller
+                </h3>
 
-                <p>
-                  En tant que programmeur, j’ai développé le character controller isométrique, en assurant des déplacements fluides sans gestion de sauts. J’ai également ajusté le comportement de la caméra et itéré sur le système jusqu’à obtenir un controller stable et fonctionnel.
+                <p data-i18="projectSingle.fioritura.sections.feature1.text">
                 </p>
 
               </article>
 
               <article class="featureCard ">
                 <img class="featureImage" src="assets/Fioritura/images/FiorituraPowerUp.webp" alt="">
-                <h3 class="featureTitle">System de Power Up</h3>
+                <h3 class="featureTitle" data-i18="projectSingle.fioritura.sections.feature2.title">
+                  System de Power Up
+                </h3>
 
-                <p>
-                  J’ai ensuite conçu le système de power-ups basé sur trois fleurs offrant des pouvoirs distincts. J’ai mis en place une architecture permettant des transitions fluides entre les états et une interaction cohérente avec le personnage et l’environnement. Le système reposait sur un event dispatcher, utilisé pour notifier les objets concernés lors des changements de pouvoir.
+                <p data-i18="projectSingle.fioritura.sections.feature2.text">
                 </p>
               </article>
 
               <article class="featureCard ">
                 <img class="featureImage" src="assets/Fioritura/images/FiorituraFlower.webp" alt="">
-                <h3 class="featureTitle">Fleur éthéralys</h3>
+                <h3 class="featureTitle" data-i18="projectSingle.fioritura.sections.feature3.title">
+                  Fleur éthéralys
+                </h3>
 
-                <p>
-                  J’ai développé la mécanique de la fleur éthéralys, basée sur un système de projection d’esprit avec changement d’état du personnage. Cette fonctionnalité permettait le déplacement d’une entité détachée, capable d’ignorer certaines collisions, d’interagir avec des objets ciblés et de déclencher une téléportation via un pot récepteur. J’ai géré la synchronisation entre le corps et l’esprit, la gestion des collisions spécifiques et les transitions d’états associées.
+                <p data-i18="projectSingle.fioritura.sections.feature3.text">
                 </p>
               </article>
 
             </div>
           </section>
 
-         
+
 
           <!-- BREAKDOWN : TEMPLATE 2 (reverse) -->
           <section class="techBreakdownArticle reverse">
@@ -160,10 +171,11 @@
             </div>
 
             <div class="breakdownContent">
-              <h2 class="breakdownTitle">Défis technique</h2>
+              <h2 class="breakdownTitle" data-i18="projectSingle.fioritura.sections.challenge.title">
+                Défis technique
+              </h2>
 
-              <p>
-                Nous avions un mois pour produire une preuve technique démontrant le potentiel du jeu en vue d’une publication sur Steam. Malgré la pression liée à la compétition entre projets, notre équipe a su livrer une démonstration solide grâce à une communication efficace et une bonne organisation.
+              <p data-i18="projectSingle.fioritura.sections.challenge.text">
               </p>
             </div>
           </section>
@@ -173,23 +185,28 @@
           <section class="techCredits">
 
             <div class="creditsGroup">
-              <h3 class="creditsRole">Gestionnaires</h3>
+              <h3 class="creditsRole" data-i18="projectSingle.fioritura.credits.managers">
+                Gestionnaires
+              </h3>
               <ul class="creditsNames">
                 <li>Mariane Richard (Productrice)</li>
               </ul>
             </div>
 
             <div class="creditsGroup">
-              <h3 class="creditsRole">Programmeurs</h3>
+              <h3 class="creditsRole" data-i18="projectSingle.fioritura.credits.programmers">
+                Programmeurs
+              </h3>
               <ul class="creditsNames">
                 <li>Gabriel Gauthier</li>
-                <li>Audrey Langlois </li>
-                
+                <li>Audrey Langlois</li>
               </ul>
             </div>
 
             <div class="creditsGroup">
-              <h3 class="creditsRole">Designers</h3>
+              <h3 class="creditsRole" data-i18="projectSingle.fioritura.credits.designers">
+                Designers
+              </h3>
               <ul class="creditsNames">
                 <li>Mathieu Gaudreau (Level designer)</li>
                 <li>Justin Marques (Designer narratif)</li>
@@ -200,7 +217,9 @@
             </div>
 
             <div class="creditsGroup">
-              <h3 class="creditsRole">Artistes</h3>
+              <h3 class="creditsRole" data-i18="projectSingle.fioritura.credits.artists">
+                Artistes
+              </h3>
               <ul class="creditsNames">
                 <li>Ariane Labrie (Artiste d’animations)</li>
                 <li>Dee-Lainas Blais (Artiste de personnage)</li>
@@ -211,8 +230,6 @@
             </div>
 
           </section>
-
-        </section>
 
     </div>
   </div>
