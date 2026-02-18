@@ -79,28 +79,63 @@
 
     "featuredTitle": "Featured Projects",
 
-    "project1": {
-      "title": "Bolt'n'Punch",
-      "meta": "Beat'em Up <br/> Unreal Engine 5",
-      "description": "Bolt’n’Punch is an action game developed using Unreal Engine 5.",
+    "boltnpunch": {
+    "title": "Bolt'n'Punch",
+    "meta": "Beat'em Up<br />Unreal Engine 5",
+    "description": "Bolt’n’Punch is an action game developed with my graduating teammates at UQAT. We followed a full studio production pipeline, from initial concept to official release on Steam.",
+    "cta": "View Project"
+    },
+
+    "fioritura": {
+      "title": "Fioritura",
+      "meta": "Puzzle Game<br />Unreal Engine 5",
+      "description": "Fioritura was created by a team of 13 passionate students at UQAT. As the project integrator, I was responsible for connecting systems and ensuring technical consistency throughout development.",
+      "cta": "View Project"
+    },
+
+    "nineoclock": {
+      "title": "Nine O'Clock",
+      "meta": "3D Platformer<br />Unreal Engine 5",
+      "description": "Nine O’Clock is a team-based academic project developed by 10 students around an imposed theme. Over the course of a full semester, we designed and delivered a complete playable experience.",
+      "cta": "View Project"
+    },
+
+    "moreProjectsTitle": "More projects",
+
+    "rexmontis": {
+    "title": "Rex Montis",
+    "meta": "Multiplayer fighting game<br />Unity C#",
+    "description": "This game was presented at Chaos Média 2021. It was developed in 8 weeks with the participation of my entire class, simulating a small game studio.",
+    "cta": "View project"
+    },
+
+    "latency": {
+      "title": "Latency",
+      "meta": "Real-time strategy game<br />Unity C#",
+      "description": "We created a fully playable and fun game during our prototyping and experimentation course in 2022, developed over one semester by a team of 6.",
       "cta": "View project"
     },
 
-    "project2": {
-      "title": "Template 2",
-      "meta": "Beat'em Up<br />Unreal Engine 5",
-      "description": "Experimental project used as a base for future prototypes.",
+    "carnavalvr": {
+      "title": "Carnaval VR",
+      "meta": "Virtual reality game<br />Unity C#",
+      "description": "My first VR game, created during my internship at AleoVR. It was my first experience with VR development and studio production.",
       "cta": "View project"
     },
 
-    "project3": {
-      "title": "Bolt'n'Punch (Prototype)",
-      "meta": "Beat'em Up<br />Unreal Engine 5",
-      "description": "Early prototype version of the Bolt’n’Punch game.",
+    "livraisonroyale": {
+      "title": "Livraison Royale",
+      "meta": "3D platformer<br />Unity C#",
+      "description": "Game created during my first ever Game Jam, developed in 45 hours during the 2022 inter-college game jam competition.",
       "cta": "View project"
     },
 
-    "moreProjectsTitle": "More projects"
+    "megalophobia": {
+      "title": "Megalophobia",
+      "meta": "3D horror game<br />Unity C#",
+      "description": "Game created during the 2022 Coding Block Game Jam in 3 days with a team of 5, based on the theme 'It’s following me'.",
+      "cta": "View project"
+    }
 
   }
 }

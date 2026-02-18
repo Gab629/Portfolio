@@ -71,30 +71,65 @@
     "meta": {
       "title": "Gabriel Gauthier | Projets"
     },
-
+    
     "featuredTitle": "Projets vedettes",
 
-    "project1": {
+    "boltnpunch": {
       "title": "Bolt'n'Punch",
       "meta": "Beat'em Up<br />Unreal Engine 5",
-      "description": "Bolt’n’Punch est un jeu d’action développé avec Unreal Engine 5.",
+      "description": "Bolt’n’Punch est un jeu d’action développé avec mes camarades finissants à l’UQAT. Nous avons suivi un véritable pipeline de production en studio, de la conception jusqu’à la publication officielle sur Steam.",
       "cta": "Voir le projet"
     },
 
-    "project2": {
-      "title": "Template 2",
-      "meta": "Beat'em Up<br />Unreal Engine 5",
-      "description": "Projet expérimental servant de base pour de futurs prototypes.",
+    "fioritura": {
+      "title": "Fioritura",
+      "meta": "Jeu de puzzle<br />Unreal Engine 5",
+      "description": "Fioritura est le fruit d’une collaboration entre 13 étudiants passionnés à l’UQAT. J’y ai occupé le rôle d’intégrateur, contribuant à relier les systèmes et à assurer la cohérence technique du projet.",
       "cta": "Voir le projet"
     },
 
-    "project3": {
-      "title": "Bolt'n'Punch (Prototype)",
-      "meta": "Beat'em Up<br />Unreal Engine 5",
-      "description": "Première version prototype du jeu Bolt’n’Punch.",
+    "nineoclock": {
+      "title": "Nine O'Clock",
+      "meta": "Jeu de plateforme 3D<br />Unreal Engine 5",
+      "description": "Nine O’Clock est un jeu développé en équipe de 10 personnes dans le cadre d’un projet académique sur thème imposé. Nous avons disposé d’une session complète pour concevoir et livrer une expérience jouable aboutie.",
       "cta": "Voir le projet"
     },
 
-    "moreProjectsTitle": "Plus de projets"
+    "moreProjectsTitle": "Plus de projets",
+
+    "rexmontis": {
+    "title": "Rex Montis",
+    "meta": "Jeu de combat multijoueur<br />Unity C#",
+    "description": "Ce jeu a été présenté lors de l’évènement Chaos média 2021. Il a été réalisé en 8 semaines avec la participation de tous les élèves de ma classe afin de simuler une petite entreprise.",
+    "cta": "Voir le projet"
+    },
+
+    "latency": {
+      "title": "Latency",
+      "meta": "Jeu de stratégie en temps réel<br />Unity C#",
+      "description": "Nous avons créé un jeu vidéo fonctionnel et amusant lors de notre cours de prototypage et expérimentation en jeu vidéo en 2022, réalisé durant une session avec une équipe de 6 personnes.",
+      "cta": "Voir le projet"
+    },
+
+    "carnavalvr": {
+      "title": "Carnaval VR",
+      "meta": "Jeu en réalité virtuelle<br />Unity C#",
+      "description": "Voici mon premier jeu en réalité virtuelle, créé lors de mon stage chez AleoVR. C’était ma première expérience en développement VR et en entreprise.",
+      "cta": "Voir le projet"
+    },
+
+    "livraisonroyale": {
+      "title": "Livraison Royale",
+      "meta": "Jeu de plateforme 3D<br />Unity C#",
+      "description": "Jeu réalisé lors de mon premier Game Jam, développé en 45h durant la compétition inter-collégiale 2022 du cégep de Valleyfield.",
+      "cta": "Voir le projet"
+    },
+
+    "megalophobia": {
+      "title": "Mégalophobia",
+      "meta": "Jeu d'horreur en 3D<br />Unity C#",
+      "description": "Jeu réalisé lors du Coding Block Game Jam 2022 en 3 jours avec une équipe de 5 personnes, sur le thème « It’s following me ».",
+      "cta": "Voir le projet"
+    }
   }
 }
