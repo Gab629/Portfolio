@@ -11,7 +11,8 @@
     "title": "Gabriel Gauthier",
     "subtitle": "Programmeur – Développement de jeux et de logiciels",
     "tagline": "Un programmeur minutieux avec une solide formation en design de jeux vidéo",
-    "cta": "Visualisez mon CV"
+    "cta": "Visualisez mon CV",
+    "cvLink": "assets/Non-Project/GabrielGauthierCV-FR.pdf"
   },
 
   "about": {
@@ -260,10 +261,47 @@
         "designers": "Designers",
         "artists": "Artistes"
       }
+    },
+    
+    "nine": {
+      "hero": {
+        "title": "Nine O'Clock",
+        "description": "Nine O’Clock est un jeu vidéo développé en équipe de 10 personnes durant une session complète dans le cadre d’un cours de projet commun, où le joueur traverse un univers steampunk en grindant sur des rails dans une aventure inspirée du thème imposé Marty McFly.",
+        "meta1": "Unreal Engine",
+        "meta2": "Blueprints",
+        "meta3": "10 participants"
+      },
+      "sections": {
+        "role": {
+          "title": "Mon rôle dans le projet",
+          "text": "Dans ce projet, j’ai développé le character controller en partant de zéro, en travaillant le ressenti du mouvement (vitesse, contrôle aérien et sauts) pour le rendre agréable à jouer. J’ai également conçu l’interface utilisateur et intégré l’ensemble des menus afin qu’ils fonctionnent autant avec la souris qu’avec une manette."
+        },
+        "featuresTitle": "Systèmes clés",
+        "feature1": {
+          "title": "Character controller",
+          "text": "NineOClock a été mon premier projet réalisé sur Unreal Engine 5. En partant de zéro, j’ai appris à développer un character controller agréable à jouer, en travaillant la vitesse, le contrôle aérien et la hauteur des sauts."
+        },
+        "feature2": {
+          "title": "Les menus (UI)",
+          "text": "Créer une interface fonctionnelle à la fois pour la souris et la manette dans Unreal Engine 5 représentait un défi important, notamment pour assurer une transition fluide entre les deux types d’entrées. J’ai travaillé à rendre l’expérience claire et cohérente afin d’offrir une interface accessible et agréable pour tous les joueurs."
+        },
+        "feature3": {
+          "title": "Level design",
+          "text": "Ce projet m’a permis de développer une solide compréhension du level design et de son impact sur l’expérience joueur. En analysant notre premier prototype et en repensant entièrement la structure des niveaux en passant de l'horizontal à un niveau plus vertical, j’ai appris l’importance de l’itération, du test joueur et de l’adaptation du design pour mieux soutenir le gameplay."
+        },
+        "challenge": {
+          "title": "Défis techniques",
+          "text": "Un des principaux défis techniques a été de créer une interface compatible à la fois avec la souris et la manette dans Unreal Engine 5. J’ai dû gérer les différences d’interaction entre les deux modes d’entrée et assurer une transition fluide afin d’offrir une expérience utilisateur cohérente et accessible."
+        }
+      },
+      "credits": {
+          "programmers": "Programmeurs",
+          "designers": "Designers",
+          "artists": "Artistes"
+        } 
     }
+    
   }
-
-
 
 }
 
