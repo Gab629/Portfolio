@@ -336,6 +336,36 @@
         "video": "Réalisateurs vidéo",
         "audio": "Designers sonores"
       } 
+    },
+
+    "latency": {
+      "meta": {
+        "title": "Gabriel Gauthier | Latency"
+      },
+      "hero": {
+        "subtitle": "Latency est un jeu de stratégie en temps réel à petite échelle, conçu pour le mode coopératif en écran partagé à la manette, dans lequel deux joueurs s’affrontent pour capturer des zones et mener à l’extinction de la colonie extraterrestre adverse."
+      },
+      "project": {
+        "title": "Le projet",
+        "text": "Latency a été mon premier jeu vidéo universitaire, ce qui a nécessité une énorme période d’adaptation et d’apprentissage. Collaborer avec des personnes issues de milieux différents m’a ouvert les yeux sur la complexité du travail d’équipe."
+      },
+      "process": {
+        "title": "Le processus",
+        "text": "Avec cette équipe, j’ai découvert des outils et méthodes comme le planning poker et Notion, qui nous ont aidés à mieux organiser le travail et à collaborer plus efficacement."
+      },
+      "role": {
+        "title": "Mon premier rôle universitaire",
+        "text": "J’ai développé les interfaces liées aux valeurs de gameplay (barres de vie, économie, feedback visuel) et assuré la navigation complète des menus à la manette. Ce travail m’a permis de renforcer ma compréhension du design de jeu et de l’importance de l’itération pour améliorer l’expérience joueur."
+      },
+      "challenge": {
+        "title": "Un défi relevé",
+        "text": "J’ai appris à collaborer avec le code d’autres personnes et à m’adapter à leurs façons de travailler. Même si cela représentait un défi au début, cette expérience m’a permis de développer ma flexibilité et ma capacité à contribuer efficacement à des projets de programmation complexes."
+      },
+      "credits": {
+        "programmers": "Programmeurs",
+        "designers": "Designers",
+        "audio": "Audio"
+      }
     }
   }
 }

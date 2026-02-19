@@ -308,48 +308,72 @@
         }
     },
 
-      "rex": {
+    "rex": {
+      "meta": {
+        "title": "Gabriel Gauthier | Rex Montis"
+      },
+      "hero": {
+        "title": "Rex Montis",
+        "subtitle": "Rex Montis is a multiplayer game created in 8 weeks as part of Chaos Média 2021, a competition between classes in interactive production. Developed as a team within a mini-studio structure, the project won 1st place at the event."
+      },
+      "sections": {
+          "project": {
+            "title": "The project",
+            "text": "The development was carried out through close collaboration between multiple disciplines, with strong emphasis on communication and organization. Working in this structure allowed me to experience a workflow close to a real production environment."
+          },
+          "role": {
+            "title": "My role",
+            "text": "I mainly worked on C# programming, including menus, scoring systems, and some multiplayer aspects. Throughout the project, I also contributed to content integration and overall polishing to improve the player experience."
+          },
+          "management": {
+            "title": "Project management",
+            "text": "During this project, I learned to work within a large team and manage GitHub, resolving many merge conflicts between my teammates’ versions. Facing communication and coordination challenges, I supported our project manager by creating task lists and ensuring follow-up between teams. This experience helped me better organize work under pressure, and I loved taking on this team-lead role to ensure the project’s success."
+          },
+          "challenge": {
+            "title": "A challenge overcome",
+            "text": "During this project, I discovered what it truly means to work in a large team. Managing GitHub and all the commits was a real challenge, to the point where I had to train my teammates on GitHub in the middle of the project to restore some order. I can’t even count how many times I had to resolve merge conflicts between their different code versions."
+          }
+        },
+        "credits": {
+            "managers": "Managers",
+            "writer": "Writer",
+            "programmers": "Programmers",
+            "graphists": "Graphic Designers",
+            "artists3d": "3D Artists",
+            "video": "Video Directors",
+            "audio": "Sound Designers"
+          }   
+      },
+      "latency": {
         "meta": {
-          "title": "Gabriel Gauthier | Rex Montis"
+          "title": "Gabriel Gauthier | Latency"
         },
         "hero": {
-          "title": "Rex Montis",
-          "subtitle": "Rex Montis is a multiplayer game created in 8 weeks as part of Chaos Média 2021, a competition between classes in interactive production. Developed as a team within a mini-studio structure, the project won 1st place at the event."
+          "subtitle": "Latency is a small-scale real-time strategy game designed for local split-screen co-op with controllers, where two players compete to capture zones and drive the opposing alien colony to extinction."
         },
-        "sections": {
-            "project": {
-              "title": "The project",
-              "text": "The development was carried out through close collaboration between multiple disciplines, with strong emphasis on communication and organization. Working in this structure allowed me to experience a workflow close to a real production environment."
-            },
-            "role": {
-              "title": "My role",
-              "text": "I mainly worked on C# programming, including menus, scoring systems, and some multiplayer aspects. Throughout the project, I also contributed to content integration and overall polishing to improve the player experience."
-            },
-            "management": {
-              "title": "Project management",
-              "text": "During this project, I learned to work within a large team and manage GitHub, resolving many merge conflicts between my teammates’ versions. Facing communication and coordination challenges, I supported our project manager by creating task lists and ensuring follow-up between teams. This experience helped me better organize work under pressure, and I loved taking on this team-lead role to ensure the project’s success."
-            },
-            "challenge": {
-              "title": "A challenge overcome",
-              "text": "During this project, I discovered what it truly means to work in a large team. Managing GitHub and all the commits was a real challenge, to the point where I had to train my teammates on GitHub in the middle of the project to restore some order. I can’t even count how many times I had to resolve merge conflicts between their different code versions."
-            }
-          },
-          "credits": {
-              "managers": "Managers",
-              "writer": "Writer",
-              "programmers": "Programmers",
-              "graphists": "Graphic Designers",
-              "artists3d": "3D Artists",
-              "video": "Video Directors",
-              "audio": "Sound Designers"
-            }   
-        } 
-
+        "project": {
+          "title": "The Project",
+          "text": "Latency was my first university video game project, which required a major period of adaptation and learning. Collaborating with people from different backgrounds opened my eyes to the complexity of teamwork."
+        },
+        "process": {
+          "title": "The Process",
+          "text": "With this team, I discovered tools and methods such as Planning Poker and Notion, which helped us better organize the work and collaborate more efficiently."
+        },
+        "role": {
+          "title": "My First Academic Role",
+          "text": "I developed gameplay-related UI (health bars, economy, visual feedback) and implemented full controller navigation for the menus. This work strengthened my understanding of game design and the importance of iteration to improve player experience."
+        },
+        "challenge": {
+          "title": "A Challenge Overcome",
+          "text": "I learned to collaborate with other people's code and adapt to their workflows. Although challenging at first, this experience helped me develop flexibility and the ability to contribute effectively to complex programming projects."
+        },
+        "credits": {
+          "programmers": "Programmers",
+          "designers": "Designers",
+          "audio": "Audio"
+        }
+      } 
   }
-
-
-
-
 }
 
 
