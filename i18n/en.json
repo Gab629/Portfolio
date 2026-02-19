@@ -372,6 +372,34 @@
           "designers": "Designers",
           "audio": "Audio"
         }
+      },
+      "carnaval": {
+        "meta": {
+          "title": "Gabriel Gauthier | Carnaval VR"
+        },
+        "hero": {
+          "subtitle": "Carnaval VR is an immersive virtual reality experience where players can explore an interactive carnival and enjoy various attractions. Developed during my internship at AleoVR, this project immersed me in the fascinating world of VR and allowed me to test my skills in a professional context."
+        },
+        "project": {
+          "title": "The Project",
+          "text": "At the beginning of the internship, I discovered VR development in Unity and learned how to configure the headset and required packages. Thanks to the framework provided by AleoVR, I was able to explore existing VR scenes and interactions, and understand the basics of hand-based object control, archery, and other immersive mechanics."
+        },
+        "role": {
+          "title": "My Role",
+          "text": "I focused on implementing VR interactions: grabbing, throwing, shooting, and manipulating objects in the carnival. I also contributed to gameplay mechanics implementation and asset integration in Unity, ensuring each interaction was smooth and intuitive for the player."
+        },
+        "learning": {
+          "title": "Key Learning",
+          "text": "This project allowed me to become familiar with professional VR development, understand the technical and ergonomic constraints specific to this medium, and explore my creativity to build engaging interactions. I learned a great deal about rapid iteration and user-oriented design in immersive environments."
+        },
+        "challenge": {
+          "title": "Technical Challenges",
+          "text": "The biggest challenge was correctly deploying the Unity project to the VR headset to test interactions in real conditions. Installing and configuring all required packages was complex, and I had to research and test several solutions to make everything work properly. This step taught me a lot about VR workflows and technical problem-solving."
+        },
+        "credits": {
+          "programmers": "Programmers",
+          "artists": "Artists"
+        }
       } 
   }
 }
