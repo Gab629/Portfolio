@@ -67,26 +67,29 @@
           <!-- HERO -->
           <section class="techHero">
             <div class="heroLeft">
-              <h1 class="heroTitle">Livraison Royale</h1>
+              <h1 class="heroTitle" data-i18="projectSingle.livraison.hero.title">
+                Livraison Royale
+              </h1>
 
-              <p class="heroDescription">
+              <p class="heroDescription" data-i18="projectSingle.livraison.hero.description">
                 Livraison royale est un jeu de plateforme solo où le joueur doit livrer un colis au roi de la forêt.
                 Développé en seulement deux jours lors de la compétition intercollégiale de jeux vidéo du Cégep de
                 Valleyfield, ce projet m’a permis de relever un défi créatif intense.
               </p>
 
               <ul class="heroMeta">
-                <li>Unity C#</li>
-                <li>45h</li>
-                <li>5 Participants</li>
-                <li>Game Jam</li>
+                <li data-i18="projectSingle.livraison.meta.tech">Unity C#</li>
+                <li data-i18="projectSingle.livraison.meta.time">45h</li>
+                <li data-i18="projectSingle.livraison.meta.team">5 Participants</li>
+                <li data-i18="projectSingle.livraison.meta.type">Game Jam</li>
               </ul>
             </div>
 
             <div class="heroRight">
               <div class="videoContainer" data-component="PlayableVideo">
 
-                <video playsinline preload="metadata" poster="assets/LivraisonRoyale/images/livraison_royal_poster.webp">
+                <video playsinline preload="metadata"
+                  poster="assets/LivraisonRoyale/images/livraison_royal_poster.webp">
 
                   <source src="assets/LivraisonRoyale/videos/Livraison Royale.mp4" type="video/mp4">
                 </video>
@@ -106,9 +109,9 @@
             </div>
 
             <div class="breakdownContent">
-              <h2 class="breakdownTitle">Mon rôle</h2>
+              <h2 class="breakdownTitle" data-i18="projectSingle.livraison.role.title">Mon rôle</h2>
 
-              <p>
+              <p data-i18="projectSingle.livraison.role.text">
                 J’ai pris en charge la programmation C# des mécaniques principales du personnage : double saut, wall
                 jump et lancer de noix. J’ai également ajusté le mouvement pour garantir un contrôle précis et une
                 expérience fluide. Mon rôle m’a permis d’apprendre à itérer rapidement et à intégrer des fonctionnalités
@@ -119,58 +122,32 @@
 
           <!-- FEATURES -->
           <section class="techFeatures">
-            <h2 class="sectionTitle">Systèmes clés</h2>
+            <h2 class="sectionTitle" data-i18="projectSingle.livraison.features.title">Systèmes clés</h2>
 
             <div class="featuresGrid">
 
-              <article class="featureCard ">
+              <article class="featureCard">
                 <img class="featureImage" src="assets/LivraisonRoyale/images/brainstorm_livraison.webp" alt="">
-                <h3 class="featureTitle">Brainstorm</h3>
-
-                <p>
-                  Nous avons commencé par un remue-méninge d’1h30 pour imaginer un jeu 2.5D amusant et original autour
-                  du thème de la livraison. Plutôt que de créer un simple jeu de facteur, nous avons choisi des animaux
-                  : un écureuil facteur doit livrer un colis au roi de la forêt en traversant une série d’obstacles
-                  variés.
-                </p>
-
+                <h3 class="featureTitle" data-i18="projectSingle.livraison.feature.brainstorm.title">Brainstorm</h3>
+                <p data-i18="projectSingle.livraison.feature.brainstorm.text"></p>
               </article>
 
-              <article class="featureCard ">
+              <article class="featureCard">
                 <img class="featureImage" src="assets/LivraisonRoyale/images/code_livraison.webp" alt="">
-                <h3 class="featureTitle">Character Controller</h3>
-
-                <p>
-                  J’ai développé le character controller du personnage, en m’assurant que ses déplacements soient
-                  fluides et précis dans le contexte 2.5D. J’ai implémenté le double saut, le wall jump et le dash, en
-                  ajustant la physique pour que le personnage réponde correctement aux obstacles et aux plateformes du
-                  niveau. Cette étape m’a permis de mieux comprendre l’interaction entre gameplay et contrôle du joueur.
-                </p>
+                <h3 class="featureTitle" data-i18="projectSingle.livraison.feature.controller.title">Character Controller</h3>
+                <p data-i18="projectSingle.livraison.feature.controller.text"></p>
               </article>
 
-              <article class="featureCard ">
+              <article class="featureCard">
                 <img class="featureImage" src="assets/LivraisonRoyale/images/livraison_royal.webp" alt="">
-                <h3 class="featureTitle">Input System</h3>
-
-                <p>
-                  Pour gérer les entrées, j’ai travaillé avec le nouveau Input System de Unity afin que le personnage
-                  soit jouable à la fois au clavier et à la manette. J’ai configuré les actions et les bindings, puis
-                  testé les transitions entre les différents inputs pour garantir une expérience homogène et réactive.
-                  Cela m’a permis de maîtriser un système moderne et flexible pour les projets futurs.
-                </p>
+                <h3 class="featureTitle" data-i18="projectSingle.livraison.feature.input.title">Input System</h3>
+                <p data-i18="projectSingle.livraison.feature.input.text"></p>
               </article>
 
-              <article class="featureCard ">
+              <article class="featureCard">
                 <img class="featureImage" src="assets/LivraisonRoyale/images/2.5D_livraison.webp" alt="">
-                <h3 class="featureTitle">Level design 2.5D</h3>
-
-                <p>
-                  J’ai conçu tout le level design de la forêt, en plaçant les obstacles et puzzles pour rendre le
-                  gameplay stimulant et réfléchi. L’intégration des prototypes dans la scène finale a généré de nombreux
-                  bugs, qui m’ont obligé à expérimenter et trouver des solutions rapides pour que tout fonctionne avant
-                  la fin du temps imparti. Cette expérience m’a permis de découvrir les défis de la 2.5D et d’améliorer
-                  ma capacité à livrer un jeu complet dans un temps limité.
-                </p>
+                <h3 class="featureTitle" data-i18="projectSingle.livraison.feature.level.title">Level design 2.5D</h3>
+                <p data-i18="projectSingle.livraison.feature.level.text"></p>
               </article>
 
             </div>
@@ -185,14 +162,8 @@
             </div>
 
             <div class="breakdownContent">
-              <h2 class="breakdownTitle">Défis techniques</h2>
-
-              <p>
-                Nous avons expérimenté pour la première fois un jeu en 2.5D et je dois dire que c’était une expérience
-                extrêmement enrichissante (ce qui est le but d’un Game Jam). Cependant, comme à chaque nouvel
-                apprentissage, de nombreux défis et bugs inconnus nous ont barrés la route et nous avons dû passer
-                beaucoup de temps à trouver des alternatives pour les régler.
-              </p>
+              <h2 class="breakdownTitle" data-i18="projectSingle.livraison.challenge.title">Défis techniques</h2>
+              <p data-i18="projectSingle.livraison.challenge.text"></p>
             </div>
           </section>
 
@@ -201,7 +172,7 @@
           <section class="techCredits">
 
             <div class="creditsGroup">
-              <h3 class="creditsRole">Programmeurs</h3>
+              <h3 class="creditsRole" data-i18="projectSingle.livraison.credits.programmers">Programmeurs</h3>
               <ul class="creditsNames">
                 <li>Gabriel Gauthier</li>
                 <li>Rémi Therrien</li>
@@ -210,7 +181,7 @@
             </div>
 
             <div class="creditsGroup">
-              <h3 class="creditsRole">Designers</h3>
+              <h3 class="creditsRole" data-i18="projectSingle.livraison.credits.designers">Designers</h3>
               <ul class="creditsNames">
                 <li>Caroline Forget</li>
                 <li>Gabriel Gauthier</li>
@@ -218,7 +189,7 @@
             </div>
 
             <div class="creditsGroup">
-              <h3 class="creditsRole">Artistes</h3>
+              <h3 class="creditsRole" data-i18="projectSingle.livraison.credits.artists">Artistes</h3>
               <ul class="creditsNames">
                 <li>Jean-Marie Gariépy</li>
                 <li>Audrey Langlois</li>

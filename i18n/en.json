@@ -400,7 +400,56 @@
           "programmers": "Programmers",
           "artists": "Artists"
         }
-      } 
+      },
+        "livraison": {
+          "meta": {
+            "tech": "Unity C#",
+            "time": "45h",
+            "team": "5 Participants",
+            "type": "Game Jam"
+          },
+          "hero": {
+            "title": "Livraison Royale",
+            "description": "Livraison Royale is a solo platformer where the player must deliver a package to the king of the forest. Developed in only two days during the intercollegiate game competition at Cégep de Valleyfield, this project allowed me to take on an intense creative challenge."
+          },
+          "video": {
+            "play": "Play video"
+          },
+          "role": {
+            "title": "My Role",
+            "text": "I handled the C# programming of the character’s core mechanics: double jump, wall jump, and nut throwing. I also fine-tuned movement to ensure precise control and a smooth experience. This role allowed me to learn how to iterate quickly and integrate features progressively throughout development."
+          },
+          "features": {
+            "title": "Key Systems"
+          },
+          "feature": {
+            "brainstorm": {
+              "title": "Brainstorm",
+              "text": "We started with a 1.5-hour brainstorming session to imagine a fun and original 2.5D game around the delivery theme. Rather than creating a simple mailman game, we chose animals: a squirrel mail carrier must deliver a package to the king of the forest while crossing a series of varied obstacles."
+            },
+            "controller": {
+              "title": "Character Controller",
+              "text": "I developed the character controller, ensuring movement felt smooth and precise in the 2.5D context. I implemented the double jump, wall jump, and dash, adjusting the physics so the character would properly respond to obstacles and platforms. This step helped me better understand the relationship between gameplay and player control."
+            },
+            "input": {
+              "title": "Input System",
+              "text": "To handle inputs, I worked with Unity’s new Input System so the character could be played with both keyboard and controller. I configured actions and bindings, then tested transitions between different inputs to ensure a consistent and responsive experience. This allowed me to master a modern and flexible system for future projects."
+            },
+            "level": {
+              "title": "2.5D Level Design",
+              "text": "I designed the entire forest level layout, placing obstacles and puzzles to make the gameplay engaging and thoughtful. Integrating the prototypes into the final scene generated many bugs, which forced me to experiment and find quick solutions before the deadline. This experience introduced me to the challenges of 2.5D and improved my ability to deliver a complete game under tight time constraints."
+            }
+          },
+          "challenge": {
+            "title": "Technical Challenges",
+            "text": "We experimented with a 2.5D game for the first time, and I must say it was an extremely enriching experience (which is the goal of a Game Jam). However, as with any new learning process, many unknown challenges and bugs blocked our path, and we had to spend significant time finding alternative solutions to fix them."
+          },
+          "credits": {
+            "programmers": "Programmers",
+            "designers": "Designers",
+            "artists": "Artists"
+          }
+        }
   }
 }
 
