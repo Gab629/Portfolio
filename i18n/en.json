@@ -449,7 +449,50 @@
             "designers": "Designers",
             "artists": "Artists"
           }
-        }
+        },
+          "mega": {
+            "meta": {
+              "tech": "Unity C#",
+              "ai": "AI Enemies",
+              "type": "Game Jam",
+              "team": "5 Participants"
+            },
+            "hero": {
+              "title": "Megalophobia",
+              "description": "Megalophobia is a first-person horror game where the player wakes up on a beach in the middle of the night. It is cold and there are no signs of human life except for campfires scattered around. The goal is to venture into the forest to kill the monster that haunts these lands."
+            },
+            "role": {
+              "title": "My Role",
+              "text": "My role focused on C# programming. I developed the artificial intelligence for the large monster and the small spiders, integrating their animations. I also programmed interactions with game objects such as bullets and campfires to relight the torch, and managed the display of interaction texts. Finally, I was responsible for implementing and configuring Unity’s Input System."
+            },
+            "features": {
+              "title": "Key Systems"
+            },
+            "feature": {
+              "brainstorm": {
+                "title": "Brainstorm",
+                "text": "First, as with any good project, we started with a brainstorming session to explore concepts and gameplay mechanics. We then combined several ideas to create a game that was achievable in three days and fun to play: a horror game where the player must hunt and eliminate a monster in the forest."
+              },
+              "ai": {
+                "title": "Enemy AI",
+                "text": "Having never worked with artificial intelligence before, I challenged myself to create two enemies with realistic behaviors. I studied many documentations and tutorials to understand best practices. In the end, I succeeded in producing smooth AI behaviors."
+              },
+              "interaction": {
+                "title": "Interaction & UI Mechanics",
+                "text": "I developed interactions with game objects such as bullets and campfires that relight the torch, ensuring each action was intuitive for the player. I also handled contextual UI prompts and navigation via Unity’s Input System, ensuring a smooth and consistent experience."
+              },
+              "ui": {
+                "title": "UI Design",
+                "text": "The menu prototype existed but lacked visual polish. I created a design consistent with the game, drew the buttons with help from a colleague, and integrated everything into Unity, including the credits."
+              }
+            },
+            "credits": {
+              "programmers": "Programmers",
+              "artists": "Artists",
+              "level": "Level Designers",
+              "sound": "Sound Designers"
+            }
+          }
   }
 }
 

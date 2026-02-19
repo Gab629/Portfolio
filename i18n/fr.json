@@ -395,7 +395,7 @@
         "artists": "Artistes"
       }
     },
-          "livraison": {
+      "livraison": {
         "meta": {
           "tech": "Unity C#",
           "time": "45h",
@@ -442,6 +442,49 @@
           "programmers": "Programmeurs",
           "designers": "Designers",
           "artists": "Artistes"
+        }
+      },
+      "mega": {
+        "meta": {
+          "tech": "Unity C#",
+          "ai": "Ennemis AI",
+          "type": "Game Jam",
+          "team": "5 Participants"
+        },
+        "hero": {
+          "title": "Megalophobia",
+          "description": "Megalophobia est un jeu d’horreur à la première personne ou le joueur se réveille sur une plage en plein milieu de la nuit. Il fait froid et il n’y a aucun signe de vie humaine à l’exception de feux de camps éparpillés un peu partout. Le but est de s’aventurer dans la forêt pour tuer le monstre qui hante ces lieux."
+        },
+        "role": {
+          "title": "Mon rôle",
+          "text": "Mon rôle consistait en la programmation C#. J’ai développé l’intelligence artificielle du gros monstre et des petites araignées, en intégrant leurs animations. J’ai également programmé l’interaction avec les objets du jeu, comme les balles et les feux de camp pour rallumer la torche, et j’ai géré l’affichage des textes d’interaction. Enfin, j’étais responsable de la mise en place et du fonctionnement de l’Input System de Unity."
+        },
+        "features": {
+          "title": "Systèmes clés"
+        },
+        "feature": {
+          "brainstorm": {
+            "title": "Brainstorm",
+            "text": "Tout d’abord, comme pour tout bon projet, nous avons commencé par un remue-méninge pour explorer des concepts et des mécaniques de jeu. Nous avons ensuite combiné plusieurs idées pour créer un jeu réalisable en trois jours et amusant à jouer : un jeu d’horreur où le joueur doit traquer et éliminer un monstre dans la forêt."
+          },
+          "ai": {
+            "title": "Enemy AI",
+            "text": "N’ayant jamais travaillé sur de l’intelligence artificielle, je me suis lancé le défi de créer deux ennemis avec des comportements réalistes. J’ai étudié de nombreuses documentations et tutoriels pour comprendre les bonnes pratiques. Au final, j’ai réussi à produire des AI fluides."
+          },
+          "interaction": {
+            "title": "Mécaniques d’interaction et d’UI",
+            "text": "J’ai développé les interactions avec les objets du jeu, comme les balles et les feux de camp qui rallument la torche, en veillant à ce que chaque action soit intuitive pour le joueur. J’ai également géré l’affichage des indications contextuelles et la navigation via l’Input System de Unity, assurant une expérience fluide et cohérente."
+          },
+          "ui": {
+            "title": "Design UI",
+            "text": "Le prototype de menu existait, mais il manquait d’esthétique. J’ai créé un design cohérent avec le jeu, dessiné les boutons avec l’aide d’une collègue, et intégré le tout dans Unity, crédits inclus."
+          }
+        },
+        "credits": {
+          "programmers": "Programmeurs",
+          "artists": "Artistes",
+          "level": "Level designers",
+          "sound": "Designers sonore"
         }
       } 
   }
