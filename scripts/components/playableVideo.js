@@ -35,7 +35,7 @@ export default class PlayableVideo {
   play() {
     const p = this.video.play();
     if (p) p.catch(() => {
-      this.video.controls = true; // fallback mobile
+      this.video.controls = true; 
     });
   }
 

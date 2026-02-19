@@ -19,7 +19,6 @@ export default class LanguageSwitcher {
   setLang(lang) {
     localStorage.setItem('lang', lang);
 
-    // 🔥 notification globale
     window.dispatchEvent(
       new CustomEvent('languageChanged', { detail: lang })
     );

@@ -1,7 +1,7 @@
 export default class PageTransition {
   constructor(element) {
     this.element = element;
-    this.duration = 500; // doit matcher le CSS
+    this.duration = 500; 
     this.init();
   }
 
@@ -20,7 +20,6 @@ export default class PageTransition {
       requestAnimationFrame(() => {
         this.element.classList.add("is-entered");
 
-        // 👇 attendre la fin du fade
         setTimeout(() => {
           import("./lazyVideo.js").then(module => {
             new module.default();
@@ -41,7 +40,7 @@ export default class PageTransition {
         url.startsWith("#") ||
         link.target === "_blank" ||
         url.startsWith("http") ||
-        url === window.location.pathname.split("/").pop() // 👈 IMPORTANT
+        url === window.location.pathname.split("/").pop() 
       ) {
         return;
       }

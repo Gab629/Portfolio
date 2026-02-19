@@ -6,7 +6,6 @@ export default class ProjectVideo {
 
     if (!this.video || !this.card) return;
 
-    // sécurité autoplay
     this.video.muted = true;
     this.video.loop = true;
 

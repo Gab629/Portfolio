@@ -10,7 +10,6 @@ export function initParticles() {
     return;
   }
 
-  // Empêche double init
   if (el.dataset.particlesInit) return;
   el.dataset.particlesInit = 'true';
 

@@ -14,7 +14,6 @@ export default class I18n {
     const lang = this.getLang();
     this.setLanguage(lang);
 
-    // 👂 écoute le changement de langue
     window.addEventListener('languageChanged', (e) => {
       this.setLanguage(e.detail);
     });
@@ -32,7 +31,6 @@ export default class I18n {
 
     document.documentElement.lang = lang;
 
-    // ✅ AFFICHER LE SITE ICI
     document.documentElement.style.visibility = 'visible';
   }
 
