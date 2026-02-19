@@ -306,8 +306,48 @@
           "designers": "Designers",
           "artists": "Artists"
         }
-    }
+    },
+
+      "rex": {
+        "meta": {
+          "title": "Gabriel Gauthier | Rex Montis"
+        },
+        "hero": {
+          "title": "Rex Montis",
+          "subtitle": "Rex Montis is a multiplayer game created in 8 weeks as part of Chaos Média 2021, a competition between classes in interactive production. Developed as a team within a mini-studio structure, the project won 1st place at the event."
+        },
+        "sections": {
+            "project": {
+              "title": "The project",
+              "text": "The development was carried out through close collaboration between multiple disciplines, with strong emphasis on communication and organization. Working in this structure allowed me to experience a workflow close to a real production environment."
+            },
+            "role": {
+              "title": "My role",
+              "text": "I mainly worked on C# programming, including menus, scoring systems, and some multiplayer aspects. Throughout the project, I also contributed to content integration and overall polishing to improve the player experience."
+            },
+            "management": {
+              "title": "Project management",
+              "text": "During this project, I learned to work within a large team and manage GitHub, resolving many merge conflicts between my teammates’ versions. Facing communication and coordination challenges, I supported our project manager by creating task lists and ensuring follow-up between teams. This experience helped me better organize work under pressure, and I loved taking on this team-lead role to ensure the project’s success."
+            },
+            "challenge": {
+              "title": "A challenge overcome",
+              "text": "During this project, I discovered what it truly means to work in a large team. Managing GitHub and all the commits was a real challenge, to the point where I had to train my teammates on GitHub in the middle of the project to restore some order. I can’t even count how many times I had to resolve merge conflicts between their different code versions."
+            }
+          },
+          "credits": {
+              "managers": "Managers",
+              "writer": "Writer",
+              "programmers": "Programmers",
+              "graphists": "Graphic Designers",
+              "artists3d": "3D Artists",
+              "video": "Video Directors",
+              "audio": "Sound Designers"
+            }   
+        } 
+
   }
+
+
 
 
 }
